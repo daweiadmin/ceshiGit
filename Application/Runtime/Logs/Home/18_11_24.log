@@ -1,0 +1,152 @@
+[ 2018-11-24T09:59:17+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+ERR: Cron:cron Runat 2018-11-24 09:59:17 Use 0.072070 s
+
+[ 2018-11-24T09:59:17+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.108950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110518s ]
+
+[ 2018-11-24T10:00:27+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+ERR: Cron:cron Runat 2018-11-24 10:00:27 Use 0.064004 s
+
+[ 2018-11-24T10:00:27+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.083112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.084680s ]
+
+[ 2018-11-24T10:03:52+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+ERR: Cron:cron Runat 2018-11-24 10:03:52 Use 0.080896 s
+
+[ 2018-11-24T10:03:52+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0142s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.099197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102191s ]
+
+[ 2018-11-24T10:04:34+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+ERR: Cron:cron Runat 2018-11-24 10:04:34 Use 0.114948 s
+
+[ 2018-11-24T10:04:34+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0943s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.139325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140900s ]
+
+[ 2018-11-24T10:07:16+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+ERR: Cron:cron Runat 2018-11-24 10:07:16 Use 0.057696 s
+
+[ 2018-11-24T10:07:16+08:00 ] 127.0.0.1 /index.php/home/wxpay/ret
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.076118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.077656s ]
+
+[ 2018-11-24T17:00:46+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-24 17:00:46 Use 0.438014 s
+
+[ 2018-11-24T17:00:47+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035689s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0598s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0134s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.590479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.626429s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0694s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0427s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0637s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.041685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025687s ]
+
+[ 2018-11-24T18:52:09+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-24 18:52:09 Use 0.067664 s
+
+[ 2018-11-24T18:52:10+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.131680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.134543s ]
+
+[ 2018-11-24T18:52:44+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-24 18:52:44 Use 0.070143 s
+
+[ 2018-11-24T18:52:44+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.107630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.109251s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0533s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0772s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0558s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+

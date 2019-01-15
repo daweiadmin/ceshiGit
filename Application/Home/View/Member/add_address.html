@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+  platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+  platform = 'ios';
+}
+var winWidth = window.screen.width,
+  targetDensitydpi = winWidth / 640;
+switch(platform){
+  case 'android':
+    var devicePixelRatio = window.devicePixelRatio;
+    targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+    viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+    break;
+  case 'ios':
+    viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+    break;
+}
+if(viewPorts){
+  document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>添加收货地址-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+  <div class="top">
+    <a class="back" href="javascript:history.go(-1)"></a>
+    <h2 style="text-align:center; float:none;">添加收货地址</h2>
+  </div>
+  <!--顶部 结束-->
+  <!--主体 开始-->
+  <script>
+  $(document).ready(function(){
+    $("ul.cptab li").click(function(){
+      $(this).addClass("cur").siblings("li").removeClass("cur");
+    });
+  });
+  </script>
+  <div class="main">
+    <form class="userform" id="form">
+      <style>.wrap{ background:#f5f5f5;}</style>
+      <p><label>姓名</label><input class="text" type="text" name="name" value="" placeholder="如：张三" /></p>
+      <p><label>电话</label><input class="text" type="text" name="phone" value="" placeholder="如：131****55748" /></p>
+      <p><label>省份</label>
+        <select id="s_province" name="s_province" class="sheng"></select> 
+      </p>
+      <p><label>城市</label>
+        <select id="s_city" name="s_city" class="sheng" ></select> 
+      </p>
+      <p><label>区县</label>
+        <select id="s_county" name="s_county" class="sheng"></select>
+      </p>
+      <input type="hidden" name="" id="ind" value="{$ind}">
+      <p><label>详细</label><input class="text" type="text" name="address" value="" placeholder="请输入详细地址" /></p>
+      <p class="btn"><input type="button" name="" value="保存" id="save"/>
+        <a href="__CONTROLLER__/address"><input class="reset" type="button" name="" value="取消" /></a></p>
+    </form>
+  </div>
+  <!--主体 结束-->
+<script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
+<script src="__PUBLIC__/xls/js/area.js" type="text/javascript"></script>
+<script type="text/javascript">_init_area();</script> 
+<script type="text/javascript">
+    $('#save').click(function(){
+       var ind = $('#ind').val();
+        var url = '__CONTROLLER__/add_address';
+        if(ind){
+          var jump_url = '__CONTROLLER__/address?IND='+ind;
+        }else{
+          var jump_url = '__CONTROLLER__/address';
+        }
+        
+        var data=$('#form').serializeArray();  
+      var postData={};
+      $(data).each(function(){
+          postData[this.name]=this.value;
+      });
+       if(!postData['name']){
+        dialog.error('请输入姓名');return false;
+       }
+       if(!postData['phone']){
+        dialog.error('请输入联系方式');return false;
+       }
+       if(!postData['s_province']){
+        dialog.error('请选择省份');return false;
+       }
+       if(!postData['s_city']){
+        dialog.error('请选择城市');return false;
+       }
+       if(!postData['s_county']){
+        dialog.error('请选择县/镇/区');return false;
+       }
+       if(!postData['address']){
+        dialog.error('请输入详细地址');return false;
+       }
+      $.post(url,postData,function(res){
+        if (res.status == 1) {
+            dialog.success(res.message,jump_url);
+              //window.location.href=jump_url;
+            } 
+         if(res.status == 0){
+            dialog.error(res.message);
+        }
+
+     },'JSON');
+
+  });
+
+
+</script>         
+        
+       
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+  refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

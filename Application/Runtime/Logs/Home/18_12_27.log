@@ -1,0 +1,14 @@
+[ 2018-12-27T14:19:03+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2018-12-27 14:19:03 Use 0.394760 s
+
+[ 2018-12-27T14:19:04+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002933s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1847s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0329s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.525827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.529155s ]
+

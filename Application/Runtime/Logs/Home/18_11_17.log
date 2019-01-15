@@ -1,0 +1,72 @@
+[ 2018-11-17T09:06:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.049632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051221s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.1537s ]
+SQL: SELECT * FROM `red_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032178s ]
+
+[ 2018-11-17T14:38:07+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+ERR: Cron:cron Runat 2018-11-17 14:38:07 Use 0.446755 s
+
+[ 2018-11-17T14:38:07+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0959s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0015s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.575152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.577144s ]
+
+[ 2018-11-17T14:38:45+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+ERR: Cron:cron Runat 2018-11-17 14:38:45 Use 0.114142 s
+
+[ 2018-11-17T14:38:45+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0756s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.146466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.147987s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003187s ]
+

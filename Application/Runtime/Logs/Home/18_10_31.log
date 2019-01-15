@@ -1,0 +1,79 @@
+[ 2018-10-31T09:11:27+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-10-31 09:11:27 Use 1.513751 s
+
+[ 2018-10-31T09:11:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.4040s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0347s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:1.701068s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.703461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.029419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.430135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.430293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003846s ]
+
+[ 2018-10-31T09:27:49+08:00 ] 127.0.0.1 /index.php/home/index/zhuanpan
+ERR: Cron:cron Runat 2018-10-31 09:27:49 Use 0.232507 s
+
+[ 2018-10-31T09:27:50+08:00 ] 127.0.0.1 /index.php/home/index/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1159s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.464486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.466108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002776s ]
+
+[ 2018-10-31T20:19:54+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-10-31 20:19:54 Use 4.092915 s
+
+[ 2018-10-31T20:19:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.153005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.5604s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.1706s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:4.532666s ]
+INFO: [ app_begin ] --END-- [ RunTime:4.534823s ]
+NOTIC: [8] Undefined index: ref_id E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027669s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.027830s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.635823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.635981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007878s ]
+

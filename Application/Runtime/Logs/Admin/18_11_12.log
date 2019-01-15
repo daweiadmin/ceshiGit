@@ -1,0 +1,1814 @@
+[ 2018-11-12T09:15:56+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2018-11-12T09:15:57+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2018-11-12T09:30:44+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009064s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.1369s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 15 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 334 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 338 行.
+
+[ 2018-11-12T09:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.9076606557869344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2018-11-12T09:31:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+ERR: Cron:cron Runat 2018-11-12 09:31:05 Use 0.049516 s
+
+[ 2018-11-12T09:31:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.062943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064305s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `red_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 334 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 338 行.
+
+[ 2018-11-12T09:31:06+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016304s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0631s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.1128s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2018-11-12T09:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.026220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028142s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0702s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0613s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:15:13+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:15:13 Use 0.084433 s
+
+[ 2018-11-12T14:15:13+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002312s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.143999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.146568s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0545s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2018-11-12T14:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016653s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0627s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0851s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:15:46+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:15:46 Use 0.103510 s
+
+[ 2018-11-12T14:15:46+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0024s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.155121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.157024s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0712s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0465s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2018-11-12T14:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014611s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0775s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0618s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:17:47+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:17:47 Use 0.080620 s
+
+[ 2018-11-12T14:17:47+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102387s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0392s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0850s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2018-11-12T14:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013645s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0288s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:19:15+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:19:15 Use 0.089353 s
+
+[ 2018-11-12T14:19:15+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0019s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116246s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0613s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0446s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2018-11-12T14:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015152s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0969s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0569s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:19:50+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:19:50 Use 0.056039 s
+
+[ 2018-11-12T14:19:50+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.077860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.079544s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.1016s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2018-11-12T14:19:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013994s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0458s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:21:23+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:21:23 Use 0.092023 s
+
+[ 2018-11-12T14:21:23+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003985s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0656s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.106679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110922s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0444s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2018-11-12T14:21:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014939s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0973s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:21:40+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:21:40 Use 0.091956 s
+
+[ 2018-11-12T14:21:40+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0749s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.110900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112524s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0379s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2018-11-12T14:21:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014866s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0667s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:22:03+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:22:03 Use 0.080200 s
+
+[ 2018-11-12T14:22:03+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0614s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.099492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.101301s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0558s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-11-12T14:22:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016282s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0835s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:22:30+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:22:30 Use 0.069134 s
+
+[ 2018-11-12T14:22:30+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.095724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097276s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0440s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2018-11-12T14:22:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015097s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0573s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0935s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:22:54+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:22:54 Use 0.113220 s
+
+[ 2018-11-12T14:22:54+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0929s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.135969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.137656s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0519s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2018-11-12T14:22:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015690s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.1036s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:28:00+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:28:00 Use 0.051978 s
+
+[ 2018-11-12T14:28:00+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002730s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.071649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.074641s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0510s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 774 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003069s ]
+
+[ 2018-11-12T14:28:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015968s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.1391s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0956s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 54 行.
+
+[ 2018-11-12T14:30:42+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:30:42 Use 0.072710 s
+
+[ 2018-11-12T14:30:42+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112121s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0636s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0467s ]
+SQL: SELECT `percent` FROM `red_admin` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+NOTIC: [8] Undefined variable: er E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 775 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003252s ]
+
+[ 2018-11-12T14:30:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017442s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0539s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+
+[ 2018-11-12T14:31:03+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:31:03 Use 0.080996 s
+
+[ 2018-11-12T14:31:04+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004989s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0585s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106501s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0494s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0465s ]
+SQL: SELECT `percent` FROM `red_admin` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-11-12T14:31:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013959s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0326s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0877s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+
+[ 2018-11-12T14:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/chongzhi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011637s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0454s ]
+SQL: UPDATE `red_admin` SET `percent`='0.05' WHERE ( id=2 ) [ RunTime:0.1209s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php on line 91 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 334 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 338 行.
+
+[ 2018-11-12T14:31:15+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:31:15 Use 0.065576 s
+
+[ 2018-11-12T14:31:15+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004209s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.084487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088958s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0551s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0458s ]
+SQL: SELECT `percent` FROM `red_admin` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2018-11-12T14:31:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021876s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0553s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+
+[ 2018-11-12T14:31:41+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+ERR: Cron:cron Runat 2018-11-12 14:31:41 Use 0.083187 s
+
+[ 2018-11-12T14:31:41+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0628s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.125638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.127239s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0689s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0618s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0789s ]
+SQL: SELECT `percent` FROM `red_admin` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-11-12T14:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018641s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0524s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+
+[ 2018-11-12T14:31:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/chongzhi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004282s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012278s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0345s ]
+SQL: UPDATE `red_admin` SET `percent`='0.06' WHERE ( id=2 ) [ RunTime:0.0697s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php on line 91 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 334 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 338 行.
+
+[ 2018-11-12T14:31:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013783s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0371s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0341s ]
+SQL: SELECT `percent` FROM `red_admin` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-11-12T14:31:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.021251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023767s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0522s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+
+[ 2018-11-12T15:02:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/chongzhi
+ERR: Cron:cron Runat 2018-11-12 15:02:53 Use 0.075113 s
+
+[ 2018-11-12T15:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/chongzhi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.111967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.113406s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0431s ]
+SQL: UPDATE `red_admin` SET `percent`='0.07' WHERE ( id=2 ) [ RunTime:0.0797s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php on line 91 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 334 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 338 行.
+
+[ 2018-11-12T15:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014262s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0743s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0449s ]
+SQL: SELECT `percent` FROM `red_admin` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2018-11-12T15:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009162s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0402s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541347200 AND 1541433599 AND `type` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `moneytype` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541433600 AND 1541519999 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541520000 AND 1541606399 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541606400 AND 1541692799 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541692800 AND 1541779199 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `moneytype` = 1  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541779200 AND 1541865599 AND `type` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `moneytype` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541865600 AND 1541951999 AND `type` = 3 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `moneytype` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `time` BETWEEN 1541952000 AND 1542038399 AND `type` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 56 行.
+
+[ 2018-11-12T15:19:23+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+ERR: Cron:cron Runat 2018-11-12 15:19:23 Use 0.064506 s
+
+[ 2018-11-12T15:19:23+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.094671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096324s ]
+NOTIC: [8] Undefined index: act_status E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 8 行.
+NOTIC: [8] Undefined index: shenhe_status E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 9 行.
+NOTIC: [8] Undefined index: key E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0388s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 26 行.
+SQL: SELECT * FROM `red_activity` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `red_code_num` WHERE `activity_id` = 0 AND `shop_id` = 1  [ RunTime:0.0233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 540 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 598 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 603 行.
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0387s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 11 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 120 行.
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0297s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 11 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 100 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 103 行.
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 11  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: string E:\wamp\www\anti\Application\Common\Common\function.php 第 177 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('5') AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 11  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: string E:\wamp\www\anti\Application\Common\Common\function.php 第 189 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('5') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 168 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 617 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 807 行.
+SQL: SELECT `code_number` FROM `red_code_num` WHERE `activity_id` = 11  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 11  [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('5') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 168 行.
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 1011 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2018-11-12T15:19:31+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016178s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 586 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 599 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 586 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0210s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 599 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0369s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 778 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2018-11-12T15:25:35+08:00 ] 127.0.0.1 /index.php/Admin/code/index
+ERR: Cron:cron Runat 2018-11-12 15:25:35 Use 0.056875 s
+
+[ 2018-11-12T15:25:35+08:00 ] 127.0.0.1 /index.php/Admin/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.073912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075447s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0417s ]
+SQL: SELECT `id`,`number` FROM `red_code` ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0416s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code_num` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\CodeController.class.php 第 19 行.
+SQL: SELECT * FROM `red_code_num` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 541 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 582 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0369s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 606 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 582 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0373s ]
+SQL: SELECT `act_name` FROM `red_activity` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 606 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 582 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 606 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 582 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 606 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 582 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 606 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+

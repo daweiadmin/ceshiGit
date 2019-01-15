@@ -1,0 +1,2593 @@
+[ 2018-10-29T08:59:45+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 08:59:45 Use 0.631642 s
+
+[ 2018-10-29T08:59:45+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.3563s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0009s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.699729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.701843s ]
+
+[ 2018-10-29T08:59:46+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.052420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.353276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013053s ]
+
+[ 2018-10-29T09:16:27+08:00 ] 127.0.0.1 /index.php/shop/login
+ERR: Cron:cron Runat 2018-10-29 09:16:27 Use 0.068204 s
+
+[ 2018-10-29T09:16:27+08:00 ] 127.0.0.1 /index.php/shop/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2018-10-29T09:16:28+08:00 ] 127.0.0.1 /index.php/shop/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2018-10-29T09:16:28+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2018-10-29T09:16:52+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-29 09:16:52 Use 0.096246 s
+
+[ 2018-10-29T09:16:52+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0759s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0026s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.113299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.115143s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0463s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 15 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 47 行.
+
+[ 2018-10-29T09:16:54+08:00 ] 127.0.0.1 /index.php/Shop/Login/verify/0.8764795443697659
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-10-29T09:16:58+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009750s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 39 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 47 行.
+
+[ 2018-10-29T09:16:58+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008087s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0374s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1540742400 AND 1540828799 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0497s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 780 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 822 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 884 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 890 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2018-10-29T09:17:08+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-10-29 09:17:08 Use 0.126206 s
+
+[ 2018-10-29T09:17:09+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1097s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.138167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.139637s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0518s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0380s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2018-10-29T09:19:04+08:00 ] 127.0.0.1 /index.php/Shop/ticket/index
+ERR: Cron:cron Runat 2018-10-29 09:19:04 Use 0.070001 s
+
+[ 2018-10-29T09:19:04+08:00 ] 127.0.0.1 /index.php/Shop/ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.088359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.090896s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0418s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\TicketController.class.php 第 9 行.
+SQL: SELECT * FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0502s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 635 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 811 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2018-10-29T09:19:07+08:00 ] 127.0.0.1 /index.php/Shop/ticket/you_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013580s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\TicketController.class.php 第 95 行.
+SQL: SELECT * FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 2 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0351s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 635 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 812 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2018-10-29T09:19:16+08:00 ] 127.0.0.1 /index.php/Shop/ticket/index
+ERR: Cron:cron Runat 2018-10-29 09:19:16 Use 0.102169 s
+
+[ 2018-10-29T09:19:16+08:00 ] 127.0.0.1 /index.php/Shop/ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.122204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.123799s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\TicketController.class.php 第 9 行.
+SQL: SELECT * FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0596s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 635 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 811 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2018-10-29T09:23:13+08:00 ] 127.0.0.1 /index.php/Shop/ticket/index
+ERR: Cron:cron Runat 2018-10-29 09:23:13 Use 0.116959 s
+
+[ 2018-10-29T09:23:14+08:00 ] 127.0.0.1 /index.php/Shop/ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0585s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.149174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.151154s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\TicketController.class.php 第 9 行.
+SQL: SELECT * FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0365s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 635 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\8cbf793a98a1a7e9c1633ffc6fd2566f.php 第 811 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002937s ]
+
+[ 2018-10-29T09:26:14+08:00 ] 127.0.0.1 /index.php/Shop/ticket/you_index
+ERR: Cron:cron Runat 2018-10-29 09:26:14 Use 0.094441 s
+
+[ 2018-10-29T09:26:14+08:00 ] 127.0.0.1 /index.php/Shop/ticket/you_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0767s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116378s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0713s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\TicketController.class.php 第 95 行.
+SQL: SELECT * FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 2 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0554s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 635 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 811 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2018-10-29T09:26:45+08:00 ] 127.0.0.1 /index.php/Shop/ticket/you_index
+ERR: Cron:cron Runat 2018-10-29 09:26:45 Use 0.079128 s
+
+[ 2018-10-29T09:26:45+08:00 ] 127.0.0.1 /index.php/Shop/ticket/you_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103365s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0448s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\TicketController.class.php 第 95 行.
+SQL: SELECT * FROM `red_ticket` WHERE `shop_id` = 1 AND `type` = 2 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0322s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 631 行.
+NOTIC: [8] Use of undefined constant ticket_picture - assumed 'ticket_picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 635 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\a3cf68eda246585f0b6ff936cbf78e67.php 第 811 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2018-10-29T09:36:20+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-10-29 09:36:20 Use 0.129245 s
+
+[ 2018-10-29T09:36:20+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0149s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.171287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.173888s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0430s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.227326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2018-10-29T09:36:27+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018174s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0710s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.437173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.437303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2018-10-29T09:38:49+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-10-29 09:38:49 Use 0.055363 s
+
+[ 2018-10-29T09:38:50+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.076759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.078836s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0413s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2018-10-29T09:48:12+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-10-29 09:48:12 Use 0.082582 s
+
+[ 2018-10-29T09:48:12+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105524s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0394s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2018-10-29T09:48:17+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017972s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0391s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.440860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.440993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2018-10-29T09:52:07+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 09:52:07 Use 0.170688 s
+
+[ 2018-10-29T09:52:08+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010939s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016339s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0583s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2018-10-29T09:52:08+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1093s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.218549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.220894s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000998s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0551s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.374882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.375017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2018-10-29T09:52:52+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-10-29 09:52:52 Use 0.100178 s
+
+[ 2018-10-29T09:52:53+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0818s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.142426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.143994s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0331s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2018-10-29T10:05:37+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:05:37 Use 0.182138 s
+
+[ 2018-10-29T10:05:38+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0722s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.260936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.262733s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0542s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.338362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.338513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2018-10-29T10:06:56+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:06:56 Use 0.119132 s
+
+[ 2018-10-29T10:06:56+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0804s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.151070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152613s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0503s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0659s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.380524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.380742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2018-10-29T10:07:16+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:07:16 Use 0.143815 s
+
+[ 2018-10-29T10:07:16+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000403s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1026s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.173341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.174946s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0636s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.302126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2018-10-29T10:07:40+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:07:40 Use 0.078166 s
+
+[ 2018-10-29T10:07:40+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.121351s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0533s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2018-10-29T10:09:50+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:09:50 Use 0.111244 s
+
+[ 2018-10-29T10:09:50+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0921s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0011s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.154489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.156067s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0705s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.338644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.338779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2018-10-29T10:10:38+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:10:38 Use 0.115481 s
+
+[ 2018-10-29T10:10:39+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0807s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.149072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152251s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0695s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2018-10-29T10:11:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:11:14 Use 0.112338 s
+
+[ 2018-10-29T10:11:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0863s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.142371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.143821s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0400s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0752s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1093 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2018-10-29T10:12:40+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:12:40 Use 0.097624 s
+
+[ 2018-10-29T10:12:40+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0799s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.131058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.132738s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0643s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0742s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1093 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2018-10-29T10:13:08+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:13:08 Use 0.066969 s
+
+[ 2018-10-29T10:13:09+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.088862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.090422s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0447s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0503s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1093 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.239533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2018-10-29T10:20:02+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:20:02 Use 0.145970 s
+
+[ 2018-10-29T10:20:02+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0892s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.173039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.176210s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0535s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1576s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1093 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.448062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.448198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2018-10-29T10:23:13+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:23:13 Use 0.116181 s
+
+[ 2018-10-29T10:23:13+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.159885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.162047s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.2130s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0517s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0526s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1093 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.315737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002186s ]
+
+[ 2018-10-29T10:23:31+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:23:31 Use 0.132070 s
+
+[ 2018-10-29T10:23:31+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0862s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.162303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.163919s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1501s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1093 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.503432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.503569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2018-10-29T10:23:51+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:23:51 Use 0.092389 s
+
+[ 2018-10-29T10:23:51+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117790s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0468s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0671s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1094 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.387101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.387253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2018-10-29T10:24:48+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:24:48 Use 0.145446 s
+
+[ 2018-10-29T10:24:48+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1276s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.168683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.180797s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0520s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0934s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1094 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.373559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.373693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2018-10-29T10:26:44+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:26:44 Use 0.081999 s
+
+[ 2018-10-29T10:26:45+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003780s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.131706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.135749s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0888s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.333252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.333384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2018-10-29T10:27:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:27:14 Use 0.122240 s
+
+[ 2018-10-29T10:27:15+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0812s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.154213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.155760s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0510s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0518s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.294180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-10-29T10:28:27+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:28:27 Use 0.117690 s
+
+[ 2018-10-29T10:28:27+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0893s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.152241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.153667s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0575s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0408s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1095 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.298099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2018-10-29T10:44:00+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:44:00 Use 0.194568 s
+
+[ 2018-10-29T10:44:00+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1067s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.223187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.225926s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0644s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0412s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1104 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2018-10-29T10:44:06+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117731s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 228 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `red_ticket` WHERE `type` = 3  [ RunTime:0.0004s ]
+
+[ 2018-10-29T10:44:35+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:44:35 Use 0.116752 s
+
+[ 2018-10-29T10:44:36+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006061s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0963s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0021s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.146482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152800s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.1227s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0687s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0527s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1107 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.313870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2018-10-29T10:44:42+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026961s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 228 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `red_ticket` WHERE `type` = 3  [ RunTime:0.0005s ]
+
+[ 2018-10-29T10:45:27+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:45:27 Use 0.119858 s
+
+[ 2018-10-29T10:45:28+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0882s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.138122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140034s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0557s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1107 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004080s ]
+
+[ 2018-10-29T10:45:34+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003081s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.021812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025192s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 228 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `red_ticket` WHERE `type` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T10:57:44+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:57:44 Use 0.103521 s
+
+[ 2018-10-29T10:57:45+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003684s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0795s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.140604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145177s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0472s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1107 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2018-10-29T10:57:49+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019524s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0367s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T10:58:19+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 10:58:19 Use 0.534590 s
+
+[ 2018-10-29T10:58:19+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.571637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.573368s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0586s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.3559s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.601282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.601416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2018-10-29T10:58:24+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003728s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.029238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033208s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0412s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:02:34+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:02:34 Use 0.098894 s
+
+[ 2018-10-29T11:02:34+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.120842s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0832s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.383064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.383203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2018-10-29T11:02:44+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:02:44 Use 0.058395 s
+
+[ 2018-10-29T11:02:45+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.079953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.081402s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0364s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0008s ]
+
+[ 2018-10-29T11:02:47+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018445s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0430s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:03:28+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:03:28 Use 0.139454 s
+
+[ 2018-10-29T11:03:28+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003499s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0988s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.168289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.172070s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0647s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0496s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.339095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.339238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2018-10-29T11:03:34+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.020989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023874s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0353s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:03:36+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012803s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0443s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0005s ]
+
+[ 2018-10-29T11:03:42+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:03:42 Use 0.074459 s
+
+[ 2018-10-29T11:03:42+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.089553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.091441s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0506s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:03:47+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.024116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027736s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0668s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0392s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.256403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.256545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2018-10-29T11:04:00+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:04:00 Use 0.192018 s
+
+[ 2018-10-29T11:04:00+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1659s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.224210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.225672s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0382s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:04:03+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.020562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022865s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0355s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:04:12+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:04:12 Use 0.070135 s
+
+[ 2018-10-29T11:04:12+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087350s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0355s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:04:17+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002886s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.026494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029711s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0598s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0449s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.349909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2018-10-29T11:04:23+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:04:23 Use 0.079010 s
+
+[ 2018-10-29T11:04:23+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.095291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096886s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0339s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:04:24+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003157s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019108s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0538s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:08:33+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:08:33 Use 0.417660 s
+
+[ 2018-10-29T11:08:33+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.2251s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.507373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.509156s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0561s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0895s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.506110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.506246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003209s ]
+
+[ 2018-10-29T11:09:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:09:14 Use 0.123516 s
+
+[ 2018-10-29T11:09:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014949s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.146889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.162051s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0283s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:09:16+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004246s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.024852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029359s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0653s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:09:19+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010683s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0443s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:09:21+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013819s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0427s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:09:27+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:09:27 Use 0.074268 s
+
+[ 2018-10-29T11:09:28+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0556s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.090316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.093382s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000741s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0531s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0467s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1133 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.291312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2018-10-29T11:09:58+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:09:58 Use 0.089992 s
+
+[ 2018-10-29T11:09:58+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.121556s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0697s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.325098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2018-10-29T11:10:35+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:10:35 Use 0.097389 s
+
+[ 2018-10-29T11:10:35+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.142237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145030s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0505s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0481s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.323719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2018-10-29T11:11:08+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:11:08 Use 0.127936 s
+
+[ 2018-10-29T11:11:08+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0792s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0011s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.150453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.151930s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0876s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0894s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.361608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.361757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2018-10-29T11:11:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018293s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0483s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:11:17+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003831s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017183s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0473s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:11:51+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:11:51 Use 0.099951 s
+
+[ 2018-10-29T11:11:51+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0621s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.128859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.131712s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.1009s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0603s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0521s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.294431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.294582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2018-10-29T11:11:57+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015290s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0442s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:12:06+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:12:06 Use 0.084674 s
+
+[ 2018-10-29T11:12:06+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002549s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0661s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116881s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0568s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:12:15+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.019065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020789s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0597s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.261135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2018-10-29T11:12:54+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:12:54 Use 0.136547 s
+
+[ 2018-10-29T11:12:55+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003988s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0641s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.170655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.174931s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0523s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0529s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2018-10-29T11:13:01+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005561s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.027649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033531s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0416s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:13:09+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:13:09 Use 0.097699 s
+
+[ 2018-10-29T11:13:09+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0659s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.122560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.124151s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0529s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0003s ]
+
+[ 2018-10-29T11:15:05+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-10-29 11:15:05 Use 0.319573 s
+
+[ 2018-10-29T11:15:05+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.2415s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.362430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.364006s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0544s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2018-10-29T11:15:13+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004071s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.024599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028938s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0480s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 2 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:15:16+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:15:16 Use 0.118766 s
+
+[ 2018-10-29T11:15:16+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004505s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0717s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.139617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145289s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.1059s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0005s ]
+
+[ 2018-10-29T11:15:22+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.023481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027144s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0713s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0781s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.450280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.450420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2018-10-29T11:20:39+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:20:39 Use 0.231306 s
+
+[ 2018-10-29T11:20:39+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010689s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1276s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.249131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.260057s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0845s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:20:43+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004862s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024019s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0940s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0595s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1134 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.396379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.396514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2018-10-29T11:21:01+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+ERR: Cron:cron Runat 2018-10-29 11:21:01 Use 0.070969 s
+
+[ 2018-10-29T11:21:01+08:00 ] 127.0.0.1 /index.php/Shop/Activity/choose_quan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.086546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088086s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0284s ]
+SQL: SELECT `id`,`name` FROM `red_ticket` WHERE `type` = 1 AND `shop_id` = 1  [ RunTime:0.0004s ]
+
+[ 2018-10-29T11:29:06+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-10-29 11:29:06 Use 0.355701 s
+
+[ 2018-10-29T11:29:07+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1260s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.559219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.561349s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.1740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0572s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` = 1 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0503s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 595 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 637 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 641 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 822 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.224678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.224809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+

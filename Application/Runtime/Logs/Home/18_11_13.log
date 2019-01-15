@@ -1,0 +1,1071 @@
+[ 2018-11-13T09:04:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003403s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `red_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.056245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.056399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025322s ]
+
+[ 2018-11-13T09:37:36+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:37:36 Use 0.079750 s
+
+[ 2018-11-13T09:37:36+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.110752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112232s ]
+
+[ 2018-11-13T09:38:17+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007743s ]
+
+[ 2018-11-13T09:38:17+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:38:17 Use 0.078505 s
+
+[ 2018-11-13T09:38:17+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0549s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102289s ]
+
+[ 2018-11-13T09:38:19+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012135s ]
+
+[ 2018-11-13T09:39:31+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:39:31 Use 0.071068 s
+
+[ 2018-11-13T09:39:31+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.088162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.089867s ]
+
+[ 2018-11-13T09:53:12+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:53:12 Use 0.081169 s
+
+[ 2018-11-13T09:53:12+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003907s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107104s ]
+
+[ 2018-11-13T09:53:41+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:53:41 Use 0.080604 s
+
+[ 2018-11-13T09:53:41+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117234s ]
+
+[ 2018-11-13T09:53:48+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014481s ]
+
+[ 2018-11-13T09:53:57+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:53:57 Use 0.182717 s
+
+[ 2018-11-13T09:53:57+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1578s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.214297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.216097s ]
+
+[ 2018-11-13T09:54:21+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:54:21 Use 0.075362 s
+
+[ 2018-11-13T09:54:21+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0023s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.104184s ]
+
+[ 2018-11-13T09:54:35+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:54:35 Use 0.056231 s
+
+[ 2018-11-13T09:54:35+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.077326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.079345s ]
+
+[ 2018-11-13T09:54:58+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:54:58 Use 0.074690 s
+
+[ 2018-11-13T09:54:58+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.094203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096019s ]
+
+[ 2018-11-13T09:55:09+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:55:09 Use 0.089460 s
+
+[ 2018-11-13T09:55:09+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0021s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111627s ]
+
+[ 2018-11-13T09:55:32+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:55:32 Use 0.053143 s
+
+[ 2018-11-13T09:55:32+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.074077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075577s ]
+
+[ 2018-11-13T09:56:18+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 65 行.
+
+[ 2018-11-13T09:56:18+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:56:18 Use 0.061589 s
+
+[ 2018-11-13T09:56:18+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.084124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085823s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 65 行.
+
+[ 2018-11-13T09:57:36+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:57:36 Use 0.073529 s
+
+[ 2018-11-13T09:57:36+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103873s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 65 行.
+
+[ 2018-11-13T09:58:27+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 09:58:27 Use 0.061245 s
+
+[ 2018-11-13T09:58:27+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.080557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.082600s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 65 行.
+
+[ 2018-11-13T10:00:30+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:00:30 Use 0.072475 s
+
+[ 2018-11-13T10:00:30+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102364s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 63 行.
+
+[ 2018-11-13T10:00:48+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:00:48 Use 0.122928 s
+
+[ 2018-11-13T10:00:48+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1049s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.143467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.146144s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 63 行.
+
+[ 2018-11-13T10:01:08+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:01:08 Use 0.066402 s
+
+[ 2018-11-13T10:01:08+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.089325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.090988s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 63 行.
+
+[ 2018-11-13T10:01:37+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:01:37 Use 0.103949 s
+
+[ 2018-11-13T10:01:37+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.132197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.134011s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 63 行.
+
+[ 2018-11-13T10:02:08+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:02:08 Use 0.064436 s
+
+[ 2018-11-13T10:02:08+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.086693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088912s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 63 行.
+
+[ 2018-11-13T10:02:47+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:02:47 Use 0.077034 s
+
+[ 2018-11-13T10:02:47+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.104244s ]
+
+[ 2018-11-13T10:03:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:03:43 Use 0.077008 s
+
+[ 2018-11-13T10:03:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.104965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108883s ]
+
+[ 2018-11-13T10:03:45+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017642s ]
+
+[ 2018-11-13T10:03:52+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013644s ]
+
+[ 2018-11-13T10:04:14+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:04:14 Use 0.083109 s
+
+[ 2018-11-13T10:04:14+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103771s ]
+
+[ 2018-11-13T10:04:34+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:04:34 Use 0.093425 s
+
+[ 2018-11-13T10:04:35+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.132023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.133700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016589s ]
+
+[ 2018-11-13T10:42:28+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 10:42:28 Use 0.090041 s
+
+[ 2018-11-13T10:42:28+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.132729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.135035s ]
+
+[ 2018-11-13T11:07:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:07:49 Use 0.075015 s
+
+[ 2018-11-13T11:07:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.097751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040400s ]
+
+[ 2018-11-13T11:12:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:12:49 Use 0.062421 s
+
+[ 2018-11-13T11:12:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.088316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.091737s ]
+
+[ 2018-11-13T11:13:29+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:13:29 Use 0.064413 s
+
+[ 2018-11-13T11:13:29+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2018-11-13T11:19:42+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:19:42 Use 0.071218 s
+
+[ 2018-11-13T11:19:42+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0529s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.095365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097186s ]
+NOTIC: [8] Undefined variable: a E:\wamp\www\anti\ThinkPHP\Library\Vendor\Weixinpay\Redbagwxpay.php 第 80 行.
+
+[ 2018-11-13T11:24:11+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:24:11 Use 0.065223 s
+
+[ 2018-11-13T11:24:11+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.084509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086131s ]
+
+[ 2018-11-13T11:24:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:24:39 Use 0.056254 s
+
+[ 2018-11-13T11:24:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.079259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080985s ]
+
+[ 2018-11-13T11:24:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:24:49 Use 0.062759 s
+
+[ 2018-11-13T11:24:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.083002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.084559s ]
+
+[ 2018-11-13T11:25:24+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:25:24 Use 0.142620 s
+
+[ 2018-11-13T11:25:24+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1142s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0012s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.168514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.170310s ]
+
+[ 2018-11-13T11:25:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:25:39 Use 0.059776 s
+
+[ 2018-11-13T11:25:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.080439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.082203s ]
+
+[ 2018-11-13T11:26:09+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:26:09 Use 0.082269 s
+
+[ 2018-11-13T11:26:09+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107121s ]
+
+[ 2018-11-13T11:26:19+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:26:19 Use 0.079737 s
+
+[ 2018-11-13T11:26:19+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0589s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.116719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118356s ]
+
+[ 2018-11-13T11:26:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:26:39 Use 0.077891 s
+
+[ 2018-11-13T11:26:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.110195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2018-11-13T11:27:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:27:39 Use 0.059978 s
+
+[ 2018-11-13T11:27:39+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.087404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088908s ]
+
+[ 2018-11-13T11:27:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:27:49 Use 0.111100 s
+
+[ 2018-11-13T11:27:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0898s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.145880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.147622s ]
+
+[ 2018-11-13T11:40:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:40:49 Use 0.058779 s
+
+[ 2018-11-13T11:40:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.084666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086209s ]
+
+[ 2018-11-13T11:41:09+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:41:09 Use 0.072967 s
+
+[ 2018-11-13T11:41:09+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0548s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.096389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097943s ]
+
+[ 2018-11-13T11:44:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:44:49 Use 0.057163 s
+
+[ 2018-11-13T11:44:49+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.081338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.082955s ]
+
+[ 2018-11-13T11:44:59+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 11:44:59 Use 0.061498 s
+
+[ 2018-11-13T11:44:59+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086976s ]
+
+[ 2018-11-13T13:47:42+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+ERR: Cron:cron Runat 2018-11-13 13:47:42 Use 0.428782 s
+
+[ 2018-11-13T13:47:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/rebagpay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026853s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0971s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0027s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.590431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.617560s ]
+
+[ 2018-11-13T16:01:04+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013893s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-11-13T16:01:22+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004887s ]
+
+[ 2018-11-13T16:28:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:28:43 Use 0.088330 s
+
+[ 2018-11-13T16:28:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0554s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.127269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.129528s ]
+
+[ 2018-11-13T16:29:12+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:29:12 Use 0.091838 s
+
+[ 2018-11-13T16:29:12+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0657s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.121172s ]
+
+[ 2018-11-13T16:33:21+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:33:21 Use 0.092011 s
+
+[ 2018-11-13T16:33:21+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026908s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0647s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.141678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.168835s ]
+
+[ 2018-11-13T16:35:05+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:35:05 Use 0.082573 s
+
+[ 2018-11-13T16:35:05+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007616s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.123410s ]
+
+[ 2018-11-13T16:35:10+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002453s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015613s ]
+
+[ 2018-11-13T16:35:11+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.036788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038371s ]
+
+[ 2018-11-13T16:35:13+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013752s ]
+
+[ 2018-11-13T16:35:14+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010127s ]
+
+[ 2018-11-13T16:35:15+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008598s ]
+
+[ 2018-11-13T16:35:16+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:35:16 Use 0.076660 s
+
+[ 2018-11-13T16:35:16+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.096607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099479s ]
+
+[ 2018-11-13T16:35:16+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015079s ]
+
+[ 2018-11-13T16:35:17+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015522s ]
+
+[ 2018-11-13T16:35:18+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010135s ]
+
+[ 2018-11-13T16:35:19+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008641s ]
+
+[ 2018-11-13T16:35:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:35:43 Use 0.063823 s
+
+[ 2018-11-13T16:35:43+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087322s ]
+
+[ 2018-11-13T16:37:03+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:37:03 Use 0.067763 s
+
+[ 2018-11-13T16:37:03+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.087997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.089587s ]
+
+[ 2018-11-13T16:40:13+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:40:13 Use 0.096558 s
+
+[ 2018-11-13T16:40:13+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0663s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.120808s ]
+
+[ 2018-11-13T16:40:15+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003221s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.038696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042171s ]
+
+[ 2018-11-13T16:40:16+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012410s ]
+
+[ 2018-11-13T16:40:53+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:40:53 Use 0.087070 s
+
+[ 2018-11-13T16:40:53+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007623s ]
+
+[ 2018-11-13T16:40:53+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0654s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.108467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110048s ]
+
+[ 2018-11-13T16:40:55+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017743s ]
+
+[ 2018-11-13T16:40:56+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010653s ]
+
+[ 2018-11-13T16:40:58+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009680s ]
+
+[ 2018-11-13T16:41:00+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013255s ]
+
+[ 2018-11-13T16:41:02+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012489s ]
+
+[ 2018-11-13T16:41:04+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:41:04 Use 0.081243 s
+
+[ 2018-11-13T16:41:04+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.110820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.114479s ]
+
+[ 2018-11-13T16:41:06+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016240s ]
+
+[ 2018-11-13T16:41:08+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012846s ]
+
+[ 2018-11-13T16:44:41+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:44:41 Use 0.064709 s
+
+[ 2018-11-13T16:44:41+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002677s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088105s ]
+
+[ 2018-11-13T16:44:57+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:44:57 Use 0.100946 s
+
+[ 2018-11-13T16:44:57+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.127456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.130296s ]
+
+[ 2018-11-13T16:45:13+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-11-13 16:45:13 Use 0.059187 s
+
+[ 2018-11-13T16:45:13+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0012s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.081842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.084073s ]
+

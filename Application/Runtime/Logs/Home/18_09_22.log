@@ -1,0 +1,62 @@
+[ 2018-09-22T15:14:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023727s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'fenxiao'
+
+[ 2018-09-22T15:23:16+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-09-22 15:23:16 Use 0.183021 s
+
+[ 2018-09-22T15:23:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004451s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0882s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0124s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.233206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.237929s ]
+NOTIC: [8] Undefined index: ref_id E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: code E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0574s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('6','7') AND `tuijian` = 1  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('8') AND `tuijian` = 1  [ RunTime:0.0115s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('9') AND `tuijian` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('') AND `tuijian` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 5  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('') AND `tuijian` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 192 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `fen_guangbo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: put_r_id E:\wamp\www\anti\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0099s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.220023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034524s ]
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+	platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+	platform = 'ios';
+}
+var winWidth = window.screen.width,
+	targetDensitydpi = winWidth / 640;
+switch(platform){
+	case 'android':
+		var devicePixelRatio = window.devicePixelRatio;
+		targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+		viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+		break;
+	case 'ios':
+		viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+		break;
+}
+if(viewPorts){
+	document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>立即购买-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+	<div class="top">
+		<a class="back" href="javascript:history.go(-1)"></a>
+		<h2 style="text-align:center; float:none;">立即购买</h2>
+	</div>
+	<!--顶部 结束-->
+	<!--主体 开始-->
+	<script>
+	$(document).ready(function(){
+		//全选
+		var flg = false;
+		$("a.checkall").click(function(){
+			if(flg){
+				$("form.cart").find("a.checkall").removeClass("checked");
+				$(".main form.cart ul.pro").find("label.check").removeClass("checked");
+				$(".main form.cart ul.pro").find("input.check").removeAttr("checked");
+				flg = false;
+			}else{
+				$("form.cart").find("a.checkall").addClass("checked");
+				$(".main form.cart ul.pro").find("label.check").addClass("checked");
+				$(".main form.cart ul.pro").find("input.check").attr("checked","checked");
+				flg = true;
+			}
+		});
+		$(".main form.cart ul.pro li label").click(function(e){
+			if ($(e.target).is("input"))
+                    return;
+			$(this).toggleClass("checked");
+			var lnum = $(".main form.cart ul.pro").find("li").size();
+			var cnum = $(".main form.cart ul.pro").find("label.checked").size();
+			if(cnum==lnum){
+				$("form.cart").find("a.checkall").addClass("checked");
+				flg = true;
+			}else{
+				$("form.cart").find("a.checkall").removeClass("checked");
+				flg = false;
+			}
+		});
+		//递增
+		$(".main form.cart ul.pro li p.num a.add").click(function(){
+			var num = $(this).prev("input.num").val();
+			num++;
+			$(this).prev("input.num").val(num);
+		});
+		//递减
+		$(".main form.cart ul.pro li p.num a.del").click(function(){
+			var num = $(this).next("input.num").val();
+			num--;
+			if(num<=1){
+				$(this).next("input.num").val(1);
+			}else{
+				$(this).next("input.num").val(num);
+			}
+		});
+		//数字验证
+		$(".main form.cart ul.pro li p.num input.num").change(function(){
+			var num = $(this).val();
+			if(!/^\d+$/.test(num)){
+				alert('数字输入错误！请修改！');
+			}
+		});
+	});
+	</script>
+	<div class="main">
+		<form class="cart" action="" id="form" >
+			
+			
+			<ul class="pro">
+				<li>
+					
+					<a class="pic" href="javascript:(0);"><img src="{$goods.picture}" /></a>
+					<a class="title" href="pro.html">{$goods.name}</a>
+					<p class="num">
+						<a class="del jian" href="javascript:void(0)" attr-id="{$goods.id}"></a>
+						<input class="num goods_num" type="text" name="" value="1" />
+						<a class="add jia" href="javascript:void(0)" attr-id="{$goods.id}"></a>
+					</p>
+					<span class="price" >￥<span id="price">{$goods.price}</span></span>
+					<a class="delete" href="__MODULE__/index/lst"  title="撤销"></a>
+				</li>
+			 
+			</ul>
+			<div class="float">
+				<input type="hidden" name="" id="good" value="{$goods.id}">
+				<p class="sum">合计：<span class="price">￥<span id="total">{$goods.price}</span></span></p>
+				<input class="submit" type="button" value="去结算" id="submit" />
+			</div>
+		</form>
+	</div>
+	<!--底部导航 开始-->
+	<include file="Member/common" />
+	<!--底部导航 结束-->
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+$('.jia').click(function(){
+      //var a = $('.jian').index(this);
+      var num = $('.goods_num').val();
+      var price = $('#price').html();
+      var tot = (num*1+1)*price;
+      var id = $('#total').html(tot);
+    
+	});
+$('.jian').click(function(){
+      //var a = $('.jian').index(this);
+      var num = $('.goods_num').val();
+      if(num<=1){
+        return false;
+      }
+      var price = $('#price').html();
+      var tot = (num*1-1)*price;
+      var id = $('#total').html(tot);
+    
+	});
+/*$('.jia').click(function(){
+      var a = $('.jia').index(this);
+      var num = $('.goods_num').eq(a).val();
+      var id = $('.jia').eq(a).attr('attr-id');
+      var type = 1;
+      
+      var data = {'id':id,'num':num,'type':type};
+      var url = "__CONTROLLER__/ajax_cache_num";
+      $.post(url,data,function(res){
+	      $('.jia').eq(a).val(res.num);
+	      $('#total').html(res.total);  
+	     },'JSON');
+	});*/
+
+
+  $('.submit').click(function(){
+   var goods_id = $('#good').val();
+   var num = $('.goods_num').val();
+   var data={'goods_id':goods_id,'num':num};
+   var url = "__CONTROLLER__/ajax_add_lijigoumai";
+   var jump_url = '__CONTROLLER__/indent?IND=';
+   $.post(url,data,function(res){
+	  if(res.status==-1){
+       dialog.error(res.message);
+	  } 
+      if(res.status==1){
+       window.location.href=jump_url+res.datas;
+      }
+
+	},'JSON');
+  });
+/*	$('.jia').click(function(){
+      var b = $('#num1').val();
+      var jia = b*1+1;
+      var money = $('#good_price').val();
+      var total = jia*money;
+      $('#num1').val(jia);
+      $('#pri').html(total);
+	});*/
+</script>
+
+</body>
+</html>

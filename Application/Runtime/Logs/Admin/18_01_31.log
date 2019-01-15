@@ -1,0 +1,1490 @@
+[ 2018-01-31T18:23:08+08:00 ] 127.0.0.1 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004254s ]
+
+[ 2018-01-31T18:23:12+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.074465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.074621s ]
+
+[ 2018-01-31T18:23:23+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `lan_user` [ RunTime:0.1061s ]
+SQL: SELECT * FROM `lan_user` WHERE ( name = "admin" ) LIMIT 1   [ RunTime:0.0347s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:23:24+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1263 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1312 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1341 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.234016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2018-01-31T18:24:20+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1263 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1312 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1341 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004243s ]
+
+[ 2018-01-31T18:24:23+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0149s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002918s ]
+
+[ 2018-01-31T18:25:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0117s ]
+SQL: INSERT INTO `lan_menu` (`name`) VALUES ('首页') [ RunTime:0.0732s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 27 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2018-01-31T18:27:16+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `lan_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+ERR: Think\Model:classtree方法不存在！
+
+[ 2018-01-31T18:30:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2018-01-31T18:31:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `lan_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1636 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2018-01-31T18:32:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001873s ]
+
+[ 2018-01-31T18:33:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0113s ]
+SQL: INSERT INTO `lan_menu` (`name`) VALUES ('关于我们') [ RunTime:0.0596s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 27 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:33:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2018-01-31T18:33:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0115s ]
+SQL: INSERT INTO `lan_menu` (`name`) VALUES ('新闻中心') [ RunTime:0.0537s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 27 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:33:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003232s ]
+
+[ 2018-01-31T18:33:33+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0123s ]
+SQL: INSERT INTO `lan_menu` (`name`) VALUES ('服务项目') [ RunTime:0.0588s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 27 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:33:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2018-01-31T18:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0112s ]
+SQL: INSERT INTO `lan_menu` (`name`) VALUES ('品牌介绍') [ RunTime:0.0470s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 27 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:35:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Admin\Model\MenuModel.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1635 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2018-01-31T18:36:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002102s ]
+
+[ 2018-01-31T18:37:42+08:00 ] 127.0.0.1 /index.php/Admin/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0112s ]
+SQL: INSERT INTO `lan_menu` (`name`,`parentid`) VALUES ('资质证书','3') [ RunTime:0.0400s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 27 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:37:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003394s ]
+
+[ 2018-01-31T18:37:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `lan_menu` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2018-01-31T18:37:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0111s ]
+SQL: UPDATE `lan_menu` SET `name`='资质证书',`parentid`='5' WHERE `id` = 7 [ RunTime:0.0554s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 61 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:38:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2018-01-31T18:38:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/edit?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `lan_menu` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\a77aa83c121d51b6cd699ea2b65451f6.php 第 1652 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2018-01-31T18:38:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0112s ]
+SQL: UPDATE `lan_menu` SET `name`='资质证书',`parentid`='3' WHERE `id` = 7 [ RunTime:0.0425s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 61 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:38:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002755s ]
+
+[ 2018-01-31T18:38:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0117s ]
+SQL: DELETE FROM `lan_menu` WHERE `id` = 7 [ RunTime:0.0521s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\MenuController.class.php on line 74 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-31T18:38:28+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1604 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1632 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1648 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1696 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1729 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: parentid E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+NOTIC: [8] Undefined index: area_name E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 1737 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+

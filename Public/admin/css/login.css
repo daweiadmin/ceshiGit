@@ -1,0 +1,42 @@
+
+/* CSS Document */
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input,button{ margin:0; padding:0; -webkit-tap-highlight-color:rgba(255,255,255,0); }
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 100px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#fff;font-size: 12px;}
+a:hover,a:link,a:visited,a{ color:inherit; text-decoration:none;}
+ul,li{list-style:none}
+#center{ position:fixed; width:100%; height:100%;; background:url(../images/back.png) 100%; background-size:cover;}
+.logo{ position:absolute; top:1.13rem; right:2.6rem; display:block; width:1.19rem; height:0.93rem; background:url(../images/Logo.png) no-repeat; background-size:1.19rem 0.93rem;}
+.wc{ position:absolute; top:2.68rem; right:0.55rem; display:block; width:5.21rem; height:0.63rem; background:url(../images/Welcome-wang.png) no-repeat; background-size:5.21rem 0.63rem;}
+.head{width:120px;height:120px;background-color:rgba(255,255,255,.1);border-radius:2.2rem;margin: 0 auto;margin-top: 50px;}
+.head img{ margin:10px; width:100px; height:100px;}
+.main{width:40%;border-radius:2.2rem;text-align: center;margin:0 auto; margin-top: 20px;}
+.main input{
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    width:90%;
+    border: 2px solid rgba(154, 142, 142, 0.1);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.main .btn{
+       height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    width: 90%;
+    /* border: 2px solid rgba(119, 90, 90, 0.1); */
+    border-radius: 4px;
+    /* padding-left: 10px; */
+    display: block;
+    font-size: 14px;
+    background: rgba(103, 86, 86, 0.5);
+    color: #fff;
+}
+.main .pwd{
+
+}
+.lt{   width:100%; /*! height:2.7rem; */}
+.lt .dds{ position:relative; width:90%; height:80px; border-top:1px solid #fff; border-color:rgba(255,255,255,.1);margin: 0 auto;}
+.lt .dds p{ font-size:14px; line-height:80px; text-align:center; color:#fff;}
+.lt .dds i{ position:absolute; bottom:0.45rem; right:0.39rem; display:block;    background-size:0.23rem 0.43rem; }

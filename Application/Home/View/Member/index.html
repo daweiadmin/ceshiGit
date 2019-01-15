@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+	platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+	platform = 'ios';
+}
+var winWidth = window.screen.width,
+	targetDensitydpi = winWidth / 640;
+switch(platform){
+	case 'android':
+		var devicePixelRatio = window.devicePixelRatio;
+		targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+		viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+		break;
+	case 'ios':
+		viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+		break;
+}
+if(viewPorts){
+	document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>会员中心-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
+<body>
+
+<div class="wrap">
+ <div class="mtop">
+ <p class="mname"><a href="ziliao.html">{$member.username} </a></p><p class="mjibie">{$member.id|User_level}</p>
+ <if condition="$member['jiang'] eq 1">
+ <p class="mtishi" id="rongyu" >恭喜你荣获突出贡献奖！</p>
+ <else />
+ <p class="mtishi" id="rongyu" style="color:white;">还未获得荣誉奖</p>
+ </if>
+
+ </div>
+<div class="jine">
+  <ul>
+  <li>
+    <a href="#" class="yye">账户金额<br>
+      <b style="color:green;">{$member.money}</b>元
+    </a>
+  </li>
+  <li>
+    <a href="javascript:(0);" class="ktx">可提现金额<br>
+      <b style="color:green;"><if condition="$member['level'] eq 1">{$member.tixian_money}<else />{$member.money}</if></b>元
+    </a>
+  </li>
+
+  </ul>
+</div>
+ <div class="liucheng">
+<ul>
+<li><A href="__CONTROLLER__/order?STATUS=3"><img src="__PUBLIC__/xls/images/common/micon1.png">已完成</A></li>
+<li><A href="__CONTROLLER__/order?STATUS=0"><img src="__PUBLIC__/xls/images/common/micon2.png">待付款</A></li>
+<li><A href="__CONTROLLER__/order?STATUS=1"><img src="__PUBLIC__/xls/images/common/micon3.png">待发货</A></li>
+<li><A href="__CONTROLLER__/order?STATUS=2"><img src="__PUBLIC__/xls/images/common/micon4.png">待收货</A></li>
+</ul>
+</div>
+<div class="fenxiao">
+<div class="fxbt">分销中心</div>
+<ul class="dropdown">
+  <li> <a href="friend.html">我的推广好友 <span>/人</span></a>
+    <ul class="erji">
+      <li><a href="__CONTROLLER__/friend?TYPE=P">普通会员<span>{$member.id|mem_sum}人</span></a></li>
+      <li><a href="__CONTROLLER__/friend?TYPE=V">直卖VIP<span>{$member.id|vip_sum}人</span></a></li>
+      <li><a href="__CONTROLLER__/friend?TYPE=D">直招代理商<span>{$member.id|daili_sum}人</span></a></li>
+      <li><a href="javascript:(0);" style="color: green;">VIP人数<span>{$member.vip_zong}人</span></a></li>
+      <li><a href="javascript:(0);" style="color: green;">代理商团队<span>{$member.daili_zong}人</span></a></li>
+    </ul>
+  </li>
+  <li> <a href="__CONTROLLER__/ticheng">我的奖励 <span>/元</span></a>
+
+  </li>
+</ul>
+<input type="hidden" name="" id="mem_id" value="{$member.level}">
+<script src="__PUBLIC__/xls/js/tendina.js"></script>
+<script>
+  
+  $(function(){  
+    have();
+     function have(){
+     var lev = $('#mem_id').val();
+    
+    if(lev>1){
+      //alert(lev);
+     var url = '__CONTROLLER__/jiang';
+     var data={};
+     $.post(url,data,function(res){
+       if(res.status==1){
+          alert('恭喜您荣获突出贡献奖，赶快联系总部领取奖励吧！');
+       }
+      },'JSON');
+     }
+    }
+   });  
+
+
+
+      $('.dropdown').tendina({
+        animate: true,
+        speed: 500,
+        openCallback: function($clickedEl) {
+          console.log($clickedEl);
+        },
+        closeCallback: function($clickedEl) {
+          console.log($clickedEl);
+        }
+      })
+</script>
+</div>
+<div class="member">
+<ul>
+<li><img src="__PUBLIC__/xls/images/common/icontx.png"><A href="__CONTROLLER__/tixian">申请提现</A></li>
+<li><img src="__PUBLIC__/xls/images/common/iconma.png"><A href="__CONTROLLER__/refe">我的推广二维码</A></li>
+<li><img src="__PUBLIC__/xls/images/common/icondai.png"><A href="__CONTROLLER__/daili_sub">申请成为代理商</A></li>
+<li><img src="__PUBLIC__/xls/images/common/icondz.png"><A href="__CONTROLLER__/address">收货地址</A></li>
+<li><img src="__PUBLIC__/xls/images/common/iconzl.png"><A href="__CONTROLLER__/member_data">个人资料</A></li>
+<li><img src="__PUBLIC__/xls/images/common/micon4.png"><A href="__CONTROLLER__/fahuo">作为代理商发货订单</A></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+    <div class="banquan"><img src="__PUBLIC__/xls/images/upload/foot.jpg"></div>
+	<!--主体 结束-->
+	<!--底部导航 开始-->
+	 <include file="common" />
+	<!--底部导航 结束-->
+</div>
+<script type="text/javascript">
+  
+
+
+
+
+$(document).ready(function(){
+	refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

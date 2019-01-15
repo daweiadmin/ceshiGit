@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+	platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+	platform = 'ios';
+}
+var winWidth = window.screen.width,
+	targetDensitydpi = winWidth / 640;
+switch(platform){
+	case 'android':
+		var devicePixelRatio = window.devicePixelRatio;
+		targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+		viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+		break;
+	case 'ios':
+		viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+		break;
+}
+if(viewPorts){
+	document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>订单详情-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+	<div class="top">
+		<a class="back" href="javascript:history.go(-1)"></a>
+		<h2 style="text-align:center; float:none;">订单详情</h2>
+	</div>
+	<!--顶部 结束-->
+	<!--主体 开始-->
+	<div class="orderbox">
+		<div class="odinfo">
+			<style>.bubble{ bottom:142px;}.wrap{ padding-bottom:0;}</style>
+			<!-- <h3>待付款</h3> -->
+			<p><span><?php echo date("Y-m-d H:i", $list['indent']['time']) ?> </span>订单号：<?php echo $list['indent']['indents'] ?></p>
+			<div class="addr">
+				<h3>收货人：<?php echo $list['address']['name'] ?><span><?php echo $list['address']['phone'] ?></span></h3>
+				<p>地址：<?php echo $list['address']['location'] ?>-<?php echo $list['address']['address'] ?></p>
+				<!--<img class="code" src="__PUBLIC__/xls/images/upload/code.png" />-->
+			</div>
+			<dl class="pro">
+               
+               <?php foreach ($list['goods'] as $key => $value){ ?>
+				<dd>
+					<a class="pic" href="pro.html"><img src="<?php echo $value['picture'] ?>"></a>
+					<p>
+						<a class="title" href="pro.html"><?php echo $value['goods_name'] ?></a>
+						<span class="price" style="float: left; color:green; font-size: 20px; ">数量x<?php echo $value['goods_num'] ?>件</span>
+                        <span class="price">￥<?php echo $value['goods_price'] ?>元</span>
+					</p>
+				</dd>
+                <?php } ?>
+				<!-- <dd>
+					<a class="pic" href="pro.html"><img src="__PUBLIC__/xls/images/upload/pic2.jpg"></a>
+					<p>
+						<a class="title" href="pro.html">东方韵调脂组合大礼包+19800元代理产品</a>
+                        <span class="price">￥2980元</span>
+					</p>
+				</dd> -->
+			</dl>
+			<!-- <p class="sendfee">运费：<span>￥10.00</span></p> -->
+			<p class="sum">商品价格&emsp;合计：<span>¥<font><?php echo $list['indent']['total'] ?></font></span></p>
+			<p class="odbtn">
+				<!-- <a class="pay" href="order_pay.html">去付款</a>
+				<a href="javascript:void(0)">取消订单</a> -->
+			</p>
+		</div>
+	</div>
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

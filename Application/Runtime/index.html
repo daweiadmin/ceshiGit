@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+  platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+  platform = 'ios';
+}
+var winWidth = window.screen.width,
+  targetDensitydpi = winWidth / 640;
+switch(platform){
+  case 'android':
+    var devicePixelRatio = window.devicePixelRatio;
+    targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+    viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+    break;
+  case 'ios':
+    viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+    break;
+}
+if(viewPorts){
+  document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>星优集</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/youji/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/youji/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/youji/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/youji/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/youji/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/youji/js/TouchSlide.1.1.js"></script>
+<script src="http://libs.baidu.com/jquery/1.2.3/jquery.min.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<body>
+
+<div class="wrap" style="background:#f1f1f1;">
+<div class="head">
+<div class="logo"><img src="__PUBLIC__/youji/images/common/logo.png"></div>
+<div class="suosou">
+  <form class="search" method="post" action="__CONTROLLER__/lst">
+      <input class="txt" type="text" name="search" placeholder="搜您感兴趣的……" />
+      <input class="btn" type="submit" value=" " />
+  </form>
+    </div>
+</div>
+  <!--banner 开始-->
+  <div id="slideBox" class="banner">
+    <div class="bd">
+      <ul>
+        <li><a href="javascript:void(0)"><img src="{$banner.picture1}" /></a></li>
+        <li><a href="javascript:void(0)"><img src="{$banner.picture2}" /></a></li>
+        <li><a href="javascript:void(0)"><img src="{$banner.picture3}" /></a></li>
+      </ul>
+    </div>
+    <div class="hd">
+      <ul></ul>
+    </div>
+  </div>
+  <!-- 分享 出去的 链接参数  ref_id -->
+  <input type="hidden" id="canshu" name="" value="{$put_r_id}">
+  <script type="text/javascript">
+    /*jQuery(".ibanner").slide({*/
+    TouchSlide({ 
+      slideCell:"#slideBox",
+      titCell:".hd ul",
+      mainCell: ".bd ul",
+      autoPlay: true,
+      autoPage: true,
+      effect: "leftLoop",
+      delayTime: 400,
+      interTime: 3000,//间隔时间
+      triggerTime: 150
+    });
+    /*微信分享sdk*/
+    $(document).ready(function(){
+        initPage();
+    });
+    function initPage() {
+        //alert(window.location.href);/***用于获得当前连接url用**/
+        /***用户点击分享到微信圈后加载接口接口*******/
+        var canshu = $('#canshu').val();
+        if(canshu){
+          var lian = 'index?ref_id='+canshu;
+        }else{
+          var lian = 'index';
+        }
+        var url = 'http://xingyouji.weidoushi.com/wx_share/jssdk.php';
+        var jump_url = 'http://xingyouji.weidoushi.com/index.php/Home/Index/'+lian;
+        var imgUrl = 'http://xingyouji.weidoushi.com/Public/youji/images/logo11.png';
+        var content = '只是一次不经意的相遇，注定一生永恒的美丽。因为我们的一次相遇，你遇见未来那个最美的自己...';
+        var title='星优集商城';
+        $.post(url,{"url":window.location.href},function(data,status){
+            data=eval("("+data+")");
+           
+            wx.config({
+                debug: false,
+                appId: data.appid,
+                timestamp:data.timestamp,
+                nonceStr:data.nonceStr,
+                signature:data.signature,
+                jsApiList: [
+                    'checkJsApi',
+                    'onMenuShareTimeline',
+                    'onMenuShareAppMessage',
+                ]
+            });
+            var shareTitle = "一起分享吧！";
+            var shareImg = '/Public/Uploads/2018-05-08/5af162033af96.png';
+            wx.ready(function(){
+            
+             //分享朋友
+            wx.onMenuShareAppMessage({
+              title: title, // 分享标题
+              desc: content, // 分享描述
+              link: jump_url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+              imgUrl: imgUrl, // 分享图标
+              type: '', // 分享类型,music、video或link，不填默认为link
+              dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+              success: function () {
+              // 用户点击了分享后执行的回调函数
+              }
+              });
+               /*分享到朋友圈*/
+              wx.onMenuShareTimeline({
+                  title: title, // 分享标题
+                  link: jump_url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                  imgUrl:imgUrl, // 分享图标
+                  success: function () {
+                  // 用户点击了分享后执行的回调函数
+              },
+          
+            });
+        });
+      });
+    }
+  </script>
+  <!--banner 结束-->
+  <!--主体 开始-->
+    <div class="nav">
+    <ul>
+     <volist name="class" id="vo">
+       <li><a href="__CONTROLLER__/lst?id={$vo.id}"><img src="{$vo.picture}"><br>{$vo.class_name}</a></li>
+     </volist>
+    </ul>
+    </div>
+<!--      <TABLE height="29" border="0" cellspacing="0" class=rollboder>
+    <TBODY>
+      <TR>
+        <TD height="60" class=rollleft>
+        <DIV class=rollTextMenus>
+          <volist name="guangbo" id="vo"  >
+            <DIV id=rollTextMenu1 style="DISPLAY: block">
+              <a href="__CONTROLLER__/pro?goodsid={$vo.goods_id}">{$vo.content}</a>
+            </DIV>
+          </volist>
+
+          </DIV></TD>
+        <TD class=rollright><A title=上一条 href="javascript:rollText(-1);"><IMG src="__PUBLIC__/youji/images/common/last.gif" 
+      alt=上一条 width="11" height="11" border="0"></A> <A title=下一条 href="javascript:rollText(1);"><IMG src="__PUBLIC__/youji/images/common/next.gif" 
+      alt=下一条 width="11" height="11" border="0"></A></TD>
+      </TR>
+    </TBODY>
+  </TABLE> -->
+   
+<!--   <DIV id=announcement onMouseOver="if(!anncount) {clearTimeout(annst);annst = 0}" onMouseOut="if(!annst) annst = setTimeout('announcementScroll()', anndelay);">
+  <DIV id=announcementbody>
+    <UL>
+      <li><a href="pro.html">热卖促销活动标题热卖促销活动标题热卖促销活动标题……</a></li>
+      <li><a href="pro.html">热卖促销活动标题热卖促销活动标题热卖促销活动标题……</a></li>
+      <li><a href="pro.html">热卖促销活动标题热卖促销活动标题热卖促销活动标题……</a></li>
+    </UL>
+  </DIV>
+  <script type="text/javascript" src="__PUBLIC__/youji/js/gundong.js"></script>
+</DIV>
+ -->
+<?php foreach ($list as $key => $value) {   ?>
+<div class="chanpin">
+<div class="cpbt"><?php  echo class_name($key);  ?>推荐</div>
+<div class="cplist">
+<ul>
+  <?php foreach ($value as $key2 => $value2) {   ?>
+  <li><a href="__CONTROLLER__/pro?goodsid=<?php echo $value2['id'];   ?>"><img src="<?php echo $value2['picture'];   ?>"></a><h3><a href="pro.html"><?php echo $value2['name'];   ?></a></h3>
+  <p><span class="price">￥<?php echo $value2['price'];   ?>元</span><a href="pro.html" class="jiabuycar"></a></p></li>
+  <?php  }  ?>
+</ul>
+</div>
+<a href="__CONTROLLER__/lst?id=<?php  echo $key;  ?>" class="more">查看更多>></a>
+</div>
+<div class="xian"></div>
+<?php  }  ?>
+
+
+<!-- <div class="banquan">版权所有 不得抄袭 星优集    技术支持：【<a href="http://hb0311.com" target="_blank">蓝点网络</a>】</div> -->
+
+  <!--主体 结束-->
+  <!--底部导航 开始-->
+<include file="footer" />
+  <!--底部导航 结束-->
+</div>
+<script type="text/javascript">
+/*$(document).ready(function(){
+  refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};*/
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+[ 2018-02-01T15:04:29+08:00 ] 127.0.0.1 /index.php/Admin/article/Array(%20%20%20%20[name]%20=%3E%20600x450.jpg%20%20%20%20[type]%20=%3E%20image/jpeg%20%20%20%20[tmp_name]%20=%3E%20E:/wamp/tmp/php2C85.tmp%20%20%20%20[error]%20=%3E%200%20%20%20%20[size]%20=%3E%2086525)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 40 E:\wamp\www\lanjing\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+ERR: 无法加载控制器:Article
+

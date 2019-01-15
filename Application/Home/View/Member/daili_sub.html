@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+  platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+  platform = 'ios';
+}
+var winWidth = window.screen.width,
+  targetDensitydpi = winWidth / 640;
+switch(platform){
+  case 'android':
+    var devicePixelRatio = window.devicePixelRatio;
+    targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+    viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+    break;
+  case 'ios':
+    viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+    break;
+}
+if(viewPorts){
+  document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>代理申请-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+  <div class="top">
+    <a class="back" href="javascript:history.go(-1)"></a>
+    <h2 style="text-align:center; float:none;">申请成为代理</h2>
+  </div>
+  <!--顶部 结束-->
+  <!--主体 开始-->
+  <div class="huiyuan">
+ <form id="form">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="txtable">
+  <tr>
+    <td width="20%" style="text-align: center;" colspan="3">申请条件</td>
+  </tr>
+  <tr>
+    <td colspan="3">
+     首先您要先成为一名vip会员，作为vip会员，在平台购买一份价值2980的产品，然后交19800元的代理产品押金（线下缴纳），便可以成为一名代理商！
+    </td>
+  </tr>
+    <tr>
+    <td width="20%">姓名</td>
+    <td><input class="skzh" type="text" name="bank_man" placeholder="姓名" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%">电话</td>
+    <td><input class="skzh" type="text" name="phone" placeholder="联系电话" />
+    </td>
+  </tr>
+</table>
+</form>
+</div>
+<p class="zhu">注：请认真阅读申请条件</p>
+<a href="javascript:viod(0);" class="xiayibu" id="submit">确认申请</a>
+</div>
+<script type="text/javascript">
+  $('#submit').click(function(){
+
+    var url = '__CONTROLLER__/add_daili_sub';
+    var jump_url = '__CONTROLLER__/index';
+    var data=$('#form').serializeArray();  
+    var postData={};
+    $(data).each(function(){
+        postData[this.name]=this.value;
+    });
+      if(!postData['bank_man']){
+       dialog.error('姓名不能为空');return false;
+     }
+      if(!postData['phone']){
+       dialog.error('电话号码不能为空');return false;
+     }
+      $.post(url,postData,function(res){
+        if (res.status == 1) {
+            dialog.success(res.message,jump_url);
+              //window.location.href=jump_url;
+            } 
+         if(res.status == 0){
+            dialog.error(res.message);
+        }
+
+      },'JSON');
+  });
+
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

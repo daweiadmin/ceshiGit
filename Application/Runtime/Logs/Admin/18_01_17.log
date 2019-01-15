@@ -1,0 +1,163 @@
+[ 2018-01-17T17:50:37+08:00 ] 127.0.0.1 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007112s ]
+
+[ 2018-01-17T17:50:38+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2018-01-17T17:50:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.9391483141925248
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2018-01-17T17:50:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.8878278778301798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002197s ]
+
+[ 2018-01-17T17:51:01+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `fang_user` [ RunTime:0.2032s ]
+SQL: SELECT * FROM `fang_user` WHERE ( name = "zhangdawei1" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\fang\Application\Admin\Controller\LoginController.class.php on line 27 and defined E:\wamp\www\fang\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\fang\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-17T17:51:08+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+SQL: SHOW COLUMNS FROM `fang_user` [ RunTime:0.0289s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\fang\Application\Admin\Controller\LoginController.class.php on line 15 and defined E:\wamp\www\fang\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\fang\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-17T17:51:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.7743857122547126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2018-01-17T17:51:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003935s ]
+SQL: SHOW COLUMNS FROM `fang_user` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `fang_user` WHERE ( name = "zhangdawei1" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\fang\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\fang\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\fang\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-17T17:51:17+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\fang\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1263 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\fang\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1312 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\fang\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1341 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2018-01-17T17:51:21+08:00 ] 127.0.0.1 /index.php/Admin/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `fang_sellvalue` [ RunTime:0.2664s ]
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fang_sellvalue` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 17 行.
+SQL: SELECT * FROM `fang_sellvalue` LIMIT 0,5   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: parameter E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SHOW COLUMNS FROM `fang_area` [ RunTime:0.0375s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002005s ]
+

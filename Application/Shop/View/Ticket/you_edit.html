@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<include file="index/head" />
+  <!-- END HEADER -->
+
+  <!-- BEGIN CONTAINER -->
+
+  <div class="page-container row-fluid">
+
+    <!-- BEGIN SIDEBAR -->
+
+     <include file="index/left" />
+
+    <!-- END SIDEBAR -->
+
+    <!-- BEGIN PAGE -->  
+
+    <div class="page-content">
+
+      <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+      <div id="portlet-config" class="modal hide">
+
+        <div class="modal-header">
+
+          <button data-dismiss="modal" class="close" type="button"></button>
+
+          <h3>portlet Settings</h3>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>Here will be a configuration form</p>
+
+        </div>
+
+      </div>
+
+      <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+      <!-- BEGIN PAGE CONTAINER-->
+
+      <div class="container-fluid">
+
+        <!-- BEGIN PAGE HEADER-->   
+
+        <div class="row-fluid">
+
+          <div class="span12">
+
+            <!-- BEGIN STYLE CUSTOMIZER -->
+
+            
+                     
+            <!-- END BEGIN STYLE CUSTOMIZER -->   
+
+            <h3 class="page-title">
+
+              编辑优惠券
+
+            </h3>
+
+            <ul class="breadcrumb">
+
+              <li>
+
+                <i class="icon-home"></i>
+
+                <a href="index.html">奖券管理</a> 
+
+                <span class="icon-angle-right"></span>
+
+              </li>
+
+            <!--   <li>
+            
+              <a href="#">代理管理</a>
+            
+              <span class="icon-angle-right"></span>
+            
+            </li> -->
+
+              <li><a href="#">修改优惠券</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <!-- END PAGE HEADER-->
+
+        <!-- BEGIN PAGE CONTENT-->
+
+        <div class="row-fluid">
+
+          <div class="span12">
+
+            <!-- BEGIN SAMPLE FORM PORTLET-->   
+
+            <div class="portlet box blue">
+
+              <div class="portlet-title">
+
+                <div class="caption"><i class="icon-reorder"></i>修改优惠券</div>
+
+                <div class="tools">
+
+                  <a href="javascript:;" class="collapse"></a>
+
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+
+                  <a href="javascript:;" class="reload"></a>
+
+                  <a href="javascript:;" class="remove"></a>
+
+                </div>
+
+              </div>
+
+              <div class="portlet-body form">
+
+                <!-- BEGIN FORM-->
+
+                <form action="#" class="form-horizontal" id="form">
+                  
+                 
+                  <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>优惠券名称：</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="name" id="name" value="{$data.name}" placeholder="10个汉字以内" />
+                     
+
+                    </div>
+
+                  </div>
+                  <div class="control-group" style="">
+
+                    <label class="control-label">优惠类型</label>
+
+                    <div class="controls">
+
+                      <select class="span6 m-wrap" data-placeholder="Choose a Category" tabindex="1" style="width:110px;" name="you_type" id="you_type">
+                       <option value="">--选择类型--</option>
+                       <option value="1" <if condition="$data[you_type] eq 1">selected="selected"</if>>--折扣--</option>
+                       <option value="2" <if condition="$data[you_type] eq 2">selected="selected"</if>>--满减--</option>
+                       <option value="3" <if condition="$data[you_type] eq 3">selected="selected"</if>>--满赠--</option>
+                       
+                      </select>
+
+                    </div>
+
+                  </div>
+                   <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>优惠券说明：</label>
+
+                    <div class="controls">
+
+                     <textarea name="content" id="" cols="50" rows="5" style="width: 500px;">{$data.content}</textarea>
+                     
+
+                    </div>
+
+                  </div>
+                  <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>兑换有效期：</label>
+
+                    <div class="controls">
+
+                      <input type="date" class="span6 m-wrap" style="width:150px;" name="start_date" value="{$data.start_time}" /> 至 <input type="date" class="span6 m-wrap" style="width:150px;" name="end_date" value="{$data.end_time}"/>
+                     
+                    </div>
+
+                  </div>
+                  <div class="controls">
+                       <volist name="store_list" id="vo">
+                          <label class="radio">
+                           <input type="checkbox" name="store[]" class="store" value="{$vo.id}" <if condition="$vo[check] eq 1">checked</if>  />
+                          {$vo.name}
+
+                          </label>
+                        </volist>
+                    </div>
+                  </div>
+                   <br>
+                 <div class="control-group" style="margin-top:20px;">
+
+                    <label class="control-label">展示图片：</label>
+
+                    <div class="controls" style="position: relative;display: inline-block;overflow: hidden;margin-left:19px;margin-top: -5px;height: 34px;">
+                    <span style="background: green;color: #fff;padding: 15px 10px;line-height: 35px;cursor: pointer; font-size: 14px;">上传文件</span>
+                      <input type="file" class="imgfiles" style="position:absolute;right: 0px;top: 0px;opacity: 0;-ms-filter: 'alpha(opacity=0)';
+            font-size: 200px;cursor: pointer;">
+                      <input type="hidden" class="imgurl" name="ticket_picture" value="{$data.ticket_picture}">
+                      
+                        <span style="color: blue; margin-left: 20px;">*图片大小最大6M</span>
+                    </div>
+                     <div class="hidd" style=" margin-left: 180px; " >
+                        <img src="{$data.ticket_picture}" alt="" class="imgpic" width="80" height="40">
+                     </div>
+                  </div>
+                  <div class="control-group" style="margin-top:20px;">
+
+                    <label class="control-label">链接图片：</label>
+
+                    <div class="controls" style="position: relative;display: inline-block;overflow: hidden;margin-left:19px;margin-top: -5px;height: 34px;">
+                    <span style="background: blue;color: #fff;padding: 15px 10px;line-height: 35px;cursor: pointer; font-size: 14px;">上传文件</span>
+                      <input type="file" class="imgfiles" style="position:absolute;right: 0px;top: 0px;opacity: 0;-ms-filter: 'alpha(opacity=0)';
+            font-size: 200px;cursor: pointer;">
+                      <input type="hidden" class="imgurl" name="link_picture" value="{$data.link_picture}">
+                      
+                        <span style="color: blue; margin-left: 20px;">*图片大小最大6M</span>
+                    </div>
+                     <div class="hidd" style=" margin-left: 180px;">
+                        <img src="{$data.link_picture}" alt="" class="imgpic" width="80" height="40">
+                     </div>
+                  </div>
+                 <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>链接地址：</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="link" id="link" value="{$data.link}"/>
+                     
+
+                    </div>
+
+                  </div>
+
+                  <div class="form-actions">
+                    <input type="hidden" value="{$ticket_id}" name="ticket_id">
+                    <button type="button" class="btn blue"  onclick="submit_form()">保存提交</button>
+                     
+                    <a href="__CONTROLLER__/index"><button type="button" class="btn">返回</button></a>
+
+                  </div>
+                </div>
+                </form>
+
+                <!-- END FORM-->
+
+              </div>
+
+            </div>
+
+            <!-- END EXTRAS PORTLET-->
+
+          </div>
+
+        </div>
+
+        <!-- END PAGE CONTENT-->         
+
+      </div>
+
+      <!-- END PAGE CONTAINER-->
+
+    </div>
+
+    <!-- END PAGE -->  
+
+  </div>
+  <!-- END CONTAINER -->
+   <script>
+
+   jQuery(document).ready(function() {       
+
+       // initiate layout and plugins
+
+       App.init();
+
+       FormComponents.init();
+
+    });
+    function submit_form(){
+           
+          var data=$('#form').serializeArray();  
+          var postData={};
+          $(data).each(function(){
+              postData[this.name]=this.value;
+          });
+          if(!postData['name']){
+            dialog.error('请添加奖券名称');return false;
+          }
+          if(!postData['content']){
+           dialog.error('请添加奖券内容');return false;
+          }
+    
+          if(!postData['end_date']){
+           dialog.error('请选择日期');return false;
+          }
+         // alert(postData['ticket_id']);return false;
+         /* if(!postData['link']){
+           dialog.error('请输入链接');return false;
+          }*/
+           
+          var url = '__CONTROLLER__/you_save';
+          var jump_url = '__CONTROLLER__/you_index';
+          
+          $.post(url,postData,function(res){
+              if (res.status == 1) {
+                  dialog.success(res.message,jump_url);
+                    //window.location.href=jump_url;
+                  } 
+               if(res.status == 0){
+                  dialog.error(res.message);
+                 }
+
+           },'JSON');
+    }
+
+
+   $('.imgfiles').change(function(){
+                var a=$('.imgfiles').index(this);
+                var imgUrlId='.imgfiles:eq('+a+')';
+                var nameId='.imgurl:eq('+a+')';
+                var imgpic='.imgpic:eq('+a+')';
+                var hid='.hidd:eq('+a+')';
+                uploadimg(imgUrlId,nameId,imgpic,hid);
+            })
+//厂家图片上传
+            function uploadimg(imgUrlId,nameid,imgpic,hid){  
+                 var formData = new FormData();  //实例化上传方法
+                 formData.append('file', $(imgUrlId)[0].files[0]); //file相当于 name值
+
+                 var size = $(imgUrlId)[0].files[0].size;
+                 var Max_Size=1024*1024;
+                 if (size>Max_Size){dialog.error('图片大小不能大于一兆');return false; };
+
+                $.ajax({
+                    url: "__MODULE__/activity/upload",
+                    type: 'POST',
+                    cache: false,
+                    data: formData,
+                    dataType: 'text',
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                      $(nameid).val(data);
+                      $(imgpic).attr("src",data);
+                      $(hid).css("display",'block');
+                    }
+                })
+              }; 
+    
+  </script>
+
+
+
+
+
+
+  <!-- BEGIN FOOTER -->
+
+<include file="index/footer" />
+
+  <!-- END FOOTER -->
+
+  <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+
+  <!-- BEGIN CORE PLUGINS -->
+  <script src="__PUBLIC__/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+  <!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+
+  <script src="__PUBLIC__/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+
+  <script src="__PUBLIC__/media/js/bootstrap.min.js" type="text/javascript"></script>
+
+  
+
+  <script src="__PUBLIC__/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery.blockui.min.js" type="text/javascript"></script>  
+
+  <script src="__PUBLIC__/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+
+  <!-- END CORE PLUGINS -->
+
+  <!-- BEGIN PAGE LEVEL PLUGINS -->
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/ckeditor.js"></script>  
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-fileupload.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/chosen.jquery.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/select2.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/wysihtml5-0.3.0.js"></script> 
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-wysihtml5.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.tagsinput.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.toggle.buttons.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-datepicker.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-datetimepicker.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/clockface.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/date.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/daterangepicker.js"></script> 
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-colorpicker.js"></script>  
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-timepicker.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.inputmask.bundle.min.js"></script>   
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.input-ip-address-control-1.0.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.multi-select.js"></script>   
+
+  <script src="__PUBLIC__/media/js/bootstrap-modal.js" type="text/javascript" ></script>
+
+  <script src="__PUBLIC__/media/js/bootstrap-modalmanager.js" type="text/javascript" ></script> 
+
+  <!-- END PAGE LEVEL PLUGINS -->
+
+  <!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+  <script src="__PUBLIC__/media/js/app.js"></script>
+
+  <script src="__PUBLIC__/media/js/form-components.js"></script>     
+
+  <!-- END PAGE LEVEL SCRIPTS -->
+
+ 
+
+  <!-- END JAVASCRIPTS -->   
+
+</body>
+
+<!-- END BODY -->
+
+</html>

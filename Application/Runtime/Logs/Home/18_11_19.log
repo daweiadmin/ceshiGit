@@ -1,0 +1,23 @@
+[ 2018-11-19T09:15:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.098577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039366s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.030319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.069955s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.2379s ]
+SQL: SELECT * FROM `red_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.221076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.104944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.105081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043977s ]
+

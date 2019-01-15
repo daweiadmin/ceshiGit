@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+	platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+	platform = 'ios';
+}
+var winWidth = window.screen.width,
+	targetDensitydpi = winWidth / 640;
+switch(platform){
+	case 'android':
+		var devicePixelRatio = window.devicePixelRatio;
+		targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+		viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+		break;
+	case 'ios':
+		viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+		break;
+}
+if(viewPorts){
+	document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<style type="text/css">
+	 .list-page{padding:20px 0;text-align:right;}
+    .list-page a{margin:0 2px;padding:5px 10px;border:1px solid #ccc;background:#f3f3f3;}
+    .list-page a:hover{background:#e4e4e4;border:1px solid #908f8f;}
+    .list-page .current{margin:0 2px;padding:5px 10px;background:#2c2e2f;border:1px solid #000000;color:#fff;}
+
+	
+</style>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>我的推广好友-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+	<div class="top">
+		<a class="back" href="javascript:history.go(-1)"></a>
+		<h2 style="text-align:center; float:none;">我的推广好友</h2>
+	</div>
+	<!--顶部 结束-->
+	<!--主体 开始-->
+	<div class="huiyuan">
+<ul>
+	<?php if(!$list){?> <li style="text-align: center;">您还未推荐好友哦</li> <?php }  ?>
+   <volist name="list" id="vo">
+    <li><h2>{$vo.id|data_name}【{$vo.username}】[{$vo.id|User_level}]<span>手机号:{$vo.username}</span></h2>
+    	<p>加入时间：{$vo.time|date="y-m-d H:i",###}<br>
+    	推荐好友：<span>{$vo.id|vip_sum}</span>
+    </p></li>
+  </volist>
+</ul>
+<div class="list-page" style="float:right;">
+                  <ul><li>{$page}</li></ul>
+                </div>
+</div>
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+[ 2018-10-23T09:33:08+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-10-23 09:33:08 Use 0.539491 s
+
+[ 2018-10-23T09:33:08+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012502s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1231s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.1053s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.600949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.613708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.243291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.243439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004632s ]
+
+[ 2018-10-23T09:33:10+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000765s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2018-10-23T09:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011930s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0894s ]
+SQL: SELECT * FROM `red_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.1355s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 16 行.
+
+[ 2018-10-23T09:33:16+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009554s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0814s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1540224000 AND 1540310399 LIMIT 1   [ RunTime:0.0605s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 739 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 781 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 843 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2018-10-23T09:40:35+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+ERR: Cron:cron Runat 2018-10-23 09:40:35 Use 0.182257 s
+
+[ 2018-10-23T09:40:35+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0856s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.271258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.273191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 587 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 610 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 704 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 790 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 790 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.266173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+

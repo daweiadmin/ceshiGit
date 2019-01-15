@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/red_bag/guanzhu/css/style.css"/>
+		<title>关注公众号</title>
+	</head>
+	<style type="text/css">
+		.wx_code{
+			width:100%;
+		}
+		.wx_code img{
+			display: block;
+			margin:0 auto;
+			width:180px;
+			height:180px;
+		}
+	</style>
+	<body>
+		<div class="nav">
+			 <if condition="$shopdata[logo] neq ''">
+           <img src="{$shopdata.logo}" alt="" style="width: 50px; height: 50px;" />
+           <else/>
+           <img src="__PUBLIC__/red_bag/share/image/head.png" alt="" style="width: 50px; height: 50px;"/>
+         </if>
+			<p>{$shopdata.name}</p>
+		</div>
+		<input type="hidden" id="code_id" value="{$code_id}">
+		<div class="chanpin">
+			<p>长按二维码关注公众号领奖</p>
+			<div class="wx_code">
+				<img src="__CONTROLLER__/guanzhu_code_url?id={$code_id}&shop_id={$shopdata.id}" >
+			</div>
+			<!-- <div class="chanpin-infor">
+				<img src="image/chanpin.png" alt="" />
+				<span>产品名字产品名字产品名字产品名字产品名字产品名字产品名字产品名字产品名字产品名字</span>
+			</div> -->
+		</div>
+		<div class="mess">
+			<div class="xian"></div>
+			<h3>任务说明</h3>
+			<div class="xian"></div>
+		</div>
+		<div class="shuoming">
+		    <p>1、10分钟内长按二维码关注公众号，即可获得奖品<br>2、进入领奖成功页面<br>3、长按识别二维码进入个人中心，可查看记录和使用卡券</p>
+		</div>
+		<!-- <div class="zhezhao">
+			<img src="image/share.png" alt="" />
+			<p>1、点击右上方的按钮<br>2、选择分享到朋友圈即可领取</p>
+		</div> -->
+	</body>
+<script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<script>
+ function code_url(){
+  var code = $('#code_id').val();
+  var url = '__CONTROLLER__/yulan_code?code_id='+id;
+  $('#yulan_img').attr('src',url);
+ }
+ $('.yulan').click(function(){
+       // alert(123);
+        var a = $('.yulan').index(this);
+        var id = $('.yulan').eq(a).attr('attr-id');
+        var url = '__CONTROLLER__/yulan_code?code_id='+id;
+        $('#yulan_img').attr('src',url);
+        $('#yulan_img').css('display','block');
+
+
+      });
+
+</script>
+</html>

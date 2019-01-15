@@ -1,0 +1,603 @@
+[ 2018-06-04T14:24:26+08:00 ] 127.0.0.1 /index.php/home/login/index
+ERR: Cron:cron Runat 2018-06-04 14:24:26 Use 0.040002 s
+
+[ 2018-06-04T14:24:26+08:00 ] 127.0.0.1 /index.php/home/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.046002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T14:24:36+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+ERR: Cron:cron Runat 2018-06-04 14:24:36 Use 0.027001 s
+
+[ 2018-06-04T14:24:36+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.032002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE ( username = "13930183794" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Home\Controller\LoginController.class.php on line 26 and defined D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 26 行.
+
+[ 2018-06-04T14:24:36+08:00 ] 127.0.0.1 /index.php/Home/member2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T14:24:36+08:00 ] 127.0.0.1 /index.php/Home/member2/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-04T14:24:40+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T14:24:45+08:00 ] 127.0.0.1 /index.php/Home/Member2/member_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: alipy D:\wamp\www\fenxiao\Application\Runtime\Cache\Home\9b78d74065612a121aab6a29bbec7e2d.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T14:26:16+08:00 ] 127.0.0.1 /index.php/Home/Member2/member_data
+ERR: Cron:cron Runat 2018-06-04 14:26:16 Use 0.025002 s
+
+[ 2018-06-04T14:26:16+08:00 ] 127.0.0.1 /index.php/Home/Member2/member_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: alipy D:\wamp\www\fenxiao\Application\Runtime\Cache\Home\9b78d74065612a121aab6a29bbec7e2d.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-04T14:26:31+08:00 ] 127.0.0.1 /index.php/Home/Member2/member_data
+ERR: Cron:cron Runat 2018-06-04 14:26:31 Use 0.029002 s
+
+[ 2018-06-04T14:26:31+08:00 ] 127.0.0.1 /index.php/Home/Member2/member_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.035002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036002s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `fen_member_data` SET `name`='张大伟',`sex`='男',`phone`='13930183794',`weixin`='123',`bankcard`='qwe',`bank_man`='张大伟',`member_id`='1',`time`='1528093591',`status`='1' WHERE `id` = 3 [ RunTime:0.0170s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php on line 277 and defined D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 26 行.
+
+[ 2018-06-04T14:26:32+08:00 ] 127.0.0.1 /index.php/Home/Member2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-04T14:26:32+08:00 ] 127.0.0.1 /index.php/Home/Member2/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T14:49:11+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+ERR: Cron:cron Runat 2018-06-04 14:49:11 Use 0.023001 s
+
+[ 2018-06-04T14:49:11+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.036002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-04T14:49:15+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 370 行.
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php on line 375 and defined D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 26 行.
+
+[ 2018-06-04T14:49:46+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 14:49:46 Use 0.048003 s
+
+[ 2018-06-04T14:49:46+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.054003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056003s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 370 行.
+
+[ 2018-06-04T14:52:41+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+ERR: Cron:cron Runat 2018-06-04 14:52:41 Use 0.024002 s
+
+[ 2018-06-04T14:52:41+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.030002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-04T14:52:46+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 371 行.
+
+[ 2018-06-04T14:53:16+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 14:53:16 Use 0.098005 s
+
+[ 2018-06-04T14:53:16+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.103006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105006s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 346 行.
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 372 行.
+
+[ 2018-06-04T14:53:34+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 14:53:34 Use 0.033002 s
+
+[ 2018-06-04T14:53:34+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.044002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046002s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 372 行.
+
+[ 2018-06-04T14:54:27+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 14:54:27 Use 0.044002 s
+
+[ 2018-06-04T14:54:27+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.050003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051003s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 372 行.
+
+[ 2018-06-04T15:18:53+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+ERR: Cron:cron Runat 2018-06-04 15:18:53 Use 0.145008 s
+
+[ 2018-06-04T15:18:53+08:00 ] 127.0.0.1 /index.php/Home/Member2/tixian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.153009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.157009s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T15:18:58+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 374 行.
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php on line 380 and defined D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 26 行.
+
+[ 2018-06-04T15:19:21+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 15:19:21 Use 0.194011 s
+
+[ 2018-06-04T15:19:21+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.200012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.202012s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 374 行.
+
+[ 2018-06-04T15:19:33+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 15:19:33 Use 0.022001 s
+
+[ 2018-06-04T15:19:33+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.030002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: member D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php 第 374 行.
+
+[ 2018-06-04T15:20:13+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+ERR: Cron:cron Runat 2018-06-04 15:20:13 Use 0.029002 s
+
+[ 2018-06-04T15:20:13+08:00 ] 127.0.0.1 /index.php/Home/Member2/ti_money
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.034002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036002s ]
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_finances` WHERE `userid` = '1' AND `roletype` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `fen_finances` (`status`,`userid`,`roletype`,`moneytype`,`money`,`time`) VALUES ('0','1','1','1','10','1528096813') [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Home\Controller\Member2Controller.class.php on line 399 and defined D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 22 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Home\Common\function.php 第 26 行.
+
+[ 2018-06-04T15:20:14+08:00 ] 127.0.0.1 /index.php/Home/Member2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T15:20:14+08:00 ] 127.0.0.1 /index.php/Home/Member2/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent_money_control` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent_money_control` WHERE `mem_ref_id` = 1 AND `status` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

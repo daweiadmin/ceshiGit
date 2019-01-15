@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>
+/*不同分辨率手机加载*/
+var userScalable = "no";
+(function() {
+	if (window.devicePixelRatio === 1.5) {
+		userScalable = "yes";
+	}
+	var text = "<meta content='target-densitydpi=device-dpi, width=640, user-scalable=" + userScalable + "' name='viewport'>";
+	document.write(text);
+})();
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>康丽财富系统</title>
+<link rel="shortcut icon" href="__PUBLIC__/wap/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/wap/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/wap/css/common.css" />
+<script type="text/javascript" src="__PUBLIC__/wap/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript"  src="__PUBLIC__/wap/js/TouchSlide.1.1.js"></script>
+<script>
+	$(window).resize(function(){refresh();});
+	function refresh(){
+		var wh = $(window).height();
+		$(".wrap").css("min-height",(wh-116)+"px");
+		/*针对安卓QQ浏览器文字字号的调整*/
+		var ecw = navigator.userAgent;
+		if( ecw.indexOf("Android") > 0 &&  ecw.indexOf("MQQBrowser") > 0){
+			if( window.orientation == 180 || window.orientation == 0){ 
+				//竖屏状态
+				if( ecw.indexOf("PLK-AL10") <0 )//华为荣耀7
+					$(".cont").css("font-size","13px");
+					$(".cont h3").css("font-size","15px");
+					$(".main .attr h3.title").css("font-size","20px");
+					$(".main .attr .article").css("font-size","13px");
+			}else if(window.orientation==90||window.orientation==-90){ 
+				//横屏状态
+				$(".cont").css("font-size","");
+				$(".cont h3").css("font-size","");
+				$(".main .attr h3.title").css("font-size","");
+				$(".main .attr .article").css("font-size","");
+			}
+		}else{
+			//非安卓QQ浏览器
+			$(".cont").css("font-size","");
+			$(".cont h3").css("font-size","");
+			$(".main .attr h3.title").css("font-size","");
+			$(".main .attr .article").css("font-size","");
+		}
+	};
+</script>
+<script>
+function turnoff(obj){
+document.getElementById(obj).style.display="none";
+}
+</script>
+<script src="__PUBLIC__/wap/js/tendina.js"></script>
+<script>
+      $('.dropdown').tendina({
+        animate: true,
+        speed: 500,
+        openCallback: function($clickedEl) {
+          console.log($clickedEl);
+        },
+        closeCallback: function($clickedEl) {
+          console.log($clickedEl);
+        }
+      })
+</script>
+
+<body>
+
+<div class="wrap tuiguang">
+<img src="{$erweima}">
+</div>
+
+
+</body>
+</html>

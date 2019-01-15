@@ -1,0 +1,352 @@
+[ 2018-09-22T15:23:27+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-09-22 15:23:27 Use 0.130821 s
+
+[ 2018-09-22T15:23:27+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0669s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.197798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.199906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2018-09-22T15:23:28+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006662s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.046663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.064315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.064558s ]
+
+[ 2018-09-22T15:23:33+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004176s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012111s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0833s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 27 and defined E:\wamp\www\anti\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-09-22T15:24:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.2399836232427497
+ERR: Cron:cron Runat 2018-09-22 15:24:05 Use 0.084524 s
+
+[ 2018-09-22T15:24:05+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.2399836232427497
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002162s ]
+
+[ 2018-09-22T15:24:06+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.6776588618570569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2018-09-22T15:24:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010605s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 27 and defined E:\wamp\www\anti\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-09-22T15:24:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.18719103948918292
+ERR: Cron:cron Runat 2018-09-22 15:24:19 Use 0.080728 s
+
+[ 2018-09-22T15:24:19+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.18719103948918292
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2018-09-22T15:24:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017268s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 27 and defined E:\wamp\www\anti\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-09-22T15:26:16+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-09-22 15:26:16 Use 0.134711 s
+
+[ 2018-09-22T15:26:16+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004209s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.1032s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.175888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.180407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2018-09-22T15:26:16+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.057905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2018-09-22T15:26:24+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010795s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 27 and defined E:\wamp\www\anti\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-09-22T15:27:06+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-09-22 15:27:06 Use 0.075098 s
+
+[ 2018-09-22T15:27:06+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0548s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.093428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004298s ]
+
+[ 2018-09-22T15:27:06+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003449s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.034899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010647s ]
+
+[ 2018-09-22T15:27:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010631s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\anti\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-09-22T15:27:11+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004237s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015005s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1537545600 AND 1537631999 LIMIT 1   [ RunTime:0.0154s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1535731200 AND 1538323199 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2018-09-22T15:27:33+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+ERR: Cron:cron Runat 2018-09-22 15:27:33 Use 0.079309 s
+
+[ 2018-09-22T15:27:33+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0016s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.098688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.100278s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 654 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 704 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2018-09-22T16:30:28+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+ERR: Cron:cron Runat 2018-09-22 16:30:28 Use 0.136340 s
+
+[ 2018-09-22T16:30:28+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002688s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0548s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0113s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.182570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.185551s ]
+SQL: SHOW COLUMNS FROM `fen_menu` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `fen_menu`  [ RunTime:0.0004s ]
+ERR: Think\Model:classtree方法不存在！
+
+[ 2018-09-22T16:30:42+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+ERR: Cron:cron Runat 2018-09-22 16:30:42 Use 0.084350 s
+
+[ 2018-09-22T16:30:43+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.126578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.128501s ]
+SQL: SHOW COLUMNS FROM `fen_menu` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `fen_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 654 行.
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 682 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 704 行.
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009742s ]
+

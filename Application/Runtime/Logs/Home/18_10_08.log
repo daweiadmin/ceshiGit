@@ -1,0 +1,108 @@
+[ 2018-10-08T11:43:42+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-10-08 11:43:42 Use 0.213818 s
+
+[ 2018-10-08T11:43:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022162s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0741s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.307627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.330047s ]
+NOTIC: [8] Undefined index: ref_id E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: code E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0769s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.1008s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('6','7') AND `tuijian` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('8') AND `tuijian` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('9') AND `tuijian` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('') AND `tuijian` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('') AND `tuijian` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 192 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `fen_guangbo`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0824s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: put_r_id E:\wamp\www\anti\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022645s ]
+
+[ 2018-10-08T11:44:05+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-10-08 11:44:05 Use 0.077907 s
+
+[ 2018-10-08T11:44:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.134695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.136695s ]
+NOTIC: [8] Undefined index: ref_id E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: code E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0462s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('6','7') AND `tuijian` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('8') AND `tuijian` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('9') AND `tuijian` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 4  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('') AND `tuijian` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`picture` FROM `fen_product` WHERE `class_id` IN ('') AND `tuijian` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 192 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `fen_guangbo`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: put_r_id E:\wamp\www\anti\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 72 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008389s ]
+

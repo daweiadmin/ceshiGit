@@ -1,0 +1,2242 @@
+[ 2018-06-02T10:01:33+08:00 ] 127.0.0.1 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:01:33+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-02T10:01:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\LoginController.class.php on line 30 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T10:01:41+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 823 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 865 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-02T10:02:14+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 823 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 865 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-02T10:02:35+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 823 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 865 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T10:02:46+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 823 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 865 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:03:18+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fen_indent`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 823 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 865 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:15:07+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:16:33+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:16:45+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-02T10:17:18+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:18:47+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T10:19:35+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:19:37+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T10:20:15+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-02T10:21:12+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:21:25+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-02T10:21:54+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:22:08+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:22:54+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:23:12+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:23:32+08:00 ] 127.0.0.1 /index.php/Admin/index/assets/css/themes/light.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:assets
+
+[ 2018-06-02T10:23:35+08:00 ] 127.0.0.1 /index.php/Admin/index/assets/css/themes/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:assets
+
+[ 2018-06-02T10:23:37+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-06-02T10:24:25+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:24:27+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:25:09+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:26:41+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 891 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 953 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 959 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:28:01+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:28:34+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:28:59+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T10:30:20+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-02T10:31:32+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T10:31:53+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T10:41:53+08:00 ] 127.0.0.1 /index.php/Admin/tixian/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: offset D:\wamp\www\fenxiao\Application\Admin\Controller\TixianController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: pageSize D:\wamp\www\fenxiao\Application\Admin\Controller\TixianController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM fen_finances fin,fen_member_data data WHERE ( fin.userid=data.member_id and fin.roletype=1 and fin.moneytype=1 and fin.status=0 ) ORDER BY fin.id desc LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\TixianController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `fen_finances` [ RunTime:0.0070s ]
+SQL: SELECT fin.money,fin.id,fin.userid,fin.status,fin.time,data.name,data.weixin,data.phone,data.alipay,data.bankcard,data.bank_address,data.bank_man FROM fen_finances fin,fen_member_data data WHERE ( fin.userid=data.member_id and fin.roletype=1 and fin.moneytype=1 and fin.status=0 ) ORDER BY fin.id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-02T11:15:15+08:00 ] 127.0.0.1 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-02T11:15:16+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T11:15:22+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\LoginController.class.php on line 30 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T11:15:22+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527868800 AND 1527955199 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-02T11:15:27+08:00 ] 127.0.0.1 /index.php/Admin/class/pinpai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_pinpai` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ClassController.class.php 第 104 行.
+SQL: SELECT * FROM `fen_pinpai` LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 654 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 682 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 747 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2018-06-02T11:15:31+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0080s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 823 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T11:19:19+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0090s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 825 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T11:20:33+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 825 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T11:21:20+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0080s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 824 行.
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 824 行.
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 824 行.
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 824 行.
+NOTIC: [8] Undefined variable: tree D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 824 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-06-02T11:23:12+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0080s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.104006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.104006s ]
+
+[ 2018-06-02T11:23:49+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0080s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T11:24:11+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0120s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-02T11:25:18+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0100s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0090s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-02T11:25:35+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-06-02T11:57:23+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0110s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0090s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029001s ]
+
+[ 2018-06-02T12:01:11+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-02T13:39:47+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0050s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T13:40:11+08:00 ] 127.0.0.1 /index.php/Admin/Product/guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0060s ]
+SQL: INSERT INTO `fen_guangbo` (`content`,`goods_id`) VALUES ('广告稿广告稿广告稿广告稿广告稿广告稿广告稿广告稿广告稿广告稿','2') [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: UPDATE `fen_product` SET `guangbo`='1' WHERE `id` = 2 [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 143 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T13:40:18+08:00 ] 127.0.0.1 /index.php/Admin/Product/guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0080s ]
+SQL: INSERT INTO `fen_guangbo` (`content`,`goods_id`) VALUES ('广告稿广告稿广告稿广告稿广告稿广告稿广告稿广告稿广告稿广告稿','2') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0080s ]
+SQL: UPDATE `fen_product` SET `guangbo`='1' WHERE `id` = 2 [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T13:45:26+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-02T13:45:34+08:00 ] 127.0.0.1 /index.php/Admin/Product/quxiao_guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0060s ]
+SQL: DELETE FROM `fen_guangbo` WHERE `goods_id` = 2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: UPDATE `fen_product` SET `guangbo`='0' WHERE `id` = 2 [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 159 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T13:49:11+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-02T13:49:19+08:00 ] 127.0.0.1 /index.php/Admin/Product/guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0060s ]
+SQL: INSERT INTO `fen_guangbo` (`content`,`goods_id`) VALUES ('阿斯达','2') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: UPDATE `fen_product` SET `guangbo`='1' WHERE `id` = 2 [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 143 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T13:49:20+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-02T13:49:26+08:00 ] 127.0.0.1 /index.php/Admin/Product/quxiao_guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0070s ]
+SQL: DELETE FROM `fen_guangbo` WHERE `goods_id` = 2 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: UPDATE `fen_product` SET `guangbo`='0' WHERE `id` = 2 [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 159 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T13:49:27+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T13:50:17+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0090s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T13:51:10+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0110s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T13:51:23+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0090s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0130s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T13:51:46+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0080s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T14:00:11+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T14:00:27+08:00 ] 127.0.0.1 /index.php/Admin/Product/guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0060s ]
+SQL: INSERT INTO `fen_guangbo` (`content`,`goods_id`) VALUES ('维生素维生素维生素维生素维生素','2') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0080s ]
+SQL: UPDATE `fen_product` SET `guangbo`='1' WHERE `id` = 2 [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 143 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T14:00:28+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T14:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/guangbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0060s ]
+SQL: INSERT INTO `fen_guangbo` (`content`,`goods_id`) VALUES ('辅酶Q10辅酶Q10辅酶Q10辅酶Q10辅酶Q10','3') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: UPDATE `fen_product` SET `guangbo`='1' WHERE `id` = 3 [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 143 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-02T14:00:36+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-02T14:07:04+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0060s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0060s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-02T16:43:32+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+ERR: Cron:cron Runat 2018-06-02 16:43:32 Use 0.023002 s
+
+[ 2018-06-02T16:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_guangbo` [ RunTime:0.0060s ]
+SQL: INSERT INTO `fen_guangbo` (`content`,`goods_id`) VALUES ('1527929012','4') [ RunTime:0.0020s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.029002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031002s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-02T16:50:29+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0080s ]
+ERR: Think\Model:ceshi方法不存在！
+
+[ 2018-06-02T16:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0080s ]
+ERR: Think\Model:ceshi方法不存在！
+
+[ 2018-06-02T16:52:12+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0090s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0080s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,129 @@
+[ 2018-11-06T09:15:12+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-11-06 09:15:12 Use 0.348894 s
+
+[ 2018-11-06T09:15:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+NOTIC: [2] unlink(./Application/Runtime/cron.lock): No such file or directory E:\wamp\www\anti\ThinkPHP\Library\Behavior\CronRunBehavior.class.php 第 63 行.
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.489621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.491799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.223160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022193s ]
+
+[ 2018-11-06T10:03:21+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-06 10:03:21 Use 0.111899 s
+
+[ 2018-11-06T10:03:22+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.156678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.158381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2018-11-06T22:59:38+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2018-11-06 22:59:38 Use 0.139057 s
+
+[ 2018-11-06T22:59:38+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.190139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.192990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2018-11-06T22:59:41+08:00 ] 127.0.0.1 /index.php/Home/Index/ticket?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.036109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038025s ]
+SQL: SHOW COLUMNS FROM `red_member_ticket` [ RunTime:0.1020s ]
+SQL: SELECT * FROM `red_member_ticket` WHERE `ticket_type` = 2 AND `member_id` = null  [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002705s ]
+
+[ 2018-11-06T23:00:17+08:00 ] 127.0.0.1 /index.php/home/index/ticket_info
+ERR: Cron:cron Runat 2018-11-06 23:00:17 Use 0.160772 s
+
+[ 2018-11-06T23:00:17+08:00 ] 127.0.0.1 /index.php/home/index/ticket_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.181420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.183470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+

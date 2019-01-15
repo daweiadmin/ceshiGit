@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+	platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+	platform = 'ios';
+}
+var winWidth = window.screen.width,
+	targetDensitydpi = winWidth / 640;
+switch(platform){
+	case 'android':
+		var devicePixelRatio = window.devicePixelRatio;
+		targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+		viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+		break;
+	case 'ios':
+		viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+		break;
+}
+if(viewPorts){
+	document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>我的奖励-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+	<div class="top">
+		<a class="back" href="javascript:history.go(-1)"></a>
+		<h2 style="text-align:center; float:none;">我的奖励</h2>
+	</div>
+	<!--顶部 结束-->
+	<!--主体 开始-->
+	<div class="szfenlei">
+<ul>
+<li><a href="__CONTROLLER__/ticheng" class="yye">奖励明细</a></li><li><a href="__CONTROLLER__/tixian_finish" class="jl">提现明细</a></li>
+</ul>
+</div>
+<div class="shouzhi">
+<!-- <div class="yuefen">
+<select name="" class="szselect">
+    <option>1月</option><option>2月</option><option>3月</option><option>4月</option><option>5月</option><option>6月</option><option>7月</option><option>8月</option><option>9月</option><option>10月</option><option>11月</option><option>12月</option>
+    </select>
+<div class="szbg"><img src="__PUBLIC__/xls/images/common/rili.png"><p>查看每月收支明细<br>点击这里选择其他月份</p></div>
+</div> -->
+<div class="szlist">
+<ul>
+<li class="sztitle"><h2 class="ximu">详细</h2><h2 class="je">金额</h2></li>
+ <volist name="list" id="vo">
+    <li style="height: 100%;">
+    	<p>订单{$vo.indent}<br>
+    	<i>{$vo.content}</i><br>
+    	<i>{$vo.time|date="y-m-d H:i",###}</i></p>
+    	<span>+{$vo.money}</span>
+    </li>
+</volist>
+</ul>
+</div>
+
+
+</div>
+<div class="tixian">
+     <p>可提现金额  ￥<span>0</span>元 </p><a href="tixian.html">提现</a>
+    </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

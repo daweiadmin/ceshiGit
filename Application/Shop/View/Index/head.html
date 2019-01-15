@@ -1,0 +1,244 @@
+ <!DOCTYPE html>
+
+<!-- 
+
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 2.3.1
+
+Version: 1.3
+
+Author: KeenThemes
+
+Website: http://www.keenthemes.com/preview/?theme=metronic
+
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469
+
+-->
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<!-- BEGIN HEAD -->
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>商户后台管理</title>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+	<meta content="" name="description" />
+
+	<meta content="" name="author" />
+
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->
+
+	<link href="__PUBLIC__/media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/style.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+
+	<link href="__PUBLIC__/media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+
+	<!-- END GLOBAL MANDATORY STYLES -->
+
+	<!-- BEGIN PAGE LEVEL STYLES --> 
+
+	<link href="__PUBLIC__/media/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/daterangepicker.css" rel="stylesheet" type="text/css" />
+
+	<link href="__PUBLIC__/media/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
+
+	<link href="__PUBLIC__/media/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="__PUBLIC__/media/css/page.css" rel="stylesheet" type="text/css" media="screen"/>
+
+	<link href="__PUBLIC__/media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+
+	<!-- END PAGE LEVEL STYLES -->
+
+	<link rel="shortcut icon" href="__PUBLIC__/media/image/favicon.ico" />
+    <script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+    <script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+   <!--  <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script> -->
+   <style>
+*{ margin:0; padding:0;}
+.navbar-inner{
+	height:80px !important;
+}
+@media (min-width: 980px){
+	.page-content{
+		margin-top:40px !important;
+	}
+}
+.navbar-inner .brand{
+	height:80px !important;
+	line-height: 80px;
+	padding:0;
+	margin-left:10px;
+	color:orange;
+	width: 400px;
+}
+.header .nav > li.dropdown.user .dropdown-toggle{
+	margin-top:5px;
+	float:right;
+	right:0;
+}
+.btn.red11{
+	width:50px;
+	height:50px;
+	border-radius: 50% !important;
+	padding:0;
+	line-height: 50px;
+	text-align: center
+}
+/*form.userform{ display:block; padding:100px;}*/
+.userform p{ display:block; overflow:hidden; padding:10px 16px;}
+.userform p label{ display:block; width:200px; height:36px; line-height:36px; color:#333; font-size:14px; float:left; white-space:nowrap;}
+.userform p label font{ color:#ff2222; padding-right:4px;}
+.userform p input.file{ display:none;}
+.userform p span.file{ display:block; width:200px; text-align: center; height:auto; min-height:34px; padding:0; background:#fff; border:1px solid #9b9b9b; float:left; overflow:hidden;}
+.userform p span.file img{ display:block; width:100%; height:auto; padding:8px 0 0; float:none; margin:0; cursor:default;}
+.userform p span.file img:first-child{ padding:0;}
+.userform p span.file a{ display:block;}
+.userform p span.file a img{ cursor:pointer;}
+.userform p label.file{ display:block; width:70px; height:36px; line-height:36px; color:#fff; font-size:14px; text-align:center; background:#00a266; float:left; margin:0 0 0 10px; cursor:pointer; padding:0;}
+
+/* 分页 */
+	.list-page{padding:20px 0;text-align:right;}
+    .list-page a{margin:0 2px;padding:5px 10px;border:1px solid #ccc;background:#fff;}
+    .list-page a:hover{background:#e4e4e4;border:1px solid #908f8f; text-decoration: none;}
+    .list-page .current{margin:0 2px;padding:5px 10px;background:#6495ED;border:1px solid #B0C4DE;color:#fff;}
+    .list-page ul{list-style: none;}
+
+
+</style>
+</head>
+<!-- BEGIN HEADER -->
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+<?php  
+ $shop['id'] = session('shopUser.id');
+ $fin = D('shop')->where($shop)->field('id,type,name,end_time')->find();
+ $dali_id = session('shopUser.top_daili_id');
+
+ ?>	<?php ?>
+<body class="page-header-fixed">
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+
+		<!-- BEGIN TOP NAVIGATION BAR -->
+
+		<div class="navbar-inner">
+
+			<div class="container-fluid">
+
+				<!-- BEGIN LOGO -->
+                
+				<a class="brand" href="javascript:(0);">
+                  <?php if($fin['type']==3){ ?>
+				     <span>{$fin.name}--商户后台</span>
+                  <?php }else{ ?>
+                     <span>{$fin.name}--代理后台</span>
+                  <?php } ?>
+				</a>
+
+
+
+				<!-- END LOGO -->
+
+				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+
+				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+
+				<img src="__PUBLIC__/youji/images/common/logo.png" alt="" />
+
+				</a>          
+
+				<!-- END RESPONSIVE MENU TOGGLER -->            
+
+				<!-- BEGIN TOP NAVIGATION MENU -->              
+
+				<ul class="nav pull-right">
+
+		
+					<!-- END TODO DROPDOWN -->
+                    <?php $user = session('name'); ?>
+					<!-- BEGIN USER LOGIN DROPDOWN -->
+               
+					<li class="dropdown user">
+					
+                      <?php if($fin['type']==1){ ?>
+					     <button type="button" class="btn blue" style=" color:white; margin-top:22px";> < 省级代理 > </button> 
+	                  <?php } ?>
+
+	                  <?php if($fin['type']==2){ ?>
+	                     <button type="button" class="btn yellow" style=" color:white; margin-top:22px";> < 市级代理 > </button> 
+	                  <?php } ?>
+	                  <?php if($fin['type']==3){ ?>
+                       <?php if($dali_id){ ?>
+	                   <a href="__MODULE__/shop/return_daili?daili_id={$dali_id}" style="display: inline-block;">
+	                     <button type="button" class="btn yellow" style=" color:white; margin-top:22px";> << 返回代理平台  </button> 
+	                     </a>
+	                     <?php } ?>
+
+	                  <?php } ?>
+	                  <button type="button" class="btn blue" style=" color:white; margin-top:22px";> 有效期至：{$fin.end_time|date="Y-m-d",###} </button> 
+						<a href="javascript:viod(0);" class="dropdown-toggle" data-toggle="dropdown">
+
+						 <div type="button" class="btn red red11" id="submit">设置</div>
+
+						<span class="username">{$user}</span>
+
+						<i class="icon-angle-down"></i>
+
+						</a>
+
+						<ul class="dropdown-menu">
+<!-- 
+							<li><a href="extra_profile.html"><i class="icon-user"></i> My Profile</a></li>
+
+							<li><a href="page_calendar.html"><i class="icon-calendar"></i> My Calendar</a></li>
+
+							<li><a href="inbox.html"><i class="icon-envelope"></i> My Inbox(3)</a></li>
+
+							<li><a href="#"><i class="icon-tasks"></i> My Tasks</a></li>
+
+							<li class="divider"></li>
+
+							<li><a href="extra_lock.html"><i class="icon-lock"></i> Lock Screen</a></li> -->
+
+							<li><a href="__MODULE__/login/logout"><i class="icon-key"></i>退出</a></li>
+
+						</ul>
+
+					</li>
+
+					<!-- END USER LOGIN DROPDOWN -->
+
+				</ul>
+
+				<!-- END TOP NAVIGATION MENU --> 
+
+			</div>
+
+		</div>
+
+		<!-- END TOP NAVIGATION BAR -->
+
+	</div>
+
+	<!-- END HEADER -->

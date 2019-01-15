@@ -1,0 +1,32 @@
+[ 2018-11-21T08:57:17+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-11-21 08:57:17 Use 1.047165 s
+
+[ 2018-11-21T08:57:17+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.087998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009500s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1946s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0014s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:1.132995s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.142867s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0681s ]
+SQL: SELECT * FROM `red_code_num` WHERE `activity_id` = 0 AND `shop_id` = null ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0400s ]
+SQL: SELECT `id`,`type`,`name`,`end_time` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1412 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.413948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.414104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+

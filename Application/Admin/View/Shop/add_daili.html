@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<include file="index/head" />
+  <!-- END HEADER -->
+
+  <!-- BEGIN CONTAINER -->
+
+  <div class="page-container row-fluid">
+
+    <!-- BEGIN SIDEBAR -->
+
+     <include file="index/left" />
+
+    <!-- END SIDEBAR -->
+
+    <!-- BEGIN PAGE -->  
+
+    <div class="page-content">
+
+      <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+      <div id="portlet-config" class="modal hide">
+
+        <div class="modal-header">
+
+          <button data-dismiss="modal" class="close" type="button"></button>
+
+          <h3>portlet Settings</h3>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>Here will be a configuration form</p>
+
+        </div>
+
+      </div>
+
+      <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+      <!-- BEGIN PAGE CONTAINER-->
+
+      <div class="container-fluid">
+
+        <!-- BEGIN PAGE HEADER-->   
+
+        <div class="row-fluid">
+
+          <div class="span12">
+
+            <!-- BEGIN STYLE CUSTOMIZER -->
+
+            
+                     
+            <!-- END BEGIN STYLE CUSTOMIZER -->   
+
+            <h3 class="page-title">
+
+              新增代理 / 商户
+
+            </h3>
+
+            <ul class="breadcrumb">
+
+              <li>
+
+                <i class="icon-home"></i>
+
+                <a href="index.html">代理 / 商户管理</a> 
+
+                <span class="icon-angle-right"></span>
+
+              </li>
+
+            <!--   <li>
+            
+              <a href="#">代理管理</a>
+            
+              <span class="icon-angle-right"></span>
+            
+            </li> -->
+
+              <li><a href="#">新增代理 / 商户</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <!-- END PAGE HEADER-->
+
+        <!-- BEGIN PAGE CONTENT-->
+
+        <div class="row-fluid">
+
+          <div class="span12">
+
+            <!-- BEGIN SAMPLE FORM PORTLET-->   
+
+            <div class="portlet box blue">
+
+              <div class="portlet-title">
+
+                <div class="caption"><i class="icon-reorder"></i>新增代理 / 商户</div>
+
+                <div class="tools">
+
+                  <a href="javascript:;" class="collapse"></a>
+
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+
+                  <a href="javascript:;" class="reload"></a>
+
+                  <a href="javascript:;" class="remove"></a>
+
+                </div>
+
+              </div>
+
+              <div class="portlet-body form">
+
+                <!-- BEGIN FORM-->
+
+                <form action="#" class="form-horizontal" id="form">
+                  <div class="control-group" style="">
+
+                    <label class="control-label">账户类型</label>
+
+                    <div class="controls">
+
+                      <select class="span6 m-wrap" data-placeholder="Choose a Category" tabindex="1" style="width:150px;" name="type" id="type">
+                       <option value="0">--请选择类型--</option>
+                       <option value="1">--省级代理--</option>
+                       <option value="2">--市级代理--</option>
+                       <option value="3">--商户--</option>
+                      </select>
+
+                    </div>
+
+                  </div>
+                  <script>  
+                   $('#type').change( function(){
+                       var sta = $('#type').val();
+                       if(sta>=2){
+                         $('#dis').css('display','block');
+                       }else{
+                         $('#dis').css('display','none');
+                       }
+                     });
+                   
+
+                  </script>
+                  <div class="control-group" style="display: none;" id="dis">
+
+                    <label class="control-label">请选择上级代理</label>
+
+                    <div class="controls">
+
+                      <select class="span6 m-wrap" data-placeholder="Choose a Category" tabindex="1" style="width:150px;" name="parentid" id="parentid">
+                       <option value="0">--请选择上级代理--</option>
+                        <volist name="tree" id="vo">
+                                <option value="{$vo.id}"><?php echo str_repeat('-',$vo[level]*8); ?>{$vo.name}</option>
+                            </volist>
+
+                      </select>
+
+                    </div>
+
+                  </div>
+                  <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>登录账户</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="username" id="username" value=""/>
+                     
+
+                    </div>
+
+                  </div>
+                   <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>登录密码</label>
+
+                    <div class="controls">
+
+                      <input type="password" class="span6 m-wrap" style="width:300px;" name="password" id="password" placeholder="不能少于6位" value=""/>
+                     
+
+                    </div>
+
+                  </div>
+                    <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>确认密码</label>
+
+                    <div class="controls">
+
+                      <input type="password" class="span6 m-wrap" style="width:300px;" name="password2" id="password2" placeholder="请再输入一次密码" value=""/>
+                     
+
+                    </div>
+
+                  </div>
+                  <script>
+                    $('#password2').change(function(){
+                      var p1 = $('#password').val();
+                      var p2 = $('#password2').val();
+                      if(p1!==p2){
+                        dialog.error('两次密码输入不一致，请重新输入');return false;
+                      }
+
+                    });
+
+                  </script>
+                  <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>代理 / 商户名称</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="name" id="name" value=""/>
+                     
+
+                    </div>
+
+                  </div>
+                  <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>联系人</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="link_man" id="link_man" value=""/>
+                     
+
+                    </div>
+
+                  </div>
+                 <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>联系电话</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="phone" id="phone" value=""/>
+                     
+
+                    </div>
+
+                  </div>
+                   <div class="control-group">
+
+                    <label class="control-label">邮箱</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="email" id="email" value=""/>
+                      
+
+                    </div>
+
+                  </div>
+
+                  <div class="control-group">
+
+                    <label class="control-label">地址</label>
+
+                    <div class="controls">
+
+                      <input type="text" class="span6 m-wrap" style="width:300px;" name="address" id="address" value=""/>
+                      
+
+                    </div>
+
+                  </div>
+                  <div class="control-group" style="margin-top:20px;">
+
+                    <label class="control-label">logo</label>
+
+                    <div class="controls">
+                      <input type="file" class="imgfiles">
+                      <input type="hidden" class="imgurl" name="picture">
+                       <div class="hidd" style="display:none;">
+                        <img src="" alt="" class="imgpic" width="70" height="70">
+                       </div>
+                        <span style="color: blue;">*该logo图片将在活动页进行显示，图片大小最大2M</span>
+                    </div>
+                    
+                  </div>
+                   <div class="control-group">
+
+                    <label class="control-label"><span style="color: red;">*</span>有效期</label>
+
+                    <div class="controls">
+
+                      <input type="date" class="span6 m-wrap" style="width:300px;" name="end_time" id="end_time" value=""/>
+                      <span style="color: red;">*选择商户账号的最后有效日期，超过有效日期商户则不能正常登陆系统</span>
+
+                    </div>
+
+                  </div>
+                
+
+                  <div class="form-actions">
+                    <button type="button" class="btn blue"  onclick="submit_form()">确认添加</button>
+                     
+                    <!-- <a href="__CONTROLLER__/daili_index"><button type="button" class="btn">返回</button></a> -->
+
+                  </div>
+                </div>
+                </form>
+
+                <!-- END FORM-->
+
+              </div>
+
+            </div>
+
+            <!-- END EXTRAS PORTLET-->
+
+          </div>
+
+        </div>
+
+        <!-- END PAGE CONTENT-->         
+
+      </div>
+
+      <!-- END PAGE CONTAINER-->
+
+    </div>
+
+    <!-- END PAGE -->  
+
+  </div>
+  <!-- END CONTAINER -->
+   <script>
+
+   jQuery(document).ready(function() {       
+
+       // initiate layout and plugins
+
+       App.init();
+
+       FormComponents.init();
+
+    });
+    function submit_form(){
+           
+          var data=$('#form').serializeArray();  
+          var postData={};
+          $(data).each(function(){
+              postData[this.name]=this.value;
+          });
+          if(postData['type']==0){
+           dialog.error('请选择类型');return false;
+          }
+          if(postData['type']>1){
+             if(!postData['parentid']){
+               dialog.error('请选择上级代理');return false;
+              }
+          }
+            if(!postData['username']){
+           dialog.error('用户名不能为空');return false;
+          }
+            if(!postData['password']){
+           dialog.error('密码不能为空');return false;
+          }
+            var reg = /^.{6,}$/;
+            if(!reg.test(postData['password'])){
+             dialog.error('密码不能少于6位');return false;
+           }
+           if(postData['password']!==postData['password2']){
+             dialog.error('两次密码输入不一致');return false;
+            }
+          if(!postData['name']){
+           dialog.error('名称不能为空');return false;
+          }
+          if(!postData['link_man']){
+           dialog.error('联系人不能为空');return false;
+          }
+          if(!postData['phone']){
+           dialog.error('联系方式不能为空');return false;
+          }
+           var partten = /^1[3,5,7,8,9]\d{9}$/;
+            if(!partten.test(postData['phone'])){
+              dialog.error('请输入正确的手机号码');return false;
+            }
+          if(!postData['end_time']){
+           dialog.error('有效日期不能为空');return false;
+          }
+          var url = '__CONTROLLER__/add_daili';
+          
+          if(postData['type']==3){
+            var jump_url = '__CONTROLLER__/store';
+          }else{
+            var jump_url = '__CONTROLLER__/daili_index';
+          }
+          $.post(url,postData,function(res){
+              if (res.status == 1) {
+                  dialog.success(res.message,jump_url);
+                    //window.location.href=jump_url;
+                  } 
+               if(res.status == 0){
+                  dialog.error(res.message);
+                 }
+
+           },'JSON');
+    }
+/*   $('#submit').click(function(){
+     var url = '__CONTROLLER__/add_daili';
+     var jump_url = '__CONTROLLER__/daili_index';
+     var data=$('#form').serializeArray();  
+      var postData={};
+      $(data).each(function(){
+          postData[this.name]=this.value;
+      });
+      if(postData['type']==0){
+       dialog.error('请选择类型');return false;
+      }
+      if(postData['type']>1){
+         if(!postData['parentid']){
+           dialog.error('请选择上级代理');return false;
+          }
+      }
+      if(!postData['username']){
+     dialog.error('用户名不能为空');return false;
+    }
+      if(!postData['password']){
+     dialog.error('密码不能为空');return false;
+    }
+      var reg = /^.{6,}$/;
+      if(!reg.test(postData['password'])){
+       dialog.error('密码不能少于6位');return false;
+     }
+     if(postData['password']!==postData['password2']){
+       dialog.error('两次密码输入不一致');return false;
+      }
+    if(!postData['name']){
+     dialog.error('名称不能为空');return false;
+    }
+    if(!postData['link_man']){
+     dialog.error('联系人不能为空');return false;
+    }
+    if(!postData['phone']){
+     dialog.error('联系方式不能为空');return false;
+    }
+     var partten = /^1[3,5,7,8,9]\d{9}$/;
+      if(!partten.test(postData['phone'])){
+        dialog.error('请输入正确的手机号码');return false;
+      }
+    if(!postData['end_time']){
+     dialog.error('有效日期不能为空');return false;
+    }
+    $.post(url,postData,function(res){
+        if (res.status == 1) {
+            dialog.success(res.message,jump_url);
+              //window.location.href=jump_url;
+            } 
+         if(res.status == 0){
+            dialog.error(res.message);
+           }
+
+     },'JSON');
+
+    })*/
+
+
+
+   $('.imgfiles').change(function(){
+                var a=$('.imgfiles').index(this);
+                var imgUrlId='.imgfiles:eq('+a+')';
+                var nameId='.imgurl:eq('+a+')';
+                var imgpic='.imgpic:eq('+a+')';
+                var hid='.hidd:eq('+a+')';
+                uploadimg(imgUrlId,nameId,imgpic,hid);
+            })
+//厂家图片上传
+            function uploadimg(imgUrlId,nameid,imgpic,hid){  
+                 var formData = new FormData();  //实例化上传方法
+                 formData.append('file', $(imgUrlId)[0].files[0]); //file相当于 name值
+
+                 var size = $(imgUrlId)[0].files[0].size;
+                 var Max_Size=1024*1024;
+                 if (size>Max_Size){dialog.error('图片大小不能大于一兆');return false; };
+
+                $.ajax({
+                    url: "__MODULE__/product/upload",
+                    type: 'POST',
+                    cache: false,
+                    data: formData,
+                    dataType: 'text',
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                      $(nameid).val(data);
+                      $(imgpic).attr("src",data);
+                      $(hid).css("display",'block');
+                    }
+                })
+              }; 
+    
+  </script>
+
+
+
+
+
+
+  <!-- BEGIN FOOTER -->
+
+<include file="index/footer" />
+
+  <!-- END FOOTER -->
+
+  <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+
+  <!-- BEGIN CORE PLUGINS -->
+  <script src="__PUBLIC__/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+  <!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+
+  <script src="__PUBLIC__/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+
+  <script src="__PUBLIC__/media/js/bootstrap.min.js" type="text/javascript"></script>
+
+  
+
+  <script src="__PUBLIC__/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery.blockui.min.js" type="text/javascript"></script>  
+
+  <script src="__PUBLIC__/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+
+  <!-- END CORE PLUGINS -->
+
+  <!-- BEGIN PAGE LEVEL PLUGINS -->
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/ckeditor.js"></script>  
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-fileupload.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/chosen.jquery.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/select2.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/wysihtml5-0.3.0.js"></script> 
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-wysihtml5.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.tagsinput.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.toggle.buttons.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-datepicker.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-datetimepicker.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/clockface.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/date.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/daterangepicker.js"></script> 
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-colorpicker.js"></script>  
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/bootstrap-timepicker.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.inputmask.bundle.min.js"></script>   
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.input-ip-address-control-1.0.min.js"></script>
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/jquery.multi-select.js"></script>   
+
+  <script src="__PUBLIC__/media/js/bootstrap-modal.js" type="text/javascript" ></script>
+
+  <script src="__PUBLIC__/media/js/bootstrap-modalmanager.js" type="text/javascript" ></script> 
+
+  <!-- END PAGE LEVEL PLUGINS -->
+
+  <!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+  <script src="__PUBLIC__/media/js/app.js"></script>
+
+  <script src="__PUBLIC__/media/js/form-components.js"></script>     
+
+  <!-- END PAGE LEVEL SCRIPTS -->
+
+ 
+
+  <!-- END JAVASCRIPTS -->   
+
+</body>
+
+<!-- END BODY -->
+
+</html>

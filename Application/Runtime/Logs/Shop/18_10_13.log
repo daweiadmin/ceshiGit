@@ -1,0 +1,29 @@
+[ 2018-10-13T09:56:37+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004346s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013124s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0926s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1539360000 AND 1539446399 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 926 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 968 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1030 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1036 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014666s ]
+

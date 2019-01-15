@@ -1,0 +1,796 @@
+[ 2018-10-10T09:05:10+08:00 ] 127.0.0.1 /index.php/Admin/index/machine
+ERR: Cron:cron Runat 2018-10-10 09:05:10 Use 0.172197 s
+
+[ 2018-10-10T09:05:11+08:00 ] 127.0.0.1 /index.php/Admin/index/machine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0844s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.237244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.239564s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+
+[ 2018-10-10T10:07:53+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-10 10:07:53 Use 0.135757 s
+
+[ 2018-10-10T10:07:55+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.204842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.207075s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 92 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 108 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021075s ]
+
+[ 2018-10-10T10:09:05+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-10 10:09:05 Use 0.066729 s
+
+[ 2018-10-10T10:09:05+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.087988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.089710s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 92 行.
+
+[ 2018-10-10T11:36:14+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-10 11:36:14 Use 0.135565 s
+
+[ 2018-10-10T11:36:16+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0939s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.174594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.176503s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 92 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 109 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 109 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 109 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 109 行.
+NOTIC: [8] Undefined index: errcode E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 109 行.
+
+[ 2018-10-10T15:12:49+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-10-10 15:12:49 Use 0.101856 s
+
+[ 2018-10-10T15:12:49+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.148615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.150196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2018-10-10T15:12:50+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.051431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2018-10-10T15:12:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007678s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.2466s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0225s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\anti\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-10-10T15:12:57+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.110265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111929s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.1123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1539100800 AND 1539187199 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 879 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 921 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 983 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 989 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.379649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.379794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2018-10-10T15:13:06+08:00 ] 127.0.0.1 /index.php/Admin/member/putong
+ERR: Cron:cron Runat 2018-10-10 15:13:06 Use 0.087089 s
+
+[ 2018-10-10T15:13:07+08:00 ] 127.0.0.1 /index.php/Admin/member/putong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117284s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `level` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\MemberController.class.php 第 27 行.
+SQL: SELECT * FROM `fen_member` WHERE `level` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 694 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 736 行.
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0567s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 2 LIMIT 1   [ RunTime:0.0293s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\anti\Application\Admin\Common\function.php 第 64 行.
+SQL: SELECT `weixin` FROM `fen_member_data` WHERE `id` = null LIMIT 1   [ RunTime:0.0282s ]
+NOTIC: [8] Undefined index: oauth E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 741 行.
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 736 行.
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\anti\Application\Admin\Common\function.php 第 64 行.
+SQL: SELECT `weixin` FROM `fen_member_data` WHERE `id` = null LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: oauth E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 741 行.
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2018-10-10T17:34:29+08:00 ] 127.0.0.1 /index.php/Admin/member/putong
+ERR: Cron:cron Runat 2018-10-10 17:34:29 Use 0.941982 s
+
+[ 2018-10-10T17:34:30+08:00 ] 127.0.0.1 /index.php/Admin/member/putong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.105267s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0967s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0196s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:1.735097s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.840664s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.1552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `level` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\MemberController.class.php 第 27 行.
+SQL: SELECT * FROM `fen_member` WHERE `level` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 741 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 783 行.
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0885s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 2 LIMIT 1   [ RunTime:0.0241s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\anti\Application\Admin\Common\function.php 第 64 行.
+SQL: SELECT `weixin` FROM `fen_member_data` WHERE `id` = null LIMIT 1   [ RunTime:0.0567s ]
+NOTIC: [8] Undefined index: oauth E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 788 行.
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 783 行.
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\anti\Application\Admin\Common\function.php 第 64 行.
+SQL: SELECT `weixin` FROM `fen_member_data` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: oauth E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 788 行.
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003585s ]
+
+[ 2018-10-10T17:55:22+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+ERR: Cron:cron Runat 2018-10-10 17:55:22 Use 0.106968 s
+
+[ 2018-10-10T17:55:22+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.132688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.134364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 741 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 780 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 804 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 867 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2018-10-10T17:55:56+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+ERR: Cron:cron Runat 2018-10-10 17:55:56 Use 0.074343 s
+
+[ 2018-10-10T17:55:56+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.101675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 741 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 780 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 804 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 867 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002212s ]
+
+[ 2018-10-10T17:57:25+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+ERR: Cron:cron Runat 2018-10-10 17:57:25 Use 0.116305 s
+
+[ 2018-10-10T17:57:25+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003216s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0766s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.149152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.154283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 780 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 804 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 867 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 933 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-10-10T18:04:31+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+ERR: Cron:cron Runat 2018-10-10 18:04:31 Use 0.100249 s
+
+[ 2018-10-10T18:04:31+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002675s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.121746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2018-10-10T18:09:55+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+ERR: Cron:cron Runat 2018-10-10 18:09:55 Use 0.091646 s
+
+[ 2018-10-10T18:09:55+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0589s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.121783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.123854s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0259s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 745 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 795 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2018-10-10T18:10:33+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+ERR: Cron:cron Runat 2018-10-10 18:10:33 Use 0.144912 s
+
+[ 2018-10-10T18:10:33+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.1096s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.178321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.180247s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0647s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 745 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 774 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 795 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 843 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2018-10-10T18:18:08+08:00 ] 127.0.0.1 /index.php/Admin/class/pinpai
+ERR: Cron:cron Runat 2018-10-10 18:18:08 Use 0.072396 s
+
+[ 2018-10-10T18:18:08+08:00 ] 127.0.0.1 /index.php/Admin/class/pinpai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.112033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.114619s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0681s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_pinpai` LIMIT 1   [ RunTime:0.0266s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\ClassController.class.php 第 104 行.
+SQL: SELECT * FROM `fen_pinpai` LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `fen_class` WHERE `parentid` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 745 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 773 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\81c2bc4e9b14df0a4d37dc14b9a209c3.php 第 838 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2018-10-10T18:18:16+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018057s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.1041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0128s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 797 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0810s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0550s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 797 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 797 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 797 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 797 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.208146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2018-10-10T18:18:17+08:00 ] 127.0.0.1 /index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011897s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 771 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2018-10-10T18:18:43+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+ERR: Cron:cron Runat 2018-10-10 18:18:43 Use 0.070197 s
+
+[ 2018-10-10T18:18:43+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087240s ]
+SQL: SHOW COLUMNS FROM `fen_menu` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `fen_menu`  [ RunTime:0.0125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 745 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 774 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 776 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 795 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2018-10-10T18:26:16+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+ERR: Cron:cron Runat 2018-10-10 18:26:16 Use 0.083080 s
+
+[ 2018-10-10T18:26:16+08:00 ] 127.0.0.1 /index.php/Admin/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0623s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.107885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.109676s ]
+SQL: SHOW COLUMNS FROM `fen_menu` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `fen_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 745 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 774 行.
+NOTIC: [8] Undefined index: level E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 776 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 795 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2018-10-10T18:26:19+08:00 ] 127.0.0.1 /index.php/Admin/member/putong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003279s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019147s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `level` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\MemberController.class.php 第 27 行.
+SQL: SELECT * FROM `fen_member` WHERE `level` = 0 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 741 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 783 行.
+SQL: SHOW COLUMNS FROM `fen_member_data` [ RunTime:0.0525s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\anti\Application\Admin\Common\function.php 第 64 行.
+SQL: SELECT `weixin` FROM `fen_member_data` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: oauth E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 788 行.
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 783 行.
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\anti\Application\Admin\Common\function.php 第 64 行.
+SQL: SELECT `weixin` FROM `fen_member_data` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: oauth E:\wamp\www\anti\Application\Runtime\Cache\Admin\4eff0f7d1da0f411da274a550a867d65.php 第 788 行.
+SQL: SELECT `wx_name` FROM `fen_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `fen_member_data` WHERE `member_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2018-10-10T18:26:40+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+ERR: Cron:cron Runat 2018-10-10 18:26:40 Use 0.079512 s
+
+[ 2018-10-10T18:26:40+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006094s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.092730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2018-10-10T18:33:46+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+ERR: Cron:cron Runat 2018-10-10 18:33:46 Use 0.088973 s
+
+[ 2018-10-10T18:33:47+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0682s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0016s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.115829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2018-10-10T18:43:07+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+ERR: Cron:cron Runat 2018-10-10 18:43:07 Use 0.118585 s
+
+[ 2018-10-10T18:43:07+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0975s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.152039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.153816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2018-10-10T18:43:47+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+ERR: Cron:cron Runat 2018-10-10 18:43:47 Use 0.082517 s
+
+[ 2018-10-10T18:43:47+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005387s ]
+

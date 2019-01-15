@@ -1,0 +1,1354 @@
+[ 2018-11-09T08:58:54+08:00 ] 127.0.0.1 /
+ERR: Cron:cron Runat 2018-11-09 08:58:54 Use 0.339576 s
+
+[ 2018-11-09T08:58:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1043s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.425167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.427408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.041825s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.042006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.313263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.313422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2018-11-09T17:01:24+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-09 17:01:24 Use 0.559698 s
+
+[ 2018-11-09T17:01:24+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1908s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0012s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.681108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.683766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014885s ]
+
+[ 2018-11-09T18:14:02+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:14:02 Use 1.788614 s
+
+[ 2018-11-09T18:14:03+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.083386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.4385s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0233s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:2.242463s ]
+INFO: [ app_begin ] --END-- [ RunTime:2.247194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005779s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005929s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.607422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.607570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025491s ]
+
+[ 2018-11-09T18:14:23+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:14:23 Use 0.102551 s
+
+[ 2018-11-09T18:14:23+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0795s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0016s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.144203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.146667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-11-09T18:14:43+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:14:43 Use 0.190644 s
+
+[ 2018-11-09T18:14:43+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1233s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.241868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.244060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003302s ]
+
+[ 2018-11-09T18:17:06+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:17:06 Use 0.172900 s
+
+[ 2018-11-09T18:17:07+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1379s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.201136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.203748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2018-11-09T18:24:27+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:24:27 Use 0.128144 s
+
+[ 2018-11-09T18:24:27+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0801s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.163273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.165266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-11-09T18:24:42+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:24:42 Use 0.105368 s
+
+[ 2018-11-09T18:24:42+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0702s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.133488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.135040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2018-11-09T18:25:01+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:25:01 Use 0.107412 s
+
+[ 2018-11-09T18:25:02+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0885s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.174947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.176357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003073s ]
+
+[ 2018-11-09T18:25:15+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:25:15 Use 0.088892 s
+
+[ 2018-11-09T18:25:15+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.117527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2018-11-09T18:26:18+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:26:18 Use 0.058692 s
+
+[ 2018-11-09T18:26:18+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.081674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.083267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2018-11-09T18:26:32+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:26:32 Use 0.107974 s
+
+[ 2018-11-09T18:26:32+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003981s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0874s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.136537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.141202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2018-11-09T18:26:45+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:26:45 Use 0.092494 s
+
+[ 2018-11-09T18:26:45+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0717s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.118597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.120202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2018-11-09T18:27:08+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:27:08 Use 0.107467 s
+
+[ 2018-11-09T18:27:08+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0798s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.134823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.136374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2018-11-09T18:27:34+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:27:34 Use 0.083874 s
+
+[ 2018-11-09T18:27:34+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0611s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.107979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.109445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2018-11-09T18:27:57+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:27:57 Use 0.074144 s
+
+[ 2018-11-09T18:27:57+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2018-11-09T18:28:22+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:28:22 Use 0.093760 s
+
+[ 2018-11-09T18:28:22+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0655s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.122957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2018-11-09T18:28:39+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:28:39 Use 0.079776 s
+
+[ 2018-11-09T18:28:39+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0595s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.108249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.109654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2018-11-09T18:29:11+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:29:11 Use 0.079537 s
+
+[ 2018-11-09T18:29:11+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002616s ]
+
+[ 2018-11-09T18:29:12+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.027601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004172s ]
+
+[ 2018-11-09T18:29:25+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:29:25 Use 0.102665 s
+
+[ 2018-11-09T18:29:25+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0712s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.155538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.157620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2018-11-09T18:31:57+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:31:57 Use 0.125602 s
+
+[ 2018-11-09T18:31:57+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004603s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0953s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.161925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.166833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2018-11-09T18:32:23+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:32:23 Use 0.110169 s
+
+[ 2018-11-09T18:32:24+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0837s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.154495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.155947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001991s ]
+
+[ 2018-11-09T18:32:55+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:32:55 Use 0.089862 s
+
+[ 2018-11-09T18:32:55+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0695s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0009s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.116712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-11-09T18:34:01+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:34:01 Use 0.076348 s
+
+[ 2018-11-09T18:34:01+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.109234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006955s ]
+
+[ 2018-11-09T18:34:02+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.038348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002524s ]
+
+[ 2018-11-09T18:34:02+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2018-11-09T18:34:02+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2018-11-09T18:34:03+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003676s ]
+
+[ 2018-11-09T18:34:03+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2018-11-09T18:34:03+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.046300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004724s ]
+
+[ 2018-11-09T18:34:47+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:34:47 Use 0.078464 s
+
+[ 2018-11-09T18:34:47+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005069s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.097539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2018-11-09T18:35:46+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:35:46 Use 0.123070 s
+
+[ 2018-11-09T18:35:46+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0898s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.152054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.153445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2018-11-09T18:35:49+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003552s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2018-11-09T18:37:19+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:37:19 Use 0.071544 s
+
+[ 2018-11-09T18:37:19+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.104453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001798s ]
+
+[ 2018-11-09T18:37:36+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:37:36 Use 0.084354 s
+
+[ 2018-11-09T18:37:37+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0565s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.129816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.131302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2018-11-09T18:37:53+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:37:53 Use 0.199078 s
+
+[ 2018-11-09T18:37:53+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0912s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0842s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.259044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.260470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2018-11-09T18:38:08+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:38:08 Use 0.103733 s
+
+[ 2018-11-09T18:38:08+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0645s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0145s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.138733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2018-11-09T18:38:23+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:38:23 Use 0.103681 s
+
+[ 2018-11-09T18:38:24+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0823s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.130496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.131934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-11-09T18:38:44+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:38:44 Use 0.094928 s
+
+[ 2018-11-09T18:38:45+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.131044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.132838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2018-11-09T18:38:52+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012686s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.023302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004283s ]
+
+[ 2018-11-09T18:39:07+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+ERR: Cron:cron Runat 2018-11-09 18:39:07 Use 0.075846 s
+
+[ 2018-11-09T18:39:07+08:00 ] 127.0.0.1 /index.php/home/index/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0532s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.103147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.104550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: shop_name E:\wamp\www\anti\Application\Runtime\Cache\Home\1d73c2ca55ccad6e6b859dee3ac2d227.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2018-11-09T19:07:49+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+ERR: Cron:cron Runat 2018-11-09 19:07:49 Use 0.694039 s
+
+[ 2018-11-09T19:07:51+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1807s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0155s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.830511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.833281s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1130s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0708s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0654s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.645413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.645562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002693s ]
+
+[ 2018-11-09T19:08:20+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+ERR: Cron:cron Runat 2018-11-09 19:08:20 Use 0.121105 s
+
+[ 2018-11-09T19:08:20+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0988s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.169080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.170662s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0629s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0995s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0598s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2018-11-09T19:08:31+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+ERR: Cron:cron Runat 2018-11-09 19:08:31 Use 0.138148 s
+
+[ 2018-11-09T19:08:32+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0947s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.166783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.169002s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2018-11-09T19:13:24+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+ERR: Cron:cron Runat 2018-11-09 19:13:24 Use 0.109600 s
+
+[ 2018-11-09T19:13:24+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0816s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.145294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.146879s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0681s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0601s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0877s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2018-11-09T19:13:38+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+ERR: Cron:cron Runat 2018-11-09 19:13:38 Use 0.175990 s
+
+[ 2018-11-09T19:13:38+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1253s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.211732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.213165s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0628s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2018-11-09T19:14:35+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+ERR: Cron:cron Runat 2018-11-09 19:14:35 Use 0.112182 s
+
+[ 2018-11-09T19:14:36+08:00 ] 127.0.0.1 /index.php/home/wechat/get_now
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003914s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0863s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.161679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.165930s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.2613s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002348s ]
+
+[ 2018-11-09T19:37:02+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+ERR: Cron:cron Runat 2018-11-09 19:37:02 Use 0.704128 s
+
+[ 2018-11-09T19:37:03+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.2009s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0535s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.857091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.859116s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0549s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2018-11-09T19:44:32+08:00 ] 127.0.0.1 /index.php/home/wechat/share
+ERR: Cron:cron Runat 2018-11-09 19:44:32 Use 0.912855 s
+
+[ 2018-11-09T19:44:34+08:00 ] 127.0.0.1 /index.php/home/wechat/share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024351s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.3144s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0287s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:1.613338s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.638038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: put_r_id E:\wamp\www\anti\Application\Runtime\Cache\Home\0369cce68b8545c731d6e03f5ba14c75.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.527998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.528313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025472s ]
+

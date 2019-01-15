@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{ background:#1b191f; height:57px; position:fixed; top:0; width:100%; }
+#header img{ float:left;}
+#header p{ float:left; margin:5px 0 0 10px; color:#fff; line-height:24px;}
+#header a.buy{ display:block; width:120px; height:36px; line-height:36px; text-align:center; color:#fff; background:#e72894; border-radius:5px; float:right; margin-top:10px;}
+#header a.guanbi{ float:right; width:32px; height:32px; margin:12px 20px;}
+.banner{ width:100%;  height:405px;}
+.banner img{ width:100%;}
+.suosou{ width:100%; height:45px; line-height:45px; background:#e9e9e9; padding:15px 0; margin:20px 0;}
+.suosou form.search{ width:540px; float:left; border-radius:5px; background:#ffffff; margin-left:15px;}
+.suosou form.search input.txt{ width:465px; height:45px; line-height:45px; padding:0 10px; border:none; background:#fff; color:#999;}
+.suosou form.search input.btn{ width:30px; height:45px; background:url(../images/searchbnt.png) no-repeat left center; border:none;}
+.suosou .tel{ display:block; width:44px; height:48px; float:right; margin-right:15px; background:url(../images/kefu.png) no-repeat left center;}
+
+/*主体样式*/
+.main{ width:100%; margin:0 auto;}
+.qianggou{ width:620px; margin:10px;}
+.main ul.chanpin{ display:block; width:96%; margin:0 2%;}
+.main ul.chanpin li{ width:100%; line-height:80px; }
+.main ul.chanpin li a img{ width:100%; height:675px;}
+.main ul.chanpin li a p.name{ float:left;color:#333;font-size:28px; }
+.main ul.chanpin li a p.price{ color:#cd0074; float:right;font-size:28px; }
+.main ul.chanpin li a p.price span{ color:#cbcbcb; text-decoration:line-through;}
+
+
+/**/

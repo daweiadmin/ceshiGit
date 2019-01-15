@@ -1,0 +1,152 @@
+[ 2018-11-20T19:41:36+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+ERR: Cron:cron Runat 2018-11-20 19:41:36 Use 0.349519 s
+
+[ 2018-11-20T19:41:36+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002832s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0009s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.421607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.424727s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0588s ]
+SQL: SELECT * FROM `red_code` LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2018-11-20T19:41:51+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+ERR: Cron:cron Runat 2018-11-20 19:41:51 Use 0.079464 s
+
+[ 2018-11-20T19:41:51+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.113887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116239s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0701s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2018-11-20T19:42:32+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+ERR: Cron:cron Runat 2018-11-20 19:42:32 Use 0.109710 s
+
+[ 2018-11-20T19:42:32+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0905s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.139921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.141917s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0687s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2018-11-20T19:42:35+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.019467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021567s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1336s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2018-11-20T19:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016031s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0526s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0004s ]
+
+[ 2018-11-20T19:42:47+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+ERR: Cron:cron Runat 2018-11-20 19:42:47 Use 0.099613 s
+
+[ 2018-11-20T19:42:47+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.125284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.128578s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0420s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2018-11-20T19:42:48+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017171s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0605s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0022s ]
+
+[ 2018-11-20T19:42:48+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017530s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0569s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2018-11-20T19:42:49+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017064s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0603s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2018-11-20T19:42:49+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010466s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0641s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2018-11-20T19:42:49+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010365s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0579s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0005s ]
+
+[ 2018-11-20T19:42:50+08:00 ] 127.0.0.1 /index.php/Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015703s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0705s ]
+SQL: SELECT `id` FROM `red_code` LIMIT 10   [ RunTime:0.0003s ]
+

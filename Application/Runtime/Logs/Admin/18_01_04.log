@@ -1,0 +1,212 @@
+[ 2018-01-04T10:02:50+08:00 ] 127.0.0.1 /index.php/Admin/House/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+
+[ 2018-01-04T10:02:50+08:00 ] 127.0.0.1 /index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2018-01-04T10:02:52+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2018-01-04T10:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-01-04T10:16:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002185s ]
+SQL: SHOW COLUMNS FROM `fang_user` [ RunTime:0.1929s ]
+SQL: SELECT * FROM `fang_user` WHERE ( name = "qwe" ) LIMIT 1   [ RunTime:0.0113s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\fang\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\fang\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\fang\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-01-04T10:16:40+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\fang\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1263 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\fang\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1312 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\fang\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1341 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2018-01-04T10:16:45+08:00 ] 127.0.0.1 /index.php/Admin/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `fang_sellvalue` [ RunTime:0.0976s ]
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fang_sellvalue` LIMIT 1   [ RunTime:0.0391s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 17 行.
+SQL: SELECT * FROM `fang_sellvalue` LIMIT 0,5   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: parameter E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000684s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SHOW COLUMNS FROM `fang_area` [ RunTime:0.0338s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2018-01-04T10:18:01+08:00 ] 127.0.0.1 /index.php/admin/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `fang_sellvalue` [ RunTime:0.0339s ]
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fang_sellvalue` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 17 行.
+SQL: SELECT * FROM `fang_sellvalue` LIMIT 0,5   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: parameter E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 152 行.
+
+[ 2018-01-04T10:22:41+08:00 ] 127.0.0.1 /index.php/admin/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `fang_sellvalue` [ RunTime:0.0279s ]
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fang_sellvalue` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 17 行.
+SQL: SELECT * FROM `fang_sellvalue` LIMIT 0,5   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: parameter E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 152 行.
+
+[ 2018-01-04T10:22:55+08:00 ] 127.0.0.1 /index.php/admin/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003854s ]
+SQL: SHOW COLUMNS FROM `fang_sellvalue` [ RunTime:0.0761s ]
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fang_sellvalue` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 17 行.
+SQL: SELECT * FROM `fang_sellvalue` LIMIT 0,5   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parameter E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SHOW COLUMNS FROM `fang_area` [ RunTime:0.0413s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\fang\Application\Runtime\Cache\Admin\592338015e58c355f5612c932c3fb3aa.php 第 1205 行.
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `area_name` FROM `fang_area` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2018-01-04T10:23:31+08:00 ] 127.0.0.1 /index.php/admin/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003161s ]
+SQL: SHOW COLUMNS FROM `fang_sellvalue` [ RunTime:0.0362s ]
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fang_sellvalue` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: userid E:\wamp\www\fang\Application\Admin\Controller\HouseController.class.php 第 17 行.
+SQL: SELECT * FROM `fang_sellvalue` LIMIT 0,5   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: parameter E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 83 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\fang\ThinkPHP\Library\Think\Page.class.php 第 152 行.
+

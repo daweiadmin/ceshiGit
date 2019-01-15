@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, blockquote { margin:0; padding:0; font-size:20px;}
+body{ zoom:1; background:#ffffff; font-family:"微软雅黑"; *font-family:"微软雅黑";}
+img { border:0 none; vertical-align:middle; }
+ul, ol, li { list-style:none; }
+h1, h2, h3, h4, h5, h6 { font-size:24px; }
+body, input, select, button, textarea { font-size:24px; font-family:"微软雅黑"; *font-family:"微软雅黑";}
+table, tr, th, td { border:0 none; vertical-align:middle; border-collapse:collapse;}
+button { cursor:pointer; }
+i, em, cite, address { font-style:normal; }
+a{ text-decoration:none; outline:none; blr:expression(this.onFocus=this.blur());}
+a:link { text-decoration:none; cursor:pointer; }
+a:hover, a:active { text-decoration:none; }
+a:focus{ outline:none;}
+input:focus{ outline:none;}
+select:focus{ outline:none;}
+textarea:focus{ outline:none;}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"]>input[type="button"]::-moz-focus-inner { border:none; padding:0;}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+}
+
+textarea{ -webkit-appearance: none;}

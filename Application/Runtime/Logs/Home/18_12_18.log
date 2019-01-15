@@ -1,0 +1,42 @@
+[ 2018-12-18T11:16:42+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-12-18 11:16:42 Use 0.141533 s
+
+[ 2018-12-18T11:16:42+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.153818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.155405s ]
+
+[ 2018-12-18T11:17:00+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-12-18 11:17:00 Use 0.041753 s
+
+[ 2018-12-18T11:17:00+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.055861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058051s ]
+
+[ 2018-12-18T12:36:51+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+ERR: Cron:cron Runat 2018-12-18 12:36:51 Use 0.064626 s
+
+[ 2018-12-18T12:36:51+08:00 ] 127.0.0.1 /index.php/home/wxpay/set_redbag
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111632s ]
+

@@ -1,0 +1,15 @@
+[ 2018-10-29T08:59:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+NOTIC: [8] Undefined index: ref_id E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] Undefined index: code E:\wamp\www\anti\Application\Home\Controller\IndexController.class.php 第 74 行.
+ERR: 1146:Table 'redbag.red_class' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `red_class`
+ERR: 1146:Table 'redbag.red_class' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `red_class`
+

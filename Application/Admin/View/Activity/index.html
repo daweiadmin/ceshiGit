@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<include file="index/head" />
+  <!-- END HEADER -->
+
+  <!-- BEGIN CONTAINER -->
+
+  <div class="page-container row-fluid">
+
+    <!-- BEGIN SIDEBAR   MENU-->
+
+      <include file="index/left" />
+
+    <!-- END SIDEBAR -->
+
+    <!-- BEGIN PAGE -->
+
+    <div class="page-content">
+
+      <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+      <div id="portlet-config" class="modal hide">
+
+        <div class="modal-header">
+
+          <button data-dismiss="modal" class="close" type="button"></button>
+
+          <h3>portlet Settings</h3>
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>Here will be a configuration form</p>
+
+        </div>
+
+      </div>
+
+      <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+      <!-- BEGIN PAGE CONTAINER-->        
+
+      <div class="container-fluid">
+
+        <!-- BEGIN PAGE HEADER-->
+
+        <div class="row-fluid">
+
+          <div class="span12">
+
+            <!-- BEGIN STYLE CUSTOMIZER -->
+                         
+            <!-- END BEGIN STYLE CUSTOMIZER -->  
+
+            <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+
+            <h3 class="page-title">
+
+              活动管理 <small></small>
+
+            </h3>
+
+            <ul class="breadcrumb">
+
+
+              <li>
+
+                <a href="#">活动管理</a>
+
+                <i class="icon-angle-right"></i>
+
+              </li>
+
+              <li><a href="#">活动列表</a></li>
+
+            </ul>
+
+            <!-- END PAGE TITLE & BREADCRUMB-->
+
+          </div>
+
+        </div>
+
+        <!-- END PAGE HEADER-->
+
+        <!-- BEGIN PAGE CONTENT-->
+
+        <div class="row-fluid">
+
+          <div class="span12">
+
+            <!-- BEGIN EXAMPLE TABLE PORTLET-->
+
+            <div class="portlet box blue">
+
+              <div class="portlet-title">
+
+                <div class="caption"><i class="icon-edit"></i>活动列表</div>
+
+                <div class="tools">
+
+                  <a href="javascript:;" class="collapse"></a>
+
+                  <a href="#portlet-config" data-toggle="modal" class="config"></a>
+
+                  <a href="javascript:;" class="reload"></a>
+
+                  <a href="javascript:;" class="remove"></a>
+
+                </div>
+
+              </div>
+
+              <div class="portlet-body">
+
+                <div class="clearfix" style="height: 50px;">
+
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn green" attr-id="{$vo.id}" data-toggle="modal" href="#add_activity" id="add_a">新增活动</button> -->
+                      <script>
+                        $('#add_a').click(function(){
+                          $('#add_activity').css('display','block');
+
+
+                        });
+                      </script>
+                     <form class="sidebar-search" style="display:inline-block; float:right; margin-left:10px; " method="get" action="__CONTROLLER__/index">
+                       <select class="span6 m-wrap"  name="act_status" style="width:100px; margin-left:3px;">
+                        <option value="">活动状态</option>
+                        <option value="0">未开始</option>   
+                        <option value="1">已开始</option>
+                        <option value="2">已暂停</option>
+                        <option value="-1">已关闭</option>
+                       </select>
+                       <select  class="span6 m-wrap"  name="shenhe_status" style="width:100px; margin-left:3px;">
+                        <option value="">审核状态</option>
+                        <option value="0">待审核</option>
+                        <option value="1">审核通过</option>
+                        <option value="-1">审核失败</option>
+                        <option value="2">草稿</option>
+                       </select>
+                       <input type="text" placeholder="活动名称" name="key" style="width:200px; display:inline-block; height:24px; margin-left:3px;"/>
+                       <button type="submit"  class="btn green" style=" display:inline-block; float:right;">
+                       <i class="icon-search"></i>
+                             搜索
+                        </button>
+                      
+                  </form>
+                  </div>
+
+                </div>
+
+                <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
+
+                  <thead>
+
+                    <tr>
+                      <th></th>
+                      <th style="text-align: center;">ID</th>
+                      <th style="text-align: center;">活动名称</th>
+                      <th style="text-align: center;">活动方式</th>
+                      <th style="text-align: center;">活动图片</th>
+                      <th style="text-align: center;">领取方式</th>
+                      <th style="text-align: center;">所属商户</th>
+                      <th style="text-align: center;">已领取奖励/奖励总额</th>
+                      <th style="text-align: center;">有奖码量/总码量</th>
+                      <th style="text-align: center;">进度</th>
+                      <th style="text-align: center;">状态</th>
+                      <th style="text-align: center;">审核</th>
+                      <th style="text-align: center;">操作</th>
+                    </tr>
+
+                  </thead>
+                                   
+                  <tbody>
+                      <volist name="list" id="vo">
+                     
+                      <tr class="">
+                        <td style="width:20px;"><input type="checkbox" name="goodsid" value="{$vo[id]}" class="selall"></td>
+                        <td style="text-align: center;">{$vo.id}</td>
+                        <td style="text-align: center; color:#333;">{$vo.act_name}</td>
+                        <td style="text-align: center; color:green;">{$vo.type|active_type}</td>
+                        <td style="text-align: center;">
+                         <if condition="$vo[picture] neq ''">
+                           <img src="{$vo.picture}" width="100" height="54">
+                          <else/>
+                           <span style="color: red;">暂未上传</span>
+                         </if>
+                        </td>
+                        <td style="text-align: center; color:blue;">{$vo.condition|condition}</td>
+                        <td style="text-align: center; color:blue;">{$vo.shop_id|shop_name}</td>
+                        <td style="text-align: center; color:#333;">{$vo.id|get_total} / {$vo.id|prize_total}</td>
+                        <td style="text-align: center; color:#333;">{$vo.id|code_have}/{$vo.id|act_code_num}</td>
+                        <td style="text-align: center; color:#333;">{$vo.id|jindu}%</td>
+                        <td style="text-align: center; color:#333;">{$vo.act_status|act_status}</td>
+                        <td style="text-align: center; color:#333;">{$vo.status|activity_status}</td>
+                                          
+                        <td style="text-align: center;">
+                          <button type="button" class="btn green mini block_box1" attr-id="{$vo.id}" data-toggle="modal" href="#sum{$vo.id}">详情</button>
+                        <if condition="$vo[activity_code] eq ''">
+                          <button type="button" class="btn blue mini set_code"  attr-id="{$vo.id}">生成活动二维码</button> 
+                         <else/>
+                          <button type="button" class="btn yellow mini block_box2" attr-id="{$vo.id}" data-toggle="modal" href="#activity_code{$vo.id}">查看活动二维码</button>
+                        </if>
+                        </td>
+                                                            
+                      </tr>
+                     </volist>
+                    
+                  </tbody>
+
+                </table>
+                <div class="list-page" style="float:right;">
+                  <ul><li>{$page}</li></ul>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- END EXAMPLE TABLE PORTLET-->
+
+          </div>
+
+        </div>
+
+   <script type="">
+        $('.block_box1').click(function(){
+          
+
+        });
+
+      $('.set_code').click(function(){
+       var a = $('.set_code').index(this);
+       var id = $('.set_code').eq(a).attr('attr-id');
+       var url = "__CONTROLLER__/set_activity_code";
+       var jump_url = "__CONTROLLER__/index";
+       var data = {'id':id};
+       $.post(url,data,function(result){
+        if(result.status==1){
+              dialog.success(result.message,jump_url);
+          }
+          if(result.status==0){
+              dialog.error(result.message);
+          }
+
+       },'JSON');
+
+    });
+
+
+
+
+         //申请不通过按钮点击事件
+      $('.jujue').click(function(){
+       var a = $('.jujue').index(this);
+       var val = $('.jujue').eq(a).attr('attr-val');
+       dialog.error(val);
+      });
+
+    $('.zanting').click(function(){
+     var a = $('.zanting').index(this);
+     var id = $('.zanting').eq(a).attr('attr-id');
+     var url = "__CONTROLLER__/act_status";
+     var jump_url = "__CONTROLLER__/index";
+     var data = {'id':id,'status':2};
+     $.post(url,data,function(result){
+      if(result.status==1){
+            dialog.success(result.message,jump_url);
+        }
+        if(result.status==0){
+            dialog.error(result.message);
+        }
+
+     },'JSON');
+
+    });
+
+    $('.huifu').click(function(){
+     var a = $('.huifu').index(this);
+     var id = $('.huifu').eq(a).attr('attr-id');
+     var url = "__CONTROLLER__/act_status";
+     var jump_url = "__CONTROLLER__/index";
+     var data = {'id':id,'status':1};
+     $.post(url,data,function(result){
+      if(result.status==1){
+            dialog.success(result.message,jump_url);
+        }
+        if(result.status==0){
+            dialog.error(result.message);
+        }
+
+     },'JSON');
+
+    });
+
+ 
+  $('.closes').click(function(){
+     var a = $('.close').index(this);
+     var id = $('.close').eq(a).attr('attr-id');
+     //alert(id);
+     var url = '__CONTROLLER__/act_status';
+     var jump_url = '__CONTROLLER__/daili_index';
+     var data = {'id':id,'status':-1};
+     layer.open({
+        type:0,
+        title:'关闭活动',
+        btn:['确认关闭','我再想想'], 
+        icon:3,
+        closeBtn:2,
+        content: '是否真的要关闭这项活动吗？',
+        scrollbar:true,
+        yes:function () {
+         $.post(url,data,function(res){
+         if(res.status==1){
+            dialog.success(res.message,jump_url);
+         }
+         if(res.status==0){
+            dialog.error(res.message);
+         }
+
+       },'JSON');
+ 
+        },
+    });
+     
+    });
+
+  </script>
+        <!-- END PAGE CONTENT -->
+
+
+      </div>
+
+      <!-- END PAGE CONTAINER-->
+
+    </div>
+
+    <!-- END PAGE -->
+
+  </div>
+  <!--=================================-分配码段===========================-->
+ <div class="modal" id="fenpei_box" style="display: none;" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+<!-- ======= -->
+
+         <form class="form-horizontal" id="form_code" action="__CONTROLLER__/add" method="post" enctype="multipart/form-data" >
+          <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
+
+                  <thead>
+                      <tr>
+                      <th colspan="10" style="text-align: center;">分配码段</th>
+                      </tr>
+                    <tr>
+                      <th></th>
+                      <th style="text-align: center;">ID</th>
+                      <th style="text-align: center;">批号</th>
+                      <th style="text-align: center;">码段</th>
+                      <th style="text-align: center;">数量</th>
+                      <th style="text-align: center;">拆分</th>
+                    </tr>
+
+                  </thead>
+                                   
+                  <tbody>
+                   <?php if(!empty($code_list)){ ?>
+                      <volist name="code_list" id="vo">
+                     
+                      <tr class="">
+                        <td style="width:20px;">
+                          <input type="checkbox" name="code_num_id[]" value="{$vo.id}">
+                        </td>
+                        <td style="text-align: center;">{$vo.id}</td>
+                        <td style="text-align: center;">{$vo.pici}</td>
+                        <td style="text-align: center; color: blue;">{$vo.code_number}</td>
+                        <td style="text-align: center;">{$vo.id|code_num}</td>
+                        <td style="text-align: center;"> 
+                         <button type="button" class="btn green mini" attr-id="{$vo.id}" data-toggle="modal" href="#chaifen{$vo.id}">拆分</button>
+                        </td>    
+                                                            
+                      </tr>
+                     </volist>
+                       <?php }else{ ?>
+                       <tr>
+                          <td style="text-align: center;" colspan="10">暂未分配码段，快去联系代理商吧！</td>
+                       </tr>
+                      <?php  }  ?>
+                    <tr>
+                     
+                     <td colspan="10" style="text-align: center;">
+                       <input type="hidden" id="click_shop_id" name="click_shop_id">
+                       <button class="btn blue" id="click_fenpei" type="button" onclick="fenpei_code()">确认分配</button>
+                       <button class="btn white" id="click_off" type="button" onclick="click_offs()">关闭窗口</button>
+                      </td>
+                    </tr>
+                  </tbody>
+
+                </table>
+                <div class="list-page" style="float:right;">
+                  <ul><li>{$code_page}</li></ul>
+                </div>
+        </form>
+<!-- ============ -->
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-backdrop fade in" id="top_ceng" style="display: none;"></div>
+
+
+<script>
+  function click_offs(){
+    $('#fenpei_box').css('display','none');
+    $('#top_ceng').css('display','none');
+  }
+  function fenpei_maduan(){
+    $('#fenpei_box').css('display','block');
+    $('#top_ceng').css('display','block');
+
+  }
+
+
+      $('.click_shop').click(function(){
+       var a = $('.click_shop').index(this);
+       var id = $('.click_shop').eq(a).attr('attr-id');
+       $('#click_shop_id').val(id);
+
+      });
+
+    $('#click_fenpei').click(function(){
+     var data=$('#form_fenpei').serialize(); 
+     var url = "__CONTROLLER__/fenpei";
+     var jump_url = "__CONTROLLER__/daili_index";
+     $.post(url,data,function(result){
+        
+       if(result.status==1){
+            dialog.success(result.message,jump_url);
+        }
+        if(result.status==0){
+            dialog.error(result.message);
+        }
+
+     },'JSON');
+
+    });
+
+</script>
+        <!--=================================-模态框===========================-->
+<volist name="list" id="vo">       
+<div class="modal fade" id="activity_code{$vo.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+
+         <form class="form-horizontal" id="form" action="" method="post" enctype="multipart/form-data">
+           <table width="400" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" class="table">
+                <tr>
+                   <td colspan="5" style="border:1px #ccc solid; line-height:30px; background-color:#eee; text-align: center;" height="20" width="200" align=""><b>活动二维码</b></td>
+                   
+                 </tr>
+                 <tr>
+                    <td style="text-align: center; ">
+                     <div style="color: green;">本二维码用于商户线上推广使用</div>
+                     <img src="{$vo.activity_code}" width="200" height="350" id="img1" style="cursor:pointer;">
+                   </td>
+                 </tr>
+           </table>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</volist>
+<script type="text/javascript">
+   $('#off_q').click(function(){
+     $('#add_activity').modal('hide');
+
+
+   });
+   $('#img1').click(function(){
+    $('#min_img1').css('display','block');
+    $('#min_img2').css('display','none');
+    $('#min_img3').css('display','none');
+    $('#min_img4').css('display','none');
+    $('#min_img5').css('display','none');
+    $('#choose_activity_type').val(1);
+   });
+   $('#img2').click(function(){
+    $('#min_img2').css('display','block');
+    $('#min_img1').css('display','none');
+    $('#min_img3').css('display','none');
+    $('#min_img4').css('display','none');
+    $('#min_img5').css('display','none');
+    $('#choose_activity_type').val(2);
+   });
+  $('#img3').click(function(){
+    $('#min_img3').css('display','block');
+    $('#min_img1').css('display','none');
+    $('#min_img2').css('display','none');
+    $('#min_img4').css('display','none');
+    $('#min_img5').css('display','none');
+    $('#choose_activity_type').val(3);
+   });
+  $('#img4').click(function(){
+    $('#min_img4').css('display','block');
+    $('#min_img1').css('display','none');
+    $('#min_img2').css('display','none');
+    $('#min_img3').css('display','none');
+    $('#min_img5').css('display','none');
+    $('#choose_activity_type').val(4);
+   });
+  $('#img5').click(function(){
+    $('#min_img5').css('display','block');
+    $('#min_img2').css('display','none');
+    $('#min_img3').css('display','none');
+    $('#min_img4').css('display','none');
+    $('#min_img1').css('display','none');
+    $('#choose_activity_type').val(5);
+   });
+
+   $('#choose').click(function(){
+     var activity_type = $('#choose_activity_type').val();
+     //alert(activity_type);return false;
+     var jump_url = '__CONTROLLER__/add?activityId='+activity_type;
+     window.location.href=jump_url;
+
+
+
+   });
+
+  $('.edit').click(function(){
+    var a = $('.edit').index(this);
+    var id = $('.edit').eq(a).attr('attr-id');
+    var level = $('.lev').eq(a).val();
+    var url = '__CONTROLLER__/edit_level_save';
+    var jump_url = '__CONTROLLER__/daili_index';
+    var data = {'id':id,'level':level};
+    $.post(url,data,function(res){
+        if (res.status == 1) {
+            dialog.success(res.message,jump_url);
+              //window.location.href=jump_url;
+            } 
+         if(res.status == 0){
+            dialog.error(res.message);
+        }
+
+     },'JSON');
+  });
+
+
+</script>
+<!--=================================-统计数据===========================-->
+<volist name="list" id="vo">          
+<div class="modal fade" id="sum{$vo.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+<!-- ======= -->
+
+         <form class="form-horizontal" id="form" action="" method="post" enctype="multipart/form-data">
+         <table width="400" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" class="table">
+                <tr>
+                   <td colspan="2" style="border:1px #ccc solid; line-height:30px; background-color:#eee; text-align: center;" height="20" width="200" align=""><b>活动详情</b></td>
+                 </tr>
+                 <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">ID</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                       {$vo.id}
+                    </td>
+                 </tr>
+                   <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">活动名称</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                       {$vo.act_name}
+                    </td>
+                 </tr>
+                   <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">活动图片</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                      <img src="{$vo.picture}" alt="">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">码段</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                       {$vo.id|act_c_num}
+                    </td>
+                 </tr>
+                  <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">总码量</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                      {$vo.id|act_z_num}
+                    </td>
+                 </tr>
+                  <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">活动进度</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                       {$vo.id|jindu}%
+                    </td>
+                 </tr>
+                  <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">领取方式</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                       <if condition="$vo[condition] eq 2">
+                        {$vo.condition|condition}
+                       <p>分享标题：<span style="color: red;">{$vo.id|share_title}</span></p>
+                        <p>分享链接：<span style="color: red;">{$vo.id|share_link}</span></p>
+                        <p>分享图标：<img src="{$vo.id|share_picture}" alt=""></p>
+                       <else/>
+                        {$vo.condition|condition}
+                       </if>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">描述信息</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                      {$vo.describe|htmlspecialchars_decode}
+                    </td>
+                 </tr>
+                 <tr>
+                    <td style="border:1px #ccc solid; line-height:30px;" height="20" width="100" align="center">创建时间</td>
+                    <td style="border:1px #ccc solid;" height="20" width="200" align="center">
+                      {$vo.time|date="y-m-d",###}
+                    </td>
+                 </tr>
+              
+             
+         </table>
+        </form>
+<!-- ============ -->
+        
+      </div>
+    </div>
+  </div>
+</div>
+</volist>
+<script type="text/javascript">
+/*  $('.edit').click(function(){
+    var a = $('.edit').index(this);
+    var id = $('.edit').eq(a).attr('attr-id');
+    var level = $('.lev').eq(a).val();
+    var url = '__CONTROLLER__/edit_level_save';
+    var jump_url = '__CONTROLLER__/daili_index';
+    var data = {'id':id,'level':level};
+    $.post(url,data,function(res){
+        if (res.status == 1) {
+            dialog.success(res.message,jump_url);
+              //window.location.href=jump_url;
+            } 
+         if(res.status == 0){
+            dialog.error(res.message);
+        }
+
+     },'JSON');
+  });*/
+
+
+</script>
+
+  <!-- END CONTAINER -->
+
+  <!-- BEGIN FOOTER -->
+
+<include file="index/footer" />
+
+  <!-- END FOOTER -->
+
+  <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+
+  <!-- BEGIN CORE PLUGINS -->
+
+  <script src="__PUBLIC__/media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+  <!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+
+  <script src="__PUBLIC__/media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+
+  <script src="__PUBLIC__/media/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <!--[if lt IE 9]>
+
+  <script src="__PUBLIC__/media/js/excanvas.min.js"></script>
+
+  <script src="__PUBLIC__/media/js/respond.min.js"></script>  
+
+  <![endif]-->   
+
+  <script src="__PUBLIC__/media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery.blockui.min.js" type="text/javascript"></script>  
+
+  <script src="__PUBLIC__/media/js/jquery.cookie.min.js" type="text/javascript"></script>
+
+  <script src="__PUBLIC__/media/js/jquery.uniform.min.js" type="text/javascript" ></script>
+
+  <!-- END CORE PLUGINS -->
+
+  <!-- BEGIN PAGE LEVEL PLUGINS -->
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/select2.min.js"></script>
+
+  
+
+  <script type="text/javascript" src="__PUBLIC__/media/js/DT_bootstrap.js"></script>
+
+  <!-- END PAGE LEVEL PLUGINS -->
+
+  <!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+  <script src="__PUBLIC__/media/js/app.js"></script>
+
+  <script src="__PUBLIC__/media/js/table-editable.js"></script>    
+
+  <script>
+
+    jQuery(document).ready(function() {       
+
+       App.init();
+
+       TableEditable.init();
+
+    });
+
+/*   $('#add').click(function(){
+     var quname = $('#quname').val();
+     var pid = $('#pid').val();
+     var url = '__CONTROLLER__/add';
+     var jump_url = '__CONTROLLER__/index';
+     var data={'pid':pid,'name':quname}
+       $.post(url,data,function(res){
+         if(res.status==1){
+            dialog.success(res.message,jump_url);
+         }
+         if(res.status==0){
+            dialog.error(res.message);
+         }
+
+       },'JSON');
+
+   })*/
+  $('.del').click(function(){
+     var a = $('.del').index(this);
+     var id = $('.del').eq(a).attr('attr-id');
+     //alert(id);
+     var url = '__CONTROLLER__/del';
+     var jump_url = '__CONTROLLER__/index';
+     var data={'id':id}
+     layer.open({
+        type:0,
+        title:'删除',
+        btn:['yes','no'], 
+        icon:3,
+        closeBtn:2,
+        content: '是否真的删除这条数据？',
+        scrollbar:true,
+        yes:function () {
+         $.post(url,data,function(res){
+         if(res.status==1){
+            dialog.success(res.message,jump_url);
+         }
+         if(res.status==0){
+            dialog.error(res.message);
+         }
+
+       },'JSON');
+ 
+        },
+    });
+     
+    });
+
+     $('#delall').click(function(){
+    var goodsid={};
+    $("input[name='goodsid']:checked").each(function (i) {
+          goodsid[i]=$(this).val();
+     });
+    var url="__CONTROLLER__/bdel";
+    var jump_url="__CONTROLLER__/index";
+        layer.open({
+        type:0,
+        title:'批量删除',
+        btn:['yes','no'], 
+        icon:3,
+        closeBtn:2,
+        content: '是否真的删除这些数据？',
+        scrollbar:true,
+        yes:function () {
+         $.post(url,goodsid,function(res){
+         if(res.status==1){
+            dialog.success(res.message,jump_url);
+         }
+         if(res.status==0){
+            dialog.error(res.message);
+         }
+
+       },'JSON');
+ 
+        },
+    });
+  })
+  </script>
+
+<!-- <script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);  _gaq.push(['_setDomainName', 'keenthemes.com']);  _gaq.push(['_setAllowLinker', true]);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script> --></body>
+
+<!-- END BODY -->
+
+</html>

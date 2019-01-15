@@ -1,0 +1,1089 @@
+[ 2018-06-15T09:06:04+08:00 ] 127.0.0.1 /index.php/admin/login/index
+ERR: Cron:cron Runat 2018-06-15 09:06:04 Use 0.063003 s
+
+[ 2018-06-15T09:06:04+08:00 ] 127.0.0.1 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0030s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.071004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:06:04+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:06:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fen_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_admin` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\LoginController.class.php on line 30 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-15T09:06:11+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1528992000 AND 1529078399 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: zong D:\wamp\www\fenxiao\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_member` WHERE `time` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: area D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 835 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 877 行.
+NOTIC: [8] Undefined index: month_money D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 939 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 945 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:09:57+08:00 ] 127.0.0.1 /index.php/Admin/product/add
+ERR: Cron:cron Runat 2018-06-15 09:09:57 Use 0.019001 s
+
+[ 2018-06-15T09:09:57+08:00 ] 127.0.0.1 /index.php/Admin/product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.023002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024002s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:10:05+08:00 ] 127.0.0.1 /index.php/Admin/class/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 654 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 683 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 704 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:10:30+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Cron:cron Runat 2018-06-15 09:10:30 Use 0.025001 s
+
+[ 2018-06-15T09:10:30+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0040s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0070s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:10:32+08:00 ] 127.0.0.1 /index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 680 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:13:15+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+ERR: Cron:cron Runat 2018-06-15 09:13:15 Use 0.025001 s
+
+[ 2018-06-15T09:13:16+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.030001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031001s ]
+SQL: SHOW COLUMNS FROM `fen_product` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fen_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `fen_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SHOW COLUMNS FROM `fen_class` [ RunTime:0.0070s ]
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fen_pinpai` [ RunTime:0.0050s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 706 行.
+SQL: SELECT `class_name` FROM `fen_class` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pinpai_name` FROM `fen_pinpai` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:13:21+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:14:46+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:14:46 Use 0.024001 s
+
+[ 2018-06-15T09:14:46+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.030001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:15:01+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:15:01 Use 0.025002 s
+
+[ 2018-06-15T09:15:01+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-15T09:15:21+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:15:21 Use 0.023002 s
+
+[ 2018-06-15T09:15:21+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.027002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:15:52+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:15:52 Use 0.025001 s
+
+[ 2018-06-15T09:15:52+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.029001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-15T09:16:13+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:16:13 Use 0.021002 s
+
+[ 2018-06-15T09:16:13+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.023002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:16:15+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:16:32+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:16:32 Use 0.037002 s
+
+[ 2018-06-15T09:16:32+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.042003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-06-15T09:17:08+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:17:08 Use 0.025002 s
+
+[ 2018-06-15T09:17:08+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.029002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:17:34+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:17:34 Use 0.039002 s
+
+[ 2018-06-15T09:17:34+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0030s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.046002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-06-15T09:18:21+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:18:21 Use 0.027001 s
+
+[ 2018-06-15T09:18:21+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:19:09+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:19:09 Use 0.023002 s
+
+[ 2018-06-15T09:19:09+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.026002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-06-15T09:20:32+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:20:32 Use 0.038002 s
+
+[ 2018-06-15T09:20:32+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.043002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2018-06-15T09:20:37+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:23:45+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:23:45 Use 0.029001 s
+
+[ 2018-06-15T09:23:45+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.033002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T09:23:49+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:49:13+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:49:13 Use 0.030002 s
+
+[ 2018-06-15T09:49:13+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.038002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039002s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 727 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:49:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+ERR: Cron:cron Runat 2018-06-15 09:49:24 Use 0.023002 s
+
+[ 2018-06-15T09:49:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.027002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:49:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:53:16+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:53:16 Use 0.045003 s
+
+[ 2018-06-15T09:53:16+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.051003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 727 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:53:21+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:54:00+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:54:00 Use 0.035002 s
+
+[ 2018-06-15T09:54:00+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0030s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.041002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T09:54:05+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:54:08+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:59:11+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:59:11 Use 0.038002 s
+
+[ 2018-06-15T09:59:11+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.046002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049002s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-15T09:59:15+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T09:59:25+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 09:59:25 Use 0.039003 s
+
+[ 2018-06-15T09:59:26+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.043003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-15T09:59:33+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T10:00:47+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 10:00:47 Use 0.048003 s
+
+[ 2018-06-15T10:00:47+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.057003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-06-15T10:01:29+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+ERR: Cron:cron Runat 2018-06-15 10:01:29 Use 0.037002 s
+
+[ 2018-06-15T10:01:29+08:00 ] 127.0.0.1 /index.php/Admin/product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.043003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-15T10:01:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T10:01:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+ERR: Cron:cron Runat 2018-06-15 10:01:39 Use 0.020001 s
+
+[ 2018-06-15T10:01:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.024001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T10:01:46+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\fenxiao\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-06-15T10:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+ERR: Cron:cron Runat 2018-06-15 10:01:49 Use 0.028002 s
+
+[ 2018-06-15T10:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.033002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `fen_banner` (`picture1`,`picture2`,`picture3`) VALUES ('/Public/Uploads/2018-06-15/5b231e03cfea8.jpg','/Public/Uploads/2018-06-15/5b231dff4a8d4.jpg','/Public/Uploads/2018-06-15/5b231e0a43617.jpg') [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 3 for show(), called in D:\wamp\www\fenxiao\Application\Admin\Controller\ProductController.class.php on line 240 and defined D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\fenxiao\Application\Admin\Common\function.php 第 16 行.
+
+[ 2018-06-15T10:01:50+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T10:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+ERR: Cron:cron Runat 2018-06-15 10:02:17 Use 0.032002 s
+
+[ 2018-06-15T10:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.041002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042002s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-15T10:37:51+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+ERR: Cron:cron Runat 2018-06-15 10:37:51 Use 0.032001 s
+
+[ 2018-06-15T10:37:51+08:00 ] 127.0.0.1 /index.php/Admin/Product/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fen_indent` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fen_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.041003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042003s ]
+SQL: SHOW COLUMNS FROM `fen_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fen_banner` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: status D:\wamp\www\fenxiao\Application\Runtime\Cache\Admin\3c5755a996855908c5606781c00d0fa6.php 第 715 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

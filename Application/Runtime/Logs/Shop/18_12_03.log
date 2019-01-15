@@ -1,0 +1,657 @@
+[ 2018-12-03T16:46:24+08:00 ] 127.0.0.1 /index.php/shop/activity/index
+ERR: Cron:cron Runat 2018-12-03 16:46:24 Use 0.070720 s
+
+[ 2018-12-03T16:46:24+08:00 ] 127.0.0.1 /index.php/shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.165040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.166565s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+
+[ 2018-12-03T16:46:25+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2018-12-03T16:46:26+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2018-12-03T16:46:49+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-12-03 16:46:49 Use 0.192763 s
+
+[ 2018-12-03T16:46:50+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1462s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.209846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.211198s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0547s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 39 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 483 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 487 行.
+
+[ 2018-12-03T16:46:52+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013500s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1229s ]
+SQL: SELECT * FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.1783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+SQL: SELECT `id`,`type`,`name`,`end_time` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 AND `username` = 'admin1' AND `password` = 'b87d891aa9158e0589fa6db7063c75b4' AND `money` = '58.80' AND `total_money` = '0.00' AND `name` = '伟大集团' AND `link_man` = '张大伟' AND `phone` = '13930183795' AND `email` = '0000@qq.com' AND `address` = '塔坛国际' AND `logo` = '' AND `end_time` = '1546271999' AND `type` = 2 AND `time` = '1539238780' AND `parentid` = 0 AND `status` = 1 AND `content` = null AND `hexiao_code` = '/Public/erweima/erweima1.png' LIMIT 1   [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1247s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM red_code co,red_activity act,red_shop sho,red_code_num co_n WHERE ( co.code_num_id=co_n.id and co.status>0 and co_n.activity_id=act.id and  act.shop_id="1" ) LIMIT 1   [ RunTime:0.2923s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.1334s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1574s ]
+SQL: SELECT COUNT(*) AS tp_count FROM red_code co,red_activity act,red_shop sho WHERE ( co.status>0 and co.activity_id=act.id and act.condition=2 and co.share=1 and act.shop_id="1" ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.119891s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.120033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2018-12-03T16:46:58+08:00 ] 127.0.0.1 /index.php/Shop/Index/charts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004077s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015558s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.2999s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.1822s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543161600" and re.time<"1543247999" ) ORDER BY re.id desc  [ RunTime:0.3107s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.1686s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543248000" and re.time<"1543334399" ) ORDER BY re.id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.2725s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543334400" and re.time<"1543420799" ) ORDER BY re.id desc  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.1358s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543420800" and re.time<"1543507199" ) ORDER BY re.id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.2023s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543507200" and re.time<"1543593599" ) ORDER BY re.id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.2035s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543593600" and re.time<"1543679999" ) ORDER BY re.id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.1103s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543680000" and re.time<"1543766399" ) ORDER BY re.id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: offset E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: pageSize E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.1607s ]
+SQL: SELECT re.time,re.prize_type,re.prize,act.id FROM red_get_record re,red_activity act WHERE ( re.activity_id=act.id and act.shop_id="1" and re.time>"1543766400" and re.time<"1543852799" ) ORDER BY re.id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 88 行.
+
+[ 2018-12-03T16:47:01+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+ERR: Cron:cron Runat 2018-12-03 16:47:01 Use 0.395990 s
+
+[ 2018-12-03T16:47:04+08:00 ] 127.0.0.1 /index.php/Shop/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1793s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.412794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.414476s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+NOTIC: [8] Undefined index: act_status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 8 行.
+NOTIC: [8] Undefined index: shenhe_status E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 9 行.
+NOTIC: [8] Undefined index: key E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0925s ]
+SQL: SELECT `id` FROM `red_shop` WHERE `parentid` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.1570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` WHERE `shop_id` IN ('2','3','1') LIMIT 1   [ RunTime:0.2843s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 36 行.
+SQL: SELECT * FROM `red_activity` WHERE `shop_id` IN ('2','3','1') ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.1139s ]
+SQL: SELECT * FROM `red_code_num` WHERE `activity_id` = 0 AND `shop_id` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+SQL: SELECT `id`,`type`,`name`,`end_time` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 697 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.2390s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 21 AND `prize_type` IN ('1','2')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.1513s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 21 AND `prize_type` IN ('1','2')  [ RunTime:0.0846s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0983s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 21 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 20 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 20 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 19 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 19 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 18 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 18 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 18 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 18 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 17 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 17 AND `prize_type` IN ('1','2')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 17 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 17 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 16 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 16 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 16 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 16 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 15 AND `prize_type` IN ('1','2')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 15 AND `prize_type` IN ('1','2')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 15 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 14 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 14 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 13 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 13 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 13 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 12 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 12 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 755 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 760 行.
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 11 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 11 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 771 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 773 行.
+NOTIC: [8] Use of undefined constant act_status - assumed 'act_status' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 775 行.
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 792 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 19 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1008 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 21 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 21 AND `prize_type` IN ('1','2')  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 20 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 20 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 19 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 19 AND `prize_type` IN ('1','2')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 18 AND `prize_type` IN ('1','2')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 18 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 18 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 17 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 17 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 16 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 16 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 16 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 15 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 15 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 15 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `red_share_data` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `red_share_data` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_share_data` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `red_share_data` WHERE `activity_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 14 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 14 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 14 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.8167s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT * FROM `red_share_data` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_share_data` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_share_data` WHERE `activity_id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 13 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 13 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 12 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 12 AND `prize_type` IN ('1','2')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_get_record` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity_prize` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 11 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 11 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 11 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Division by zero E:\wamp\www\anti\Application\Common\Common\function.php 第 309 行.
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Shop\ec7012c1cf306783cacc78d1cd927d06.php 第 1272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.315754s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.316232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2018-12-03T16:47:11+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+ERR: Cron:cron Runat 2018-12-03 16:47:11 Use 0.262286 s
+
+[ 2018-12-03T16:47:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.321047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.322818s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.1884s ]
+SQL: SELECT * FROM `red_code_num` WHERE `activity_id` = 0 AND `shop_id` = 1 ORDER BY pici desc  [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `red_wx_token` [ RunTime:0.3910s ]
+SQL: SELECT `authorizer_access_token` FROM `red_wx_token` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.1484s ]
+SQL: SELECT `component_access_token`,`component_time` FROM `red_admin` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] file_get_contents(wx_ticket/ticket.log): failed to open stream: No such file or directory E:\wamp\www\anti\Application\Common\Common\function.php 第 1099 行.
+NOTIC: [8] Undefined index: component_access_token E:\wamp\www\anti\Application\Common\Common\function.php 第 1108 行.
+NOTIC: [8] Undefined variable: ok E:\wamp\www\anti\Application\Common\Common\function.php 第 1114 行.
+NOTIC: [8] Undefined index: pre_auth_code E:\wamp\www\anti\Application\Common\Common\function.php 第 1136 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.2466s ]
+SQL: SELECT `id`,`type`,`name`,`end_time` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0629s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 19 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Shop\bb692b47adffdd116e8a79d010af757a.php 第 1446 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.532555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.532692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2018-12-03T16:47:27+08:00 ] 127.0.0.1 /index.php/Shop/Activity/return_code
+ERR: Cron:cron Runat 2018-12-03 16:47:27 Use 0.137687 s
+
+[ 2018-12-03T16:47:28+08:00 ] 127.0.0.1 /index.php/Shop/Activity/return_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1108s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.172180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.174363s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0845s ]
+SQL: SELECT * FROM `red_code_num` WHERE `id` IN ('17')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0981s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 17 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 869 行.
+
+[ 2018-12-03T16:47:37+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add_activity
+ERR: Cron:cron Runat 2018-12-03 16:47:37 Use 0.135773 s
+
+[ 2018-12-03T16:47:37+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.156334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.158250s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: money1 E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 191 行.
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php on line 200 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 483 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 487 行.
+
+[ 2018-12-03T16:49:13+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add_activity
+ERR: Cron:cron Runat 2018-12-03 16:49:13 Use 0.084463 s
+
+[ 2018-12-03T16:49:14+08:00 ] 127.0.0.1 /index.php/Shop/Activity/add_activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0642s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117489s ]
+NOTIC: [8] Undefined index: admin_shop_id E:\wamp\www\anti\Application\Shop\Controller\CommenController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: money1 E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 191 行.
+NOTIC: [8] Undefined variable: amount_total E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 203 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('17') LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: money2 E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 216 行.
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0464s ]
+SQL: SELECT `money` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0421s ]
+SQL: INSERT INTO `red_activity` (`act_name`,`title`,`picture`,`describe`,`rule`,`instruction`,`cishu_status`,`cishu1`,`cishu2`,`cishu3`,`condition`,`user_data`,`area_status`,`type`,`time`,`shop_id`) VALUES ('111','领程科技邀你扫码领红包','','&lt;p&gt;领程科技邀你扫码领红包&lt;/p&gt;','&lt;p&gt;1. 前往线下活动站点参与活动，领取红包二维码；&lt;/p&gt;&lt;p&gt;2. 刮开二维码，手机微信扫一扫抽奖；&lt;/p&gt;&lt;p&gt;3. 按页面提示领奖；&lt;/p&gt;&lt;p&gt;4. 完成任务后现金自动到账。&lt;/p&gt;&lt;p&gt;由于参与人数众多，到账时间可能稍有延时，请您耐心等待，感谢您的参与！&lt;/p&gt;','&lt;p&gt;*本活动最终解释权归主办方所有*&lt;/p&gt;','0','0','0','0','1','0','0','1','1543826953','1') [ RunTime:0.4035s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0585s ]
+SQL: UPDATE `red_code_num` SET `activity_id`='22' WHERE `id` IN ('17') [ RunTime:0.1354s ]
+SQL: UPDATE `red_code` SET `activity_id`='22' WHERE `code_num_id` IN ('17') [ RunTime:0.0762s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0353s ]
+SQL: INSERT INTO `red_activity_prize` (`prize_type`,`prize`,`prize_amount`,`activity_id`) VALUES ('1','0.4','1','22') [ RunTime:0.0269s ]
+SQL: UPDATE `red_code` SET `activity_prize_id`='39' WHERE `activity_prize_id` = 0 AND `code_num_id` IN ('17') LIMIT 1  [ RunTime:0.0272s ]
+SQL: UPDATE `red_shop` SET `money`='58.4' WHERE `id` = 1 [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0368s ]
+SQL: INSERT INTO `red_money_record` (`userid`,`roletype`,`moneytype`,`money`,`full`,`time`,`content`) VALUES ('1','1','2','0.4','58.4','1543826954','活动id:22,活动名称：111') [ RunTime:0.0370s ]
+NOTIC: [8] Uninitialized string offset: 0 E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 325 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 326 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php 第 327 行.
+SQL: SHOW COLUMNS FROM `red_activity_input` [ RunTime:0.0378s ]
+SQL: INSERT INTO `red_activity_input` (`input_type`,`input_name`,`input_status`,`activity_id`) VALUES ('0','','0','22') [ RunTime:0.0633s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\ActivityController.class.php on line 344 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 483 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 487 行.
+

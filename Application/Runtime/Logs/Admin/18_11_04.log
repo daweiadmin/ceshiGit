@@ -1,0 +1,38 @@
+[ 2018-11-04T15:15:34+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-11-04 15:15:34 Use 0.171908 s
+
+[ 2018-11-04T15:15:35+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1023s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0014s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.225865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.228904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004882s ]
+
+[ 2018-11-04T15:15:37+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.039304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+

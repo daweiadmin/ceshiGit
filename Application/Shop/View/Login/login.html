@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商户后台登陆</title>
+    <link href="__PUBLIC__/admin/css/admin_login.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+    <script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
+</head>
+<body style="background:url(__PUBLIC__/admin/images/b.png) no-repeat; background-size:cover;">
+
+<div class="admin_login_wrap" style="margin-top: 220px;">
+    <h1 style="text-align: center;">商户系统登陆</h1>
+    <div class="adming_login_border">
+        <div class="admin_input">
+            <form action="index.html" method="post">
+                <ul class="admin_items">
+                    <li>
+                        <label for="user">用户名：</label>
+                        <input type="text" name="username" value="admin" id="username" size="40" class="admin_input_style" style="width: 260px;" />
+                    </li>
+                    <li>
+                        <label for="pwd">密码：</label>
+                        <input type="password" name="password" value="admin" id="password" size="40" class="admin_input_style" style="width: 260px;"/>
+                    </li>
+                     <li>
+                        <label for="pwd">验证码：</label>
+                        <input type="text" name="code" id="code" size="40" class="admin_input_style" style="width:100px; float:left;"/>
+                         <img src="{:U('login/verify',array())}"  onclick=this.src="__CONTROLLER__/verify/"+Math.random() alt="" height="40" width="126" align="absmiddle" style="position:relative;top:-2px; float: left; margin-left: 16px;" title="看不清？点击更换另一个验证码。"  />
+                    </li>
+                    <li>
+                        <input type="button" tabindex="3" value="提交" class="btn btn-primary" style="margin-top: 30px; cursor:pointer;" id="submit" />
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <p class="admin_copyright"><a tabindex="5" href="javascript:viod(0);" target="_blank">版权所有：河北领程网络科技有限公司。技术支持：澜清科技</a> </p>
+</div>
+</body>
+<script>
+    $('#submit').click(function(){
+     var url = '__CONTROLLER__/index';
+     var jump_url = '__MODULE__/index/index';
+     var name = $('#username').val();
+     var password = $('#password').val();
+     var code = $('#code').val();
+
+     if(!name){
+       dialog.error('请填写用户名');return false;
+     }
+     if(!password){
+       dialog.error('请输入密码');return false;
+     }
+     if(!code){
+       dialog.error('请输入验证码');return false;
+     }
+     var data = {'username':name,'password':password,'code':code};
+     $.post(url,data,function(res){
+        if (res.status == 1) {
+              window.location.href=jump_url;
+            } 
+         if(res.status == 0){
+            dialog.error(res.message);
+        }
+
+     },'JSON');
+
+    });
+
+</script>
+</html>

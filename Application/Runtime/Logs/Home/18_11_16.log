@@ -1,0 +1,2034 @@
+[ 2018-11-16T09:20:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007850s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010915s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0888s ]
+SQL: SELECT * FROM `red_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2018-11-16T10:47:53+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+ERR: Cron:cron Runat 2018-11-16 10:47:53 Use 0.133423 s
+
+[ 2018-11-16T10:47:53+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.199547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.201512s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2018-11-16T11:08:12+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+ERR: Cron:cron Runat 2018-11-16 11:08:12 Use 0.225271 s
+
+[ 2018-11-16T11:08:12+08:00 ] 127.0.0.1 /index.php/home/wechat/jindan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002653s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.271709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.274645s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002474s ]
+
+[ 2018-11-16T11:08:14+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.024339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026328s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0595s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0448s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.1237s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2018-11-16T11:09:03+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:09:03 Use 0.094351 s
+
+[ 2018-11-16T11:09:04+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.117807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119340s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0462s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2018-11-16T11:12:50+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:12:50 Use 0.091525 s
+
+[ 2018-11-16T11:12:50+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006492s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.116574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.123340s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0596s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0464s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0533s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2018-11-16T11:13:07+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:13:07 Use 0.212275 s
+
+[ 2018-11-16T11:13:08+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004808s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1464s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.282108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.287271s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0943s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0512s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0688s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002148s ]
+
+[ 2018-11-16T11:14:17+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:14:17 Use 0.068544 s
+
+[ 2018-11-16T11:14:17+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000538s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.090727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.092245s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0391s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-11-16T11:14:36+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:14:36 Use 0.120676 s
+
+[ 2018-11-16T11:14:36+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003511s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0689s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.154740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.158687s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0420s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2018-11-16T11:14:49+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:14:49 Use 0.097309 s
+
+[ 2018-11-16T11:14:49+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0676s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.137501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140139s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1121s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0444s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0722s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0575s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2018-11-16T11:15:05+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:15:05 Use 0.100219 s
+
+[ 2018-11-16T11:15:05+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0735s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.130522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.132313s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0648s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0539s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0628s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2018-11-16T11:15:17+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:15:17 Use 0.103918 s
+
+[ 2018-11-16T11:15:17+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.144678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152455s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0339s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2018-11-16T11:29:45+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:29:45 Use 0.129555 s
+
+[ 2018-11-16T11:29:46+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006673s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.186203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.193319s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0697s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0535s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0623s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0565s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004031s ]
+
+[ 2018-11-16T11:29:54+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016760s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0593s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0569s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006859s ]
+
+[ 2018-11-16T11:30:19+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:30:19 Use 0.110308 s
+
+[ 2018-11-16T11:30:19+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0867s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.131436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.133879s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0714s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0459s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0732s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2018-11-16T11:30:34+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:30:34 Use 0.092590 s
+
+[ 2018-11-16T11:30:35+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003536s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.216872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.220741s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0527s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0875s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2018-11-16T11:31:45+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:31:45 Use 0.082195 s
+
+[ 2018-11-16T11:31:45+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117166s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0548s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0430s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 39 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 41 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 50 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 52 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 61 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 63 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 72 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 74 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 83 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 85 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002073s ]
+
+[ 2018-11-16T11:34:41+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:34:41 Use 0.158192 s
+
+[ 2018-11-16T11:34:42+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012033s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1245s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.206706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.219016s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0752s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0486s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0616s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0767s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 44 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 55 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 66 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 77 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 88 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2018-11-16T11:34:52+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:34:52 Use 0.155500 s
+
+[ 2018-11-16T11:34:52+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1177s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.181043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.183244s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0483s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0741s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0639s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 44 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 55 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 66 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 77 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 88 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2018-11-16T11:35:10+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:35:10 Use 0.115702 s
+
+[ 2018-11-16T11:35:10+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.149592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.151828s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0757s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0527s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0726s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 44 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 55 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 66 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 77 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 88 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002166s ]
+
+[ 2018-11-16T11:35:23+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:35:23 Use 0.092417 s
+
+[ 2018-11-16T11:35:24+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.129359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.130791s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0932s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0643s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 44 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 55 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 66 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 77 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 88 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002323s ]
+
+[ 2018-11-16T11:35:37+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:35:37 Use 0.146352 s
+
+[ 2018-11-16T11:35:38+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.177440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.179318s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0696s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0420s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0639s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0671s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 44 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 55 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 66 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 77 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 88 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2018-11-16T11:40:18+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 11:40:18 Use 0.098280 s
+
+[ 2018-11-16T11:40:18+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0696s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.130307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.131873s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0698s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0658s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0785s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0035s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0683s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2018-11-16T15:10:10+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:10:10 Use 0.205719 s
+
+[ 2018-11-16T15:10:11+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0011s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.257604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.260321s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0379s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-16T15:10:22+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:10:22 Use 0.088116 s
+
+[ 2018-11-16T15:10:23+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.117821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119621s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0421s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002693s ]
+
+[ 2018-11-16T15:10:39+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:10:39 Use 0.073518 s
+
+[ 2018-11-16T15:10:39+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.096868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.098906s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0958s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0703s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0796s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.1025s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2018-11-16T15:11:02+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:11:02 Use 0.138472 s
+
+[ 2018-11-16T15:11:03+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1068s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.168096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.169530s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0668s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0912s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2018-11-16T15:11:20+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:11:20 Use 0.119741 s
+
+[ 2018-11-16T15:11:20+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008973s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0900s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0018s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.156179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.165701s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0771s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0659s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0643s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2018-11-16T15:11:53+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:11:53 Use 0.112350 s
+
+[ 2018-11-16T15:11:54+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0829s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.150428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.151830s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0354s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0675s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2018-11-16T15:12:05+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:12:05 Use 0.090164 s
+
+[ 2018-11-16T15:12:06+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003456s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0656s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0014s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.118789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122507s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1051s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0322s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0701s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0604s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0673s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2018-11-16T15:12:44+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:12:44 Use 0.092970 s
+
+[ 2018-11-16T15:12:44+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003974s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0608s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.123065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.127676s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0682s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0775s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0759s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2018-11-16T15:15:38+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:15:38 Use 0.104259 s
+
+[ 2018-11-16T15:15:39+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0805s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.141504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.143020s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0747s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0537s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0587s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2018-11-16T15:16:00+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:16:00 Use 0.076978 s
+
+[ 2018-11-16T15:16:00+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0009s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.105729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107221s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0554s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0445s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002332s ]
+
+[ 2018-11-16T15:16:17+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:16:17 Use 0.065295 s
+
+[ 2018-11-16T15:16:17+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.089483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.091415s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0389s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2018-11-16T15:41:34+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 15:41:34 Use 0.474476 s
+
+[ 2018-11-16T15:41:34+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0923s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0012s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.592330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.594066s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0829s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0518s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0533s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003531s ]
+
+[ 2018-11-16T16:06:48+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 16:06:48 Use 0.155942 s
+
+[ 2018-11-16T16:06:48+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0826s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.201851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.205136s ]
+
+[ 2018-11-16T16:07:48+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 16:07:48 Use 0.121697 s
+
+[ 2018-11-16T16:07:48+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003155s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0666s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.162147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.165964s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0480s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 370 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 372 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 374 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 376 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 378 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2018-11-16T17:19:37+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 17:19:37 Use 0.199474 s
+
+[ 2018-11-16T17:19:37+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0991s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0013s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.280218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.283973s ]
+
+[ 2018-11-16T17:20:05+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 17:20:05 Use 0.092727 s
+
+[ 2018-11-16T17:20:05+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0011s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.112472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.114073s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0402s ]
+SQL: SELECT `activity_id` FROM `red_code_num` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = null  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 382 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 384 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 386 行.
+NOTIC: [8] Undefined offset: 3 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 388 行.
+NOTIC: [8] Undefined offset: 4 E:\wamp\www\anti\Application\Home\Controller\WechatController.class.php 第 390 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_ticket` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `red_ticket` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 46 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 48 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 57 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 59 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 68 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 70 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 79 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 81 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 90 行.
+NOTIC: [8] Use of undefined constant prize_type - assumed 'prize_type' E:\wamp\www\anti\Application\Runtime\Cache\Home\964c6ee635b0f6f07a8058a9dc911250.php 第 92 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002752s ]
+
+[ 2018-11-16T17:32:11+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+ERR: Cron:cron Runat 2018-11-16 17:32:11 Use 0.227842 s
+
+[ 2018-11-16T17:32:11+08:00 ] 127.0.0.1 /index.php/home/wechat/zhuanpan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.262758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.264518s ]
+

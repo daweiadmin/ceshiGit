@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta id="viewPorts" name="viewport" content="width=device-width">
+<script>
+//不同分辨率手机加载
+var appVersion = window.navigator.appVersion;
+var platform = '', viewPorts = '';
+if(appVersion.toLowerCase().indexOf('android')){
+	platform = 'android';
+}else if(appVersion.indexOf('iPhone') || appVersion.indexOf('iPod') || appVersion.indexOf('iPad')){
+	platform = 'ios';
+}
+var winWidth = window.screen.width,
+	targetDensitydpi = winWidth / 640;
+switch(platform){
+	case 'android':
+		var devicePixelRatio = window.devicePixelRatio;
+		targetDensitydpi = 640 / winWidth * devicePixelRatio * 160;
+		viewPorts = 'width=640,target-densitydpi=' + targetDensitydpi + ',user-scalable=on';
+		break;
+	case 'ios':
+		viewPorts = 'width=640,initial-scale=' + targetDensitydpi + ',mininum-scale=' + targetDensitydpi +',maxinum-scale=' + targetDensitydpi + ',user-scalable=no';
+		break;
+}
+if(viewPorts){
+	document.getElementById('viewPorts').setAttribute('content', viewPorts);
+}
+</script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>收货地址管理-新零售</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/base.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/common.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/xls/css/index.css" />
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="__PUBLIC__/xls/js/TouchSlide.1.1.js"></script>
+<body>
+
+<div class="wrap">
+    <!--顶部 开始-->
+	<div class="top">
+		<a class="back" href="javascript:history.go(-1)"></a>
+		<h2 style="text-align:center; float:none;">收货地址管理</h2>
+	</div>
+	<!--顶部 结束-->
+	<!--主体 开始-->
+	<script>
+	$(document).ready(function(){
+		$("ul.addrlist li p.btn a.dft").click(function(){
+			$(this).addClass("cur").parents("li").siblings("li").find("a.dft").removeClass("cur");
+		});
+	});
+	</script>
+	<div class="main">
+		<ul class="addrlist">
+			<?php if(empty($add_list)){ ?> 
+			    <li style="text-align: center; font-size: 20px;">您暂未添加地址信息</li> 
+			    <?php } ?>
+			<volist name="add_list" id="vo">
+			<li>
+				<h3><span>{$vo.phone}</span>收货人：{$vo.name}</h3>
+				<p>收货地址：{$vo.location}-{$vo.address}</p>
+				<p class="btn">
+					<a class="del" href="javascript:void(0)" attr-id="{$vo.id}">删除</a>
+					<a class="edit" href="__CONTROLLER__/address_edit?id={$vo.id}&IND={$ind}">编辑</a>
+					<a class="dft <if condition='$vo[status] eq 1'>cur</if>" href="javascript:void(0)" attr-id="{$vo.id}" attr-val="{$vo.status}"><em></em>默认</a>
+				</p>
+			</li>
+			</volist>
+
+		</ul>
+        <if condition="$ind neq ''">
+		 <div class="addbtn"><a href="__CONTROLLER__/add_address?IND={$ind}">添加收货地址</a></div>
+        <else />
+         <div class="addbtn"><a href="__CONTROLLER__/add_address">添加收货地址</a></div>
+        </if>
+	</div>
+	<!--主体 结束-->
+	<input type="hidden" name="" id="indent_id" value="{$ind}">
+
+</div>
+<script type="text/javascript"  src="__PUBLIC__/media/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/dialog.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/media/js/layer/layer.js"></script> 
+<script type="text/javascript">
+   $('.dft').click(function(){
+     var a = $('.dft').index(this);
+     var id = $('.dft').eq(a).attr('attr-id');
+     var valu = $('.dft').eq(a).attr('attr-val');
+     if(valu==1){
+      dialog.error('本条地址信息，为默认地址，请不要重复设置');return false;
+     }
+     var url = '__CONTROLLER__/address_status';
+     var ind = $('#indent_id').val();
+     if(ind){
+       var jump_url = '__CONTROLLER__/indent?IND='+ind;
+     }else{
+       var jump_url = '__CONTROLLER__/index';
+     }
+     
+     var data = {'id':id,'ind':ind};
+     $.post(url,data,function(res){
+         if(res.status==1){
+            //dialog.success(res.message,jump_url);
+            window.location.href=jump_url;
+         }
+         if(res.status==0){
+            dialog.error(res.message);
+         }
+
+       },'JSON');
+
+
+
+   });
+
+
+
+ 	  $('.del').click(function(){
+     var a = $('.del').index(this);
+     var id = $('.del').eq(a).attr('attr-id');
+     //alert(id);
+     var url = '__CONTROLLER__/address_del';
+     var jump_url = '__CONTROLLER__/address';
+     var data={'id':id}
+     layer.open({
+        type:0,
+        title:'删除',
+        btn:['yes','no'], 
+        icon:3,
+        closeBtn:2,
+        content: '是否真的删除这条地址信息吗？',
+        scrollbar:true,
+        yes:function () {
+         $.post(url,data,function(res){
+         if(res.status==1){
+            dialog.success(res.message,jump_url);
+         }
+         if(res.status==0){
+            dialog.error(res.message);
+         }
+
+       },'JSON');
+ 
+        },
+    });
+     
+    });
+
+
+</script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	refresh();
+});
+$(window).resize(function(){refresh();});
+function refresh(){
+};
+</script>
+
+</body>
+</html>

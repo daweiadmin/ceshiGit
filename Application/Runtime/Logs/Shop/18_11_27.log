@@ -1,0 +1,39 @@
+[ 2018-11-27T08:51:52+08:00 ] 127.0.0.1 /index.php/Shop/weixin/auth
+ERR: Cron:cron Runat 2018-11-27 08:51:52 Use 10.486938 s
+
+[ 2018-11-27T08:51:57+08:00 ] 127.0.0.1 /index.php/Shop/weixin/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.091807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:6.9895s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.3560s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:10.642973s ]
+INFO: [ app_begin ] --END-- [ RunTime:10.645064s ]
+SQL: SHOW COLUMNS FROM `red_wx_token` [ RunTime:0.0628s ]
+SQL: SELECT `authorizer_access_token` FROM `red_wx_token` WHERE `shop_id` = 1 LIMIT 1   [ RunTime:0.3758s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0447s ]
+SQL: SELECT `component_access_token`,`component_time` FROM `red_admin` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0578s ]
+NOTIC: [8] Undefined variable: token E:\wamp\www\anti\Application\Common\Common\function.php 第 1065 行.
+NOTIC: [2] file_get_contents(wx_ticket/ticket.log): failed to open stream: No such file or directory E:\wamp\www\anti\Application\Common\Common\function.php 第 1070 行.
+NOTIC: [8] Undefined index: component_access_token E:\wamp\www\anti\Application\Common\Common\function.php 第 1079 行.
+NOTIC: [8] Undefined variable: ok E:\wamp\www\anti\Application\Common\Common\function.php 第 1085 行.
+NOTIC: [8] Undefined index: pre_auth_code E:\wamp\www\anti\Application\Common\Common\function.php 第 1107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.181930s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.182181s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0175s ]
+SQL: SELECT `id`,`type`,`name`,`end_time` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.1562s ]
+SQL: SELECT `id`,`type` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: auth E:\wamp\www\anti\Application\Runtime\Cache\Shop\97cb28238b09acd0a342e30aa860942a.php 第 711 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.298868s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.299011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.097029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.097180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.183257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.183533s ]
+

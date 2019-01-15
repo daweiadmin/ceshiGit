@@ -1,0 +1,215 @@
+[ 2018-10-19T08:56:59+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008343s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0872s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 557 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 570 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 571 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 572 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 573 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 557 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 570 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 571 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 572 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 573 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0823s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 8 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 749 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.317981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.318214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2018-10-19T10:09:17+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+ERR: Cron:cron Runat 2018-10-19 10:09:17 Use 0.086540 s
+
+[ 2018-10-19T10:09:17+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.120279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122460s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 613 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 614 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 615 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 616 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 613 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 614 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 615 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 616 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 792 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2018-10-19T10:09:58+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+ERR: Cron:cron Runat 2018-10-19 10:09:58 Use 0.067707 s
+
+[ 2018-10-19T10:09:58+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.092414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.093967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 587 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 610 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 704 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 790 行.
+NOTIC: [8] Undefined variable: prov E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 790 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2018-10-19T10:10:04+08:00 ] 127.0.0.1 /index.php/Admin/Activity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: shop E:\wamp\www\anti\Application\Runtime\Cache\Admin\e35e817197e45a2c5791fb62d7493b9d.php 第 561 行.
+NOTIC: [8] Undefined variable: shop E:\wamp\www\anti\Application\Runtime\Cache\Admin\e35e817197e45a2c5791fb62d7493b9d.php 第 575 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001800s ]
+
+[ 2018-10-19T16:31:57+08:00 ] 127.0.0.1 /index.php/Admin/shop/store
+ERR: Cron:cron Runat 2018-10-19 16:31:57 Use 0.071094 s
+
+[ 2018-10-19T16:31:57+08:00 ] 127.0.0.1 /index.php/Admin/shop/store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117409s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\ShopController.class.php 第 199 行.
+SQL: SELECT * FROM `red_shop` WHERE `type` = 3 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 599 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 611 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 612 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 613 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 614 行.
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 791 行.
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Admin\dec36a080d16ae6279e7188ed62be7e1.php 第 826 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2018-10-19T17:08:35+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-19 17:08:35 Use 0.120253 s
+
+[ 2018-10-19T17:08:35+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0742s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.167216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.169231s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0588s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 597 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 597 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.281353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.059035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.059215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002603s ]
+

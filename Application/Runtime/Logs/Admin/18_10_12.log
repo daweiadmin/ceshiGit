@@ -1,0 +1,1072 @@
+[ 2018-10-12T08:56:31+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 08:56:31 Use 0.994753 s
+
+[ 2018-10-12T08:56:33+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.076660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048982s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.4449s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:1.496293s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.545558s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1973s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.900423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.900560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.572922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.573053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026126s ]
+
+[ 2018-10-12T09:16:35+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-10-12 09:16:35 Use 0.090632 s
+
+[ 2018-10-12T09:16:35+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2018-10-12T09:16:35+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2018-10-12T09:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:26:30 Use 0.112313 s
+
+[ 2018-10-12T09:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0754s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0012s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.135261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.137069s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0883s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003254s ]
+
+[ 2018-10-12T09:27:43+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:27:43 Use 0.072936 s
+
+[ 2018-10-12T09:27:43+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.099116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102051s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2018-10-12T09:27:59+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:27:59 Use 0.080510 s
+
+[ 2018-10-12T09:27:59+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003240s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118211s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0634s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2018-10-12T09:29:20+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:29:20 Use 0.079759 s
+
+[ 2018-10-12T09:29:20+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.106326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107777s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0723s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001687s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2018-10-12T09:48:53+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:48:53 Use 0.100498 s
+
+[ 2018-10-12T09:48:54+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.138086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140354s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2018-10-12T09:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:50:50 Use 0.103615 s
+
+[ 2018-10-12T09:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004719s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.146788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.151796s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.211079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.211216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2018-10-12T09:52:21+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:52:21 Use 0.068588 s
+
+[ 2018-10-12T09:52:21+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.143015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145308s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2018-10-12T09:53:35+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 09:53:35 Use 0.077740 s
+
+[ 2018-10-12T09:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0547s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0017s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.106233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108731s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2018-10-12T09:53:38+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili?type=0&parentid=0&username=&password=&password2=&name=&link_man=&phone=&email=&address=&picture=&end_time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016550s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2018-10-12T09:54:36+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili?type=0&parentid=0&username=&password=&password2=&name=&link_man=&phone=&email=&address=&picture=&end_time=
+ERR: Cron:cron Runat 2018-10-12 09:54:36 Use 0.058897 s
+
+[ 2018-10-12T09:54:36+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili?type=0&parentid=0&username=&password=&password2=&name=&link_man=&phone=&email=&address=&picture=&end_time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.075579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076991s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2018-10-12T10:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili?type=0&parentid=0&username=&password=&password2=&name=&link_man=&phone=&email=&address=&picture=&end_time=
+ERR: Cron:cron Runat 2018-10-12 10:03:05 Use 0.083156 s
+
+[ 2018-10-12T10:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Shop/add_daili?type=0&parentid=0&username=&password=&password2=&name=&link_man=&phone=&email=&address=&picture=&end_time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.111351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.114336s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2018-10-12T10:05:56+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+ERR: Cron:cron Runat 2018-10-12 10:05:56 Use 0.074516 s
+
+[ 2018-10-12T10:05:56+08:00 ] 127.0.0.1 /index.php/Admin/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.098394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.100421s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `red_shop`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\wamp\www\anti\Application\Runtime\Cache\Admin\1cd190c33a552d53da5ba3a7251769e3.php 第 784 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2018-10-12T10:44:06+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 10:44:06 Use 0.123634 s
+
+[ 2018-10-12T10:44:07+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.165451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.167365s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: access_token E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 92 行.
+NOTIC: [8] Undefined index: ticket E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 107 行.
+
+[ 2018-10-12T10:44:29+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 10:44:29 Use 0.094022 s
+
+[ 2018-10-12T10:44:30+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0739s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.123486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125063s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: access_token E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 92 行.
+
+[ 2018-10-12T10:44:58+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 10:44:58 Use 0.075552 s
+
+[ 2018-10-12T10:44:59+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0019s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.144081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.146318s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: access_token E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+
+[ 2018-10-12T10:45:01+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016859s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: access_token E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+
+[ 2018-10-12T10:45:43+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 10:45:43 Use 0.115503 s
+
+[ 2018-10-12T10:45:43+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0964s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.135348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.136917s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+
+[ 2018-10-12T10:47:07+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 10:47:07 Use 0.087311 s
+
+[ 2018-10-12T10:47:07+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112351s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+
+[ 2018-10-12T10:48:17+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 10:48:17 Use 0.080330 s
+
+[ 2018-10-12T10:48:17+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.106392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108248s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+
+[ 2018-10-12T11:12:50+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:12:50 Use 0.086086 s
+
+[ 2018-10-12T11:12:50+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0663s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.111779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.113270s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+
+[ 2018-10-12T11:13:19+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:13:19 Use 0.080031 s
+
+[ 2018-10-12T11:13:20+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.106520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108161s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+
+[ 2018-10-12T11:15:58+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:15:58 Use 0.088112 s
+
+[ 2018-10-12T11:15:59+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002611s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0596s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.116227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119175s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+
+[ 2018-10-12T11:18:56+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:18:56 Use 0.088985 s
+
+[ 2018-10-12T11:18:57+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0678s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.117462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119098s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+
+[ 2018-10-12T11:20:43+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:20:43 Use 0.076559 s
+
+[ 2018-10-12T11:20:44+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.103268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105479s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+
+[ 2018-10-12T11:20:58+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:20:58 Use 0.069864 s
+
+[ 2018-10-12T11:20:59+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.101860s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+
+[ 2018-10-12T11:23:16+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:23:16 Use 0.090890 s
+
+[ 2018-10-12T11:23:17+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0715s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.117708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119281s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 159 行.
+
+[ 2018-10-12T11:23:47+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:23:47 Use 0.096224 s
+
+[ 2018-10-12T11:23:48+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0774s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.142222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.143815s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 159 行.
+
+[ 2018-10-12T11:35:39+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:35:39 Use 0.085788 s
+
+[ 2018-10-12T11:35:40+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.120893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122850s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 159 行.
+
+[ 2018-10-12T11:40:05+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+ERR: Cron:cron Runat 2018-10-12 11:40:05 Use 0.084091 s
+
+[ 2018-10-12T11:40:06+08:00 ] 127.0.0.1 /index.php/Admin/index/createewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002941s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.111833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.115328s ]
+NOTIC: [8] Use of undefined constant APPID - assumed 'APPID' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant APPSECRET - assumed 'APPSECRET' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: now_secne_id E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 94 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 160 行.
+
+[ 2018-10-12T14:55:01+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 14:55:01 Use 0.526784 s
+
+[ 2018-10-12T14:55:01+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1156s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.604082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.606275s ]
+
+[ 2018-10-12T15:00:22+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:00:22 Use 0.169772 s
+
+[ 2018-10-12T15:00:23+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1206s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.243124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.244920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030287s ]
+
+[ 2018-10-12T15:06:03+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:06:03 Use 0.175371 s
+
+[ 2018-10-12T15:06:03+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1056s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.196729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.198458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2018-10-12T15:08:54+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:08:54 Use 0.091604 s
+
+[ 2018-10-12T15:08:54+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0725s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.125623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.127153s ]
+NOTIC: [8] Use of undefined constant www - assumed 'www' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Use of undefined constant baidu - assumed 'baidu' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Use of undefined constant com - assumed 'com' E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: errorCorrectionLevel E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: matrixPointSize E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2018-10-12T15:09:07+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:09:07 Use 0.106372 s
+
+[ 2018-10-12T15:09:07+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.133812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.135260s ]
+NOTIC: [8] Undefined variable: errorCorrectionLevel E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: matrixPointSize E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 76 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2018-10-12T15:10:09+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:10:09 Use 0.122306 s
+
+[ 2018-10-12T15:10:09+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0843s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.150648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152125s ]
+
+[ 2018-10-12T15:10:22+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:10:22 Use 0.085274 s
+
+[ 2018-10-12T15:10:22+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0656s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.120432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122086s ]
+NOTIC: [2] imagepng(): Invalid 2nd parameter, it must a filename or a stream E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2018-10-12T15:10:28+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017205s ]
+NOTIC: [2] imagepng(): Invalid 2nd parameter, it must a filename or a stream E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2018-10-12T15:50:09+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:50:09 Use 0.159431 s
+
+[ 2018-10-12T15:50:09+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0717s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.199613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.201584s ]
+NOTIC: [2] imagepng(): Invalid 2nd parameter, it must a filename or a stream E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002385s ]
+
+[ 2018-10-12T15:50:13+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.040642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042110s ]
+NOTIC: [2] imagepng(): Invalid 2nd parameter, it must a filename or a stream E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2018-10-12T15:56:59+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:56:59 Use 0.114513 s
+
+[ 2018-10-12T15:56:59+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0587s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.136911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.141154s ]
+NOTIC: [2] imagepng(): Invalid 2nd parameter, it must a filename or a stream E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2018-10-12T15:57:12+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:57:12 Use 0.116364 s
+
+[ 2018-10-12T15:57:12+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0793s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.163507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.164956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2018-10-12T15:57:43+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:57:43 Use 0.087405 s
+
+[ 2018-10-12T15:57:43+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.110970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112476s ]
+NOTIC: [2] imagepng(): Filename cannot be empty E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004341s ]
+
+[ 2018-10-12T15:57:50+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012772s ]
+NOTIC: [2] imagepng(): Filename cannot be empty E:\wamp\www\anti\ThinkPHP\Library\Vendor\phpqrcode\phpqrcode.php 第 954 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003018s ]
+
+[ 2018-10-12T15:57:58+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:57:58 Use 0.081859 s
+
+[ 2018-10-12T15:57:58+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.101201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002411s ]
+
+[ 2018-10-12T15:58:48+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 15:58:48 Use 0.113156 s
+
+[ 2018-10-12T15:58:48+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003374s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0947s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.137181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2018-10-12T16:07:42+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 16:07:42 Use 0.105274 s
+
+[ 2018-10-12T16:07:42+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.144976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.147259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002913s ]
+
+[ 2018-10-12T16:07:50+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004055s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2018-10-12T16:56:43+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 16:56:43 Use 0.161448 s
+
+[ 2018-10-12T16:56:43+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0019s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.193290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.195642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2018-10-12T16:57:00+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 16:57:00 Use 0.081431 s
+
+[ 2018-10-12T16:57:00+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2018-10-12T16:57:10+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 16:57:10 Use 0.074242 s
+
+[ 2018-10-12T16:57:11+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2018-10-12T16:57:21+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+ERR: Cron:cron Runat 2018-10-12 16:57:21 Use 0.069503 s
+
+[ 2018-10-12T16:57:21+08:00 ] 127.0.0.1 /index.php/Admin/index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.092284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+

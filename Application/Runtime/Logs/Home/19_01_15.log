@@ -1,0 +1,270 @@
+[ 2019-01-15T09:21:28+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 09:21:28 Use 0.321084 s
+
+[ 2019-01-15T09:21:28+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040790s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.528073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.569132s ]
+
+[ 2019-01-15T09:54:19+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 09:54:19 Use 0.131446 s
+
+[ 2019-01-15T09:54:19+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.155230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.157604s ]
+
+[ 2019-01-15T10:23:33+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 10:23:33 Use 0.134281 s
+
+[ 2019-01-15T10:23:33+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0788s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.166796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.168876s ]
+
+[ 2019-01-15T10:45:56+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 10:45:56 Use 0.314895 s
+
+[ 2019-01-15T10:45:56+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025784s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.384465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.410718s ]
+
+[ 2019-01-15T10:54:26+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 10:54:26 Use 0.087337 s
+
+[ 2019-01-15T10:54:47+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0652s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116477s ]
+
+[ 2019-01-15T10:55:11+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 10:55:11 Use 0.076203 s
+
+[ 2019-01-15T10:55:12+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.113787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.115667s ]
+
+[ 2019-01-15T10:56:14+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 10:56:14 Use 0.100213 s
+
+[ 2019-01-15T10:56:15+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0759s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.123514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125861s ]
+ERR: Redis server went away
+
+[ 2019-01-15T10:59:53+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 10:59:53 Use 0.083560 s
+
+[ 2019-01-15T10:59:54+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.114787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.116988s ]
+ERR: Redis server went away
+
+[ 2019-01-15T13:45:31+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 13:45:31 Use 0.376308 s
+
+[ 2019-01-15T13:45:32+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025122s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0906s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.472464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.497832s ]
+ERR: Redis server went away
+
+[ 2019-01-15T14:00:40+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:00:40 Use 0.127915 s
+
+[ 2019-01-15T14:00:40+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.161675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.163781s ]
+
+[ 2019-01-15T14:14:47+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:14:47 Use 0.115363 s
+
+[ 2019-01-15T14:14:48+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0870s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.154109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.156584s ]
+
+[ 2019-01-15T14:15:12+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:15:12 Use 0.121292 s
+
+[ 2019-01-15T14:15:12+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003792s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0802s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.150188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.154268s ]
+
+[ 2019-01-15T14:32:33+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:32:33 Use 0.118947 s
+
+[ 2019-01-15T14:32:34+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003474s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0894s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.188428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.192152s ]
+ERR: Redis server went away
+
+[ 2019-01-15T14:50:25+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:50:25 Use 0.183568 s
+
+[ 2019-01-15T14:50:26+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003744s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0822s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.231298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.235349s ]
+ERR: Redis server went away
+
+[ 2019-01-15T14:50:29+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014669s ]
+ERR: Redis server went away
+
+[ 2019-01-15T14:51:41+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:51:41 Use 0.122946 s
+
+[ 2019-01-15T14:51:42+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0869s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0008s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.141028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.142736s ]
+ERR: Redis server went away
+
+[ 2019-01-15T14:52:27+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:52:27 Use 0.083650 s
+
+[ 2019-01-15T14:52:27+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0643s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.116228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119664s ]
+
+[ 2019-01-15T14:52:43+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:52:43 Use 0.073036 s
+
+[ 2019-01-15T14:52:44+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.104121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105985s ]
+ERR: Redis server went away
+
+[ 2019-01-15T14:53:01+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-15 14:53:01 Use 0.111000 s
+
+[ 2019-01-15T14:53:02+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0891s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.142374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145110s ]
+ERR: Redis server went away
+

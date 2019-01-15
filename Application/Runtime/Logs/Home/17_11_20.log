@@ -1,0 +1,9 @@
+[ 2017-11-20T09:28:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.061746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061894s ]
+ERR: 无法加载控制器:Index
+

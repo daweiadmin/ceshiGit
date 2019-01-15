@@ -1,0 +1,1105 @@
+[ 2018-10-16T09:48:13+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+ERR: Cron:cron Runat 2018-10-16 09:48:13 Use 0.113059 s
+
+[ 2018-10-16T09:48:14+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0874s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.162812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.164233s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1539619200 AND 1539705599 LIMIT 1   [ RunTime:0.0484s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 926 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 968 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1030 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1036 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-10-16T10:09:13+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+ERR: Cron:cron Runat 2018-10-16 10:09:13 Use 0.130609 s
+
+[ 2018-10-16T10:09:13+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.196579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.198145s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1539619200 AND 1539705599 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 926 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 968 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1030 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1036 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2018-10-16T10:09:26+08:00 ] 127.0.0.1 /index.php/Shop/shop/daili_index
+ERR: Cron:cron Runat 2018-10-16 10:09:26 Use 0.107030 s
+
+[ 2018-10-16T10:09:27+08:00 ] 127.0.0.1 /index.php/Shop/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0782s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.126819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.128393s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0386s ]
+ERR: Think\Model:shoptree方法不存在！
+
+[ 2018-10-16T10:15:12+08:00 ] 127.0.0.1 /index.php/Shop/user/bian
+ERR: Cron:cron Runat 2018-10-16 10:15:12 Use 0.093965 s
+
+[ 2018-10-16T10:15:12+08:00 ] 127.0.0.1 /index.php/Shop/user/bian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.117204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118823s ]
+ERR: 无法加载控制器:User
+
+[ 2018-10-16T10:16:57+08:00 ] 127.0.0.1 /index.php/Shop/user/bian
+ERR: Cron:cron Runat 2018-10-16 10:16:57 Use 0.085917 s
+
+[ 2018-10-16T10:16:57+08:00 ] 127.0.0.1 /index.php/Shop/user/bian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002723s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.108202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.111202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: status E:\wamp\www\anti\Application\Runtime\Cache\Shop\749375f78e94e2fc235a93532c673d9f.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2018-10-16T10:29:26+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+ERR: Cron:cron Runat 2018-10-16 10:29:26 Use 0.092582 s
+
+[ 2018-10-16T10:29:27+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.121693s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Runtime\Cache\Shop\86a889aaa28f186ccaf0ec2fcbd60bd6.php 第 852 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2018-10-16T10:30:17+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+ERR: Cron:cron Runat 2018-10-16 10:30:17 Use 0.081033 s
+
+[ 2018-10-16T10:30:17+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.104783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106582s ]
+
+[ 2018-10-16T10:31:43+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+ERR: Cron:cron Runat 2018-10-16 10:31:43 Use 0.075378 s
+
+[ 2018-10-16T10:31:43+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.121076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122825s ]
+
+[ 2018-10-16T10:31:57+08:00 ] 127.0.0.1 /index.php/Shop/login/logout
+ERR: Cron:cron Runat 2018-10-16 10:31:57 Use 0.069190 s
+
+[ 2018-10-16T10:31:57+08:00 ] 127.0.0.1 /index.php/Shop/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.088267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.089916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2018-10-16T10:31:58+08:00 ] 127.0.0.1 /index.php/Shop/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-10-16T10:31:59+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.055867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2018-10-16T10:32:05+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004133s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0603s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 20 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:32:12+08:00 ] 127.0.0.1 /index.php/Shop/Login/verify/0.9999837300988825
+ERR: Cron:cron Runat 2018-10-16 10:32:12 Use 0.065629 s
+
+[ 2018-10-16T10:32:13+08:00 ] 127.0.0.1 /index.php/Shop/Login/verify/0.9999837300988825
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.083235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003058s ]
+
+[ 2018-10-16T10:32:20+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016746s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 29 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:33:48+08:00 ] 127.0.0.1 /index.php/Shop/Login/index.html
+ERR: Cron:cron Runat 2018-10-16 10:33:48 Use 0.094576 s
+
+[ 2018-10-16T10:33:48+08:00 ] 127.0.0.1 /index.php/Shop/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.141189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.143235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2018-10-16T10:33:48+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.021981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009134s ]
+
+[ 2018-10-16T10:33:56+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011772s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0607s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 29 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:35:19+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:35:19 Use 0.059498 s
+
+[ 2018-10-16T10:35:19+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.082860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.084834s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0395s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 15 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:35:21+08:00 ] 127.0.0.1 /index.php/Shop/Login/verify/0.11435654445097287
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002182s ]
+
+[ 2018-10-16T10:35:25+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010891s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 33 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:35:32+08:00 ] 127.0.0.1 /index.php/Shop/Login/verify/0.8115822956288214
+ERR: Cron:cron Runat 2018-10-16 10:35:32 Use 0.144684 s
+
+[ 2018-10-16T10:35:32+08:00 ] 127.0.0.1 /index.php/Shop/Login/verify/0.8115822956288214
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004132s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1043s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0014s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.169452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.174099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2018-10-16T10:35:37+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016127s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 36 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:35:37+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009478s ]
+
+[ 2018-10-16T10:35:37+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002381s ]
+
+[ 2018-10-16T10:35:38+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003291s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2018-10-16T10:35:46+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:35:46 Use 0.093237 s
+
+[ 2018-10-16T10:35:46+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.149581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.150987s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 20 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:35:54+08:00 ] 127.0.0.1 /index.php/Shop/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013652s ]
+
+[ 2018-10-16T10:35:54+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002530s ]
+
+[ 2018-10-16T10:35:54+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.108714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009468s ]
+
+[ 2018-10-16T10:36:08+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:36:08 Use 0.078886 s
+
+[ 2018-10-16T10:36:08+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.098908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.100504s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 36 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:36:08+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.013179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014791s ]
+
+[ 2018-10-16T10:36:08+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.005997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2018-10-16T10:36:08+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002715s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2018-10-16T10:37:08+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:37:08 Use 0.117352 s
+
+[ 2018-10-16T10:37:08+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.136113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.137701s ]
+
+[ 2018-10-16T10:38:09+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:38:09 Use 0.083592 s
+
+[ 2018-10-16T10:38:10+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003646s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.113692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117780s ]
+
+[ 2018-10-16T10:38:19+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:38:19 Use 0.151204 s
+
+[ 2018-10-16T10:38:19+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002869s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1050s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0037s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.207196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.210422s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0664s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 36 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:38:19+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018430s ]
+
+[ 2018-10-16T10:38:19+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2018-10-16T10:38:20+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017823s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.025764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002253s ]
+
+[ 2018-10-16T10:39:22+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+ERR: Cron:cron Runat 2018-10-16 10:39:22 Use 0.111296 s
+
+[ 2018-10-16T10:39:22+08:00 ] 127.0.0.1 /index.php/Shop/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0604s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.137568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.140476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2018-10-16T10:39:22+08:00 ] 127.0.0.1 /index.php/Shop/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.074390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2018-10-16T10:39:32+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+ERR: Cron:cron Runat 2018-10-16 10:39:32 Use 0.089075 s
+
+[ 2018-10-16T10:39:32+08:00 ] 127.0.0.1 /index.php/Shop/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003819s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.113981s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `red_shop` WHERE ( username = "admin1" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Shop\Controller\LoginController.class.php on line 36 and defined E:\wamp\www\anti\Application\Shop\Common\function.php 第 12 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Shop\Common\function.php 第 16 行.
+
+[ 2018-10-16T10:39:32+08:00 ] 127.0.0.1 /index.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017978s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0829s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1539619200 AND 1539705599 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Shop\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 934 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 976 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1038 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Shop\351e9ce800c2e5a2a49b1b70e37b7e59.php 第 1044 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2018-10-16T10:40:31+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+ERR: Cron:cron Runat 2018-10-16 10:40:31 Use 0.078364 s
+
+[ 2018-10-16T10:40:31+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.097066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.098893s ]
+
+[ 2018-10-16T10:40:48+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+ERR: Cron:cron Runat 2018-10-16 10:40:48 Use 0.079021 s
+
+[ 2018-10-16T10:40:48+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.122988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.124560s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' E:\wamp\www\anti\Application\Runtime\Cache\Shop\86a889aaa28f186ccaf0ec2fcbd60bd6.php 第 852 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2018-10-16T15:47:13+08:00 ] 127.0.0.1 /index.php/Shop/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002351s ]
+
+[ 2018-10-16T16:26:04+08:00 ] 127.0.0.1 /index.php/shop/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+
+[ 2018-10-16T16:26:31+08:00 ] 127.0.0.1 /index.php/shop/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:26:31 Use 0.165927 s
+
+[ 2018-10-16T16:26:31+08:00 ] 127.0.0.1 /index.php/shop/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1278s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0007s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.273660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.276323s ]
+ERR: 无法加载控制器:Shop
+
+[ 2018-10-16T16:26:39+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020650s ]
+ERR: 无法加载控制器:Shop
+
+[ 2018-10-16T16:26:57+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:26:57 Use 0.072512 s
+
+[ 2018-10-16T16:26:57+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.089184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.091129s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0963s ]
+ERR: Think\Model:shoptree方法不存在！
+
+[ 2018-10-16T16:28:26+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:28:26 Use 0.135361 s
+
+[ 2018-10-16T16:28:26+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0901s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.204197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.206231s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0486s ]
+ERR: Think\Model:shoptree方法不存在！
+
+[ 2018-10-16T16:28:56+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:28:56 Use 0.093472 s
+
+[ 2018-10-16T16:28:56+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004469s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0018s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.123913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.128738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Shop\cf1dca71630e15bb37f62c4ee5c4c76d.php 第 792 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2018-10-16T16:29:12+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:29:12 Use 0.095383 s
+
+[ 2018-10-16T16:29:12+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0491s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.198296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.200081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Shop\cf1dca71630e15bb37f62c4ee5c4c76d.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2018-10-16T16:30:19+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:30:19 Use 0.126104 s
+
+[ 2018-10-16T16:30:19+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002751s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1009s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0009s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.170072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.173119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Shop\cf1dca71630e15bb37f62c4ee5c4c76d.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2018-10-16T16:38:06+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:38:06 Use 0.094924 s
+
+[ 2018-10-16T16:38:06+08:00 ] 127.0.0.1 /index.php/shop/shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003320s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.125532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.129290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Shop\cf1dca71630e15bb37f62c4ee5c4c76d.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2018-10-16T16:38:14+08:00 ] 127.0.0.1 /index.php/Shop/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014304s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0833s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_shop` WHERE `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Shop\Controller\ShopController.class.php 第 9 行.
+SQL: SELECT * FROM `red_shop` WHERE `type` = 2 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Shop\009e9dd1671bb1a4744430ec6b445b8f.php 第 1032 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2018-10-16T16:38:39+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:38:39 Use 0.081672 s
+
+[ 2018-10-16T16:38:39+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003133s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0633s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.108026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Shop\cf1dca71630e15bb37f62c4ee5c4c76d.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2018-10-16T16:39:22+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:39:22 Use 0.086455 s
+
+[ 2018-10-16T16:39:22+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.148139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.150112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\anti\Application\Runtime\Cache\Shop\cf1dca71630e15bb37f62c4ee5c4c76d.php 第 792 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2018-10-16T16:40:41+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 16:40:41 Use 0.087946 s
+
+[ 2018-10-16T16:40:41+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.124356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.303326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005676s ]
+
+[ 2018-10-16T17:02:33+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+ERR: Cron:cron Runat 2018-10-16 17:02:33 Use 0.146981 s
+
+[ 2018-10-16T17:02:33+08:00 ] 127.0.0.1 /index.php/Shop/Shop/add_daili
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1004s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.208972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.210463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2018-10-16T17:02:36+08:00 ] 127.0.0.1 /index.php/Shop/member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.014568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016656s ]
+ERR: 无法加载控制器:Member
+

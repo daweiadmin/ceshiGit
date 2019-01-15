@@ -1,0 +1,121 @@
+[ 2018-11-01T09:20:21+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: Cron:cron Runat 2018-11-01 09:20:21 Use 0.148838 s
+
+[ 2018-11-01T09:20:22+08:00 ] 127.0.0.1 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0677s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.200152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.202381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002615s ]
+
+[ 2018-11-01T09:20:24+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.068460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.070348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2018-11-01T09:20:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+ERR: Cron:cron Runat 2018-11-01 09:20:35 Use 0.051163 s
+
+[ 2018-11-01T09:20:35+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.065642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.068672s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0490s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 15 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 47 行.
+
+[ 2018-11-01T09:20:38+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.4667711503731289
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.015271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2018-11-01T09:20:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify/0.09573230211211081
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2018-11-01T09:20:44+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007604s ]
+SQL: SHOW COLUMNS FROM `red_admin` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `red_admin` WHERE ( username = "admin" ) LIMIT 1   [ RunTime:0.0331s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 47 行.
+
+[ 2018-11-01T09:20:45+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009600s ]
+SQL: SHOW COLUMNS FROM `red_member` [ RunTime:0.0434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1541001600 AND 1541087999 LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [8] Undefined variable: zong E:\wamp\www\anti\Application\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_member` WHERE `time` BETWEEN 1541001600 AND 1543593599 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 739 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 781 行.
+NOTIC: [8] Undefined index: month_money E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 843 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\anti\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 849 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.460426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.460566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+

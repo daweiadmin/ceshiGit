@@ -1,0 +1,912 @@
+[ 2018-12-04T16:42:29+08:00 ] 127.0.0.1 /index.php/admin/Activity/add?activityId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005052s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.006248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: shop E:\wamp\www\anti\Application\Runtime\Cache\Admin\e35e817197e45a2c5791fb62d7493b9d.php 第 548 行.
+NOTIC: [8] Undefined variable: shop E:\wamp\www\anti\Application\Runtime\Cache\Admin\e35e817197e45a2c5791fb62d7493b9d.php 第 562 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.936173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.936336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008583s ]
+
+[ 2018-12-04T16:42:40+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+ERR: Cron:cron Runat 2018-12-04 16:42:40 Use 0.125089 s
+
+[ 2018-12-04T16:42:41+08:00 ] 127.0.0.1 /index.php/Admin/activity/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005004s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0801s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.174393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.179687s ]
+NOTIC: [8] Undefined index: act_status E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 8 行.
+NOTIC: [8] Undefined index: shenhe_status E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 9 行.
+NOTIC: [8] Undefined index: key E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0535s ]
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 22 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_activity` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Admin\Controller\ActivityController.class.php 第 26 行.
+SQL: SELECT * FROM `red_activity` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `red_code_num` WHERE `activity_id` = 0 AND `shop_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 541 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 599 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 604 行.
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0589s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_get_record` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 22 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SHOW COLUMNS FROM `red_activity_prize` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 22 AND `prize_type` IN ('1','2')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0457s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 22 LIMIT 1   [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 22 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 618 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 599 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 604 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 21 AND `prize_type` IN ('1','2')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 21 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 21 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 618 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 599 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 604 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 20 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 20 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 239 行.
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 618 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 599 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 604 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 19 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 19 AND `prize_type` IN ('1','2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 19 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 19 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 618 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 599 行.
+NOTIC: [8] Use of undefined constant picture - assumed 'picture' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 604 行.
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `red_get_record` WHERE `activity_id` = 18 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total E:\wamp\www\anti\Application\Common\Common\function.php 第 261 行.
+SQL: SELECT * FROM `red_activity_prize` WHERE `activity_id` = 18 AND `prize_type` IN ('1','2')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: total1 E:\wamp\www\anti\Application\Common\Common\function.php 第 236 行.
+NOTIC: [8] Undefined variable: total2 E:\wamp\www\anti\Application\Common\Common\function.php 第 242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant activity_code - assumed 'activity_code' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 618 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 813 行.
+SQL: SELECT `code_number` FROM `red_code_num` WHERE `activity_id` = 22  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 22  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('17') LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 1017 行.
+SQL: SELECT `code_number` FROM `red_code_num` WHERE `activity_id` = 21  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 21  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('11') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 21 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 1017 行.
+SQL: SELECT `code_number` FROM `red_code_num` WHERE `activity_id` = 20  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 20  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('24') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 1017 行.
+SQL: SELECT `code_number` FROM `red_code_num` WHERE `activity_id` = 19  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 19  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('14') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 1017 行.
+SQL: SELECT `code_number` FROM `red_code_num` WHERE `activity_id` = 18  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `red_code_num` WHERE `activity_id` = 18  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` IN ('18') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `status` = 0 AND `activity_id` = 18 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `activity_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' E:\wamp\www\anti\Application\Runtime\Cache\Admin\c8d84a2d51a6dbf36e8ef99e6375e8a9.php 第 1017 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.371116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.371260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.156923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.157100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032845s ]
+
+[ 2018-12-04T16:42:44+08:00 ] 127.0.0.1 /index.php/Admin/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014557s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0417s ]
+SQL: SELECT `id`,`number` FROM `red_code` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code_num` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\CodeController.class.php 第 27 行.
+SQL: SELECT * FROM `red_code_num` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 542 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0421s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0453s ]
+SQL: SELECT `act_name` FROM `red_activity` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2018-12-04T16:42:51+08:00 ] 127.0.0.1 /index.php/Admin/Code/add
+ERR: Cron:cron Runat 2018-12-04 16:42:51 Use 0.091949 s
+
+[ 2018-12-04T16:43:05+08:00 ] 127.0.0.1 /index.php/Admin/Code/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.120817s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0814s ]
+SQL: INSERT INTO `red_code_num` (`code_number`,`pici`,`time`) VALUES ('0000701--00001000','1543912971','1543912971') [ RunTime:0.1090s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0332s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000701','1543912971','25','5hLF') [ RunTime:0.1188s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000702','1543912971','25','uEbI') [ RunTime:0.0635s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000703','1543912971','25','wEEm') [ RunTime:0.0486s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000704','1543912971','25','UADH') [ RunTime:0.0441s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000705','1543912971','25','Sl8j') [ RunTime:0.0384s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000706','1543912971','25','9eBj') [ RunTime:0.0581s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000707','1543912971','25','V70i') [ RunTime:0.0497s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000708','1543912971','25','WlNl') [ RunTime:0.0405s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000709','1543912971','25','oKY3') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000710','1543912971','25','1FZw') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000711','1543912971','25','3WPk') [ RunTime:0.0579s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000712','1543912971','25','bWVA') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000713','1543912971','25','DuhT') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000714','1543912971','25','8Vmj') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000715','1543912971','25','T67s') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000716','1543912971','25','Dn1r') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000717','1543912971','25','Az4O') [ RunTime:0.0498s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000718','1543912971','25','r2GH') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000719','1543912971','25','sCSG') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000720','1543912971','25','jF5S') [ RunTime:0.1001s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000721','1543912971','25','f0jQ') [ RunTime:0.0486s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000722','1543912971','25','ZZZG') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000723','1543912971','25','Jt60') [ RunTime:0.0579s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000724','1543912971','25','dM8T') [ RunTime:0.0496s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000725','1543912971','25','EM1X') [ RunTime:0.0577s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000726','1543912971','25','KNgg') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000727','1543912971','25','JFOq') [ RunTime:0.0594s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000728','1543912971','25','kL8w') [ RunTime:0.0645s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000729','1543912971','25','KTca') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000730','1543912971','25','Iquq') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000731','1543912971','25','sdYV') [ RunTime:0.0566s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000732','1543912971','25','Fz6J') [ RunTime:0.0601s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000733','1543912971','25','AmRs') [ RunTime:0.0482s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000734','1543912971','25','UVHc') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000735','1543912971','25','T5Bw') [ RunTime:0.1101s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000736','1543912971','25','de2y') [ RunTime:0.0472s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000737','1543912971','25','8aYR') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000738','1543912971','25','kfSy') [ RunTime:0.0579s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000739','1543912971','25','2kId') [ RunTime:0.1077s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000740','1543912971','25','ZJXX') [ RunTime:0.0413s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000741','1543912971','25','ojzl') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000742','1543912971','25','Xq1v') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000743','1543912971','25','VTh0') [ RunTime:0.0579s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000744','1543912971','25','Z4PW') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000745','1543912971','25','nOCV') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000746','1543912971','25','Or82') [ RunTime:0.0500s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000747','1543912971','25','vOkS') [ RunTime:0.0488s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000748','1543912971','25','cgGx') [ RunTime:0.0497s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000749','1543912971','25','5E9B') [ RunTime:0.0661s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000750','1543912971','25','Sidb') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000751','1543912971','25','P4QR') [ RunTime:0.0982s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000752','1543912971','25','CiuJ') [ RunTime:0.0673s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000753','1543912971','25','vP9n') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000754','1543912971','25','a0gU') [ RunTime:0.0644s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000755','1543912971','25','RFPV') [ RunTime:0.0429s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000756','1543912971','25','hahv') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000757','1543912971','25','DlCf') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000758','1543912971','25','Gyhf') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000759','1543912971','25','BCg5') [ RunTime:0.0492s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000760','1543912971','25','8T2S') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000761','1543912971','25','vdxc') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000762','1543912971','25','pWha') [ RunTime:0.0578s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000763','1543912971','25','4Ubl') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000764','1543912971','25','esLQ') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000765','1543912971','25','4qWf') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000766','1543912971','25','lbeF') [ RunTime:0.0415s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000767','1543912971','25','gxzH') [ RunTime:0.0492s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000768','1543912971','25','wRrp') [ RunTime:0.0410s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000769','1543912971','25','nZOp') [ RunTime:0.0745s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000770','1543912971','25','vg9M') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000771','1543912971','25','awq8') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000772','1543912971','25','376y') [ RunTime:0.0604s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000773','1543912971','25','oT9D') [ RunTime:0.0468s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000774','1543912971','25','Tb3t') [ RunTime:0.0746s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000775','1543912971','25','NQKF') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000776','1543912971','25','NdJj') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000777','1543912971','25','78YY') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000778','1543912971','25','uXUM') [ RunTime:0.0410s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000779','1543912971','25','8vxi') [ RunTime:0.0497s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000780','1543912971','25','K9kE') [ RunTime:0.0499s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000781','1543912971','25','zIfp') [ RunTime:0.0489s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000782','1543912971','25','jyKF') [ RunTime:0.0578s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000783','1543912971','25','cwO1') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000784','1543912971','25','VVTA') [ RunTime:0.0416s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000785','1543912971','25','KEZV') [ RunTime:0.0406s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000786','1543912971','25','m1x9') [ RunTime:0.0499s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000787','1543912971','25','YSxQ') [ RunTime:0.0742s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000788','1543912971','25','kyq6') [ RunTime:0.0503s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000789','1543912971','25','DVcx') [ RunTime:0.0401s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000790','1543912971','25','Cjjd') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000791','1543912971','25','tzJK') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000792','1543912971','25','W1We') [ RunTime:0.0413s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000793','1543912971','25','fxTf') [ RunTime:0.0507s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000794','1543912971','25','5s3T') [ RunTime:0.0479s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000795','1543912971','25','HBpL') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000796','1543912971','25','MlpW') [ RunTime:0.0745s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000797','1543912971','25','zv23') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000798','1543912971','25','MrL9') [ RunTime:0.0662s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000799','1543912971','25','DZxR') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000800','1543912971','25','QvQg') [ RunTime:0.0409s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000801','1543912971','25','COEW') [ RunTime:0.1467s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000802','1543912971','25','Hgq0') [ RunTime:0.1638s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000803','1543912971','25','hI93') [ RunTime:0.0463s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000804','1543912971','25','6vga') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000805','1543912971','25','nsKW') [ RunTime:0.0577s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000806','1543912971','25','PW4s') [ RunTime:0.0565s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000807','1543912971','25','FNdl') [ RunTime:0.0578s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000808','1543912971','25','BlDF') [ RunTime:0.0608s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000809','1543912971','25','Rsj1') [ RunTime:0.0557s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000810','1543912971','25','bsGv') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000811','1543912971','25','KdLI') [ RunTime:0.0575s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000812','1543912971','25','j2ZK') [ RunTime:0.0660s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000813','1543912971','25','4Nkc') [ RunTime:0.0597s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000814','1543912971','25','KPg9') [ RunTime:0.0473s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000815','1543912971','25','zYLc') [ RunTime:0.0327s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000816','1543912971','25','fzir') [ RunTime:0.0333s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000817','1543912971','25','ZtPt') [ RunTime:0.0923s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000818','1543912971','25','x1Pn') [ RunTime:0.1174s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000819','1543912971','25','64fL') [ RunTime:0.0971s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000820','1543912971','25','oWAI') [ RunTime:0.1005s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000821','1543912971','25','DvNP') [ RunTime:0.0360s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000822','1543912971','25','x4lc') [ RunTime:0.0528s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000823','1543912971','25','lwcq') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000824','1543912971','25','LaQA') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000825','1543912971','25','ZSei') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000826','1543912971','25','LYPC') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000827','1543912971','25','jjCb') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000828','1543912971','25','le33') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000829','1543912971','25','4A8Q') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000830','1543912971','25','dHhD') [ RunTime:0.0576s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000831','1543912971','25','0rv1') [ RunTime:0.0410s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000832','1543912971','25','98f7') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000833','1543912971','25','RDvu') [ RunTime:0.0413s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000834','1543912971','25','ShIf') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000835','1543912971','25','pVRY') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000836','1543912971','25','aTpL') [ RunTime:0.0246s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000837','1543912971','25','n2le') [ RunTime:0.0661s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000838','1543912971','25','LH6r') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000839','1543912971','25','xKG0') [ RunTime:0.0511s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000840','1543912971','25','pux1') [ RunTime:0.0561s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000841','1543912971','25','CME3') [ RunTime:0.0494s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000842','1543912971','25','RYte') [ RunTime:0.0517s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000843','1543912971','25','nUY8') [ RunTime:0.0387s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000844','1543912971','25','SVDR') [ RunTime:0.0578s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000845','1543912971','25','zRqZ') [ RunTime:0.0441s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000846','1543912971','25','b5NC') [ RunTime:0.0464s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000847','1543912971','25','WpJm') [ RunTime:0.0367s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000848','1543912971','25','ycHi') [ RunTime:0.0372s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000849','1543912971','25','eiF0') [ RunTime:0.0243s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000850','1543912971','25','I26B') [ RunTime:0.0413s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000851','1543912971','25','dgYG') [ RunTime:0.0325s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000852','1543912971','25','rkJj') [ RunTime:0.0663s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000853','1543912971','25','D4n7') [ RunTime:0.0243s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000854','1543912971','25','tQmb') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000855','1543912971','25','dtF5') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000856','1543912971','25','ziKW') [ RunTime:0.0776s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000857','1543912971','25','Jczk') [ RunTime:0.0633s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000858','1543912971','25','stBl') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000859','1543912971','25','W0PB') [ RunTime:0.0408s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000860','1543912971','25','T7Ia') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000861','1543912971','25','zEdD') [ RunTime:0.0257s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000862','1543912971','25','EYO7') [ RunTime:0.0233s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000863','1543912971','25','nTtc') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000864','1543912971','25','sMEY') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000865','1543912971','25','7sl2') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000866','1543912971','25','4iZt') [ RunTime:0.0828s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000867','1543912971','25','w7zT') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000868','1543912971','25','ehzn') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000869','1543912971','25','nCVw') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000870','1543912971','25','Ht8q') [ RunTime:0.0829s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000871','1543912971','25','pG9F') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000872','1543912971','25','dCrn') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000873','1543912971','25','m6Z6') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000874','1543912971','25','yufY') [ RunTime:0.0373s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000875','1543912971','25','ZBby') [ RunTime:0.0366s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000876','1543912971','25','qOiX') [ RunTime:0.0328s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000877','1543912971','25','4WvM') [ RunTime:0.0329s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000878','1543912971','25','Clk6') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000879','1543912971','25','jRHw') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000880','1543912971','25','RQ69') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000881','1543912971','25','u7vy') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000882','1543912971','25','U3nQ') [ RunTime:0.0243s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000883','1543912971','25','ltGB') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000884','1543912971','25','vITV') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000885','1543912971','25','CEYp') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000886','1543912971','25','pBoa') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000887','1543912971','25','5p8L') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000888','1543912971','25','nrEi') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000889','1543912971','25','uwUn') [ RunTime:0.0578s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000890','1543912971','25','8Zn5') [ RunTime:0.0745s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000891','1543912971','25','yH31') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000892','1543912971','25','s0mg') [ RunTime:0.0250s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000893','1543912971','25','3Jjq') [ RunTime:0.0240s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000894','1543912971','25','5elB') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000895','1543912971','25','Klrm') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000896','1543912971','25','Lp3P') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000897','1543912971','25','mhbz') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000898','1543912971','25','fjgH') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000899','1543912971','25','EjiO') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000900','1543912971','25','hFIY') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000901','1543912971','25','nbwO') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000902','1543912971','25','Deap') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000903','1543912971','25','hDCl') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000904','1543912971','25','1LlJ') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000905','1543912971','25','6qk9') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000906','1543912971','25','eZ1H') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000907','1543912971','25','CjpY') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000908','1543912971','25','ZHW4') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000909','1543912971','25','y1Bz') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000910','1543912971','25','3BRA') [ RunTime:0.0242s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000911','1543912971','25','GjFH') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000912','1543912971','25','atv0') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000913','1543912971','25','JWl6') [ RunTime:0.0246s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000914','1543912971','25','54E4') [ RunTime:0.0239s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000915','1543912971','25','sFow') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000916','1543912971','25','z62x') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000917','1543912971','25','CdyI') [ RunTime:0.0162s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000918','1543912971','25','lmq9') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000919','1543912971','25','XmBq') [ RunTime:0.0167s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000920','1543912971','25','bzxE') [ RunTime:0.0239s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000921','1543912971','25','eQfq') [ RunTime:0.0497s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000922','1543912971','25','PvaO') [ RunTime:0.0660s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000923','1543912971','25','bpgq') [ RunTime:0.0337s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000924','1543912971','25','1T1n') [ RunTime:0.0482s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000925','1543912971','25','yNod') [ RunTime:0.1009s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000926','1543912971','25','wuR4') [ RunTime:0.1040s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000927','1543912971','25','7Nox') [ RunTime:0.0770s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000928','1543912971','25','43sG') [ RunTime:0.1244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000929','1543912971','25','B617') [ RunTime:0.1591s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000930','1543912971','25','qjxV') [ RunTime:0.0815s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000931','1543912971','25','Lw0J') [ RunTime:0.1595s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000932','1543912971','25','l3RA') [ RunTime:0.0395s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000933','1543912971','25','mL66') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000934','1543912971','25','zZbn') [ RunTime:0.0160s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000935','1543912971','25','9A40') [ RunTime:0.0562s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000936','1543912971','25','PTf5') [ RunTime:0.0438s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000937','1543912971','25','QKFb') [ RunTime:0.0232s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000938','1543912971','25','UvNq') [ RunTime:0.0910s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000939','1543912971','25','e0Co') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000940','1543912971','25','yAAa') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000941','1543912971','25','35Hm') [ RunTime:0.0577s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000942','1543912971','25','uSn4') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000943','1543912971','25','3LDR') [ RunTime:0.0578s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000944','1543912971','25','t7UR') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000945','1543912971','25','YMbD') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000946','1543912971','25','h4Vi') [ RunTime:0.0500s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000947','1543912971','25','AR7r') [ RunTime:0.0369s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000948','1543912971','25','Cuc8') [ RunTime:0.0311s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000949','1543912971','25','CN90') [ RunTime:0.0216s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000950','1543912971','25','h7s7') [ RunTime:0.0491s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000951','1543912971','25','Pj36') [ RunTime:0.0246s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000952','1543912971','25','ZIr0') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000953','1543912971','25','YaAs') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000954','1543912971','25','v1Wx') [ RunTime:0.0160s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000955','1543912971','25','N6tQ') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000956','1543912971','25','zMFt') [ RunTime:0.0161s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000957','1543912971','25','3Su0') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000958','1543912971','25','XKoy') [ RunTime:0.0162s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000959','1543912971','25','uemH') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000960','1543912971','25','nGRx') [ RunTime:0.0161s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000961','1543912971','25','QWRF') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000962','1543912971','25','CkOa') [ RunTime:0.0161s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000963','1543912971','25','TIID') [ RunTime:0.0246s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000964','1543912971','25','pr1b') [ RunTime:0.0162s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000965','1543912971','25','mkHo') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000966','1543912971','25','uKdm') [ RunTime:0.0246s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000967','1543912971','25','1xxG') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000968','1543912971','25','E29r') [ RunTime:0.0167s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000969','1543912971','25','B40e') [ RunTime:0.0238s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000970','1543912971','25','B1z9') [ RunTime:0.0246s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000971','1543912971','25','RHPO') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000972','1543912971','25','6tfh') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000973','1543912971','25','yaMa') [ RunTime:0.0496s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000974','1543912971','25','V8Uy') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000975','1543912971','25','qdB2') [ RunTime:0.0411s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000976','1543912971','25','MKjI') [ RunTime:0.0244s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000977','1543912971','25','dB1b') [ RunTime:0.0330s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000978','1543912971','25','s5dw') [ RunTime:0.0159s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000979','1543912971','25','H4Pl') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000980','1543912971','25','GSlK') [ RunTime:0.0745s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000981','1543912971','25','CnKi') [ RunTime:0.0742s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000982','1543912971','25','dSt6') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000983','1543912971','25','HgwL') [ RunTime:0.0495s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000984','1543912971','25','NQlm') [ RunTime:0.0412s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000985','1543912971','25','IuVv') [ RunTime:0.0491s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000986','1543912971','25','bwIh') [ RunTime:0.0245s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000987','1543912971','25','qNHg') [ RunTime:0.0242s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000988','1543912971','25','8FkA') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000989','1543912971','25','yXzO') [ RunTime:0.0243s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000990','1543912971','25','n0V2') [ RunTime:0.0158s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000991','1543912971','25','RGkR') [ RunTime:0.0242s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000992','1543912971','25','Gkgo') [ RunTime:0.0250s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000993','1543912971','25','6LHc') [ RunTime:0.0240s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000994','1543912971','25','Nl6o') [ RunTime:0.0493s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000995','1543912971','25','0Uqy') [ RunTime:0.0243s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000996','1543912971','25','sPaN') [ RunTime:0.0406s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000997','1543912971','25','mUhH') [ RunTime:0.0241s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000998','1543912971','25','qwfl') [ RunTime:0.0950s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('0000999','1543912971','25','Tu0l') [ RunTime:0.0456s ]
+SQL: INSERT INTO `red_code` (`number`,`pici`,`code_num_id`,`code_sn`) VALUES ('00001000','1543912971','25','sa3N') [ RunTime:0.0409s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\CodeController.class.php on line 67 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 483 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 487 行.
+
+[ 2018-12-04T16:43:07+08:00 ] 127.0.0.1 /index.php/Admin/Code/index
+ERR: Cron:cron Runat 2018-12-04 16:43:07 Use 0.198578 s
+
+[ 2018-12-04T16:43:08+08:00 ] 127.0.0.1 /index.php/Admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1594s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.240428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.242325s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0790s ]
+SQL: SELECT `id`,`number` FROM `red_code` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0833s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code_num` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\CodeController.class.php 第 27 行.
+SQL: SELECT * FROM `red_code_num` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 542 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 25 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0629s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0562s ]
+SQL: SELECT `act_name` FROM `red_activity` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 25 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 21 LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.602790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.602918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020828s ]
+
+[ 2018-12-04T16:43:17+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+ERR: Cron:cron Runat 2018-12-04 16:43:17 Use 0.172103 s
+
+[ 2018-12-04T16:43:18+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002743s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1313s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.196493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.199490s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0965s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0997s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 25 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 10 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 9 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 8 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 781 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.330678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.330819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2018-12-04T16:43:25+08:00 ] 127.0.0.1 /index.php/Admin/Shop/fenpei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013016s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0311s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 25 [ RunTime:0.0690s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\ShopController.class.php on line 190 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 483 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 487 行.
+
+[ 2018-12-04T16:43:26+08:00 ] 127.0.0.1 /index.php/Admin/Shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008986s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0433s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0690s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 9 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 8 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 781 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.197465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2018-12-04T16:49:42+08:00 ] 127.0.0.1 /index.php/Admin/code/index
+ERR: Cron:cron Runat 2018-12-04 16:49:42 Use 0.055982 s
+
+[ 2018-12-04T16:49:42+08:00 ] 127.0.0.1 /index.php/Admin/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.095726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.098413s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0461s ]
+SQL: SELECT `id`,`number` FROM `red_code` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code_num` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\anti\Application\Admin\Controller\CodeController.class.php 第 27 行.
+SQL: SELECT * FROM `red_code_num` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 542 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 26 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0392s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0495s ]
+SQL: SELECT `act_name` FROM `red_activity` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 25 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `act_name` FROM `red_activity` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `act_name` FROM `red_activity` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 583 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\anti\Application\Runtime\Cache\Admin\e4115922dbeab584d8de8ec3503939dc.php 第 607 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 26 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 25 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 23 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2018-12-04T16:49:46+08:00 ] 127.0.0.1 /index.php/Admin/shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.017048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018529s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0470s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0006s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 10 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 9 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 8 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 7 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 1 LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 781 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002180s ]
+
+[ 2018-12-04T16:49:57+08:00 ] 127.0.0.1 /index.php/Admin/Shop/fenpei
+ERR: Cron:cron Runat 2018-12-04 16:49:57 Use 0.060253 s
+
+[ 2018-12-04T16:49:58+08:00 ] 127.0.0.1 /index.php/Admin/Shop/fenpei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.076744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.078094s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0291s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 10 [ RunTime:0.0324s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 9 [ RunTime:0.0163s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 8 [ RunTime:0.0246s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 7 [ RunTime:0.0162s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 6 [ RunTime:0.0245s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 5 [ RunTime:0.0413s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 4 [ RunTime:0.0494s ]
+SQL: UPDATE `red_code_num` SET `shop_id`='1' WHERE `id` = 3 [ RunTime:0.0330s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\anti\Application\Admin\Controller\ShopController.class.php on line 190 and defined E:\wamp\www\anti\Application\Common\Common\function.php 第 483 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\anti\Application\Common\Common\function.php 第 487 行.
+
+[ 2018-12-04T16:49:59+08:00 ] 127.0.0.1 /index.php/Admin/Shop/daili_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014542s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `red_shop` WHERE `type` <> 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_code_num` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `red_code_num` WHERE `shop_id` = 0 ORDER BY pici desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SHOW COLUMNS FROM `red_money_record` [ RunTime:0.0388s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 1 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 587 行.
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 1 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `red_money_record` WHERE `userid` = 2 AND `moneytype` = 2 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `red_shop` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 600 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 601 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 602 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 603 行.
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `red_code` WHERE `code_num_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: code_page E:\wamp\www\anti\Application\Runtime\Cache\Admin\ceed0c4fd567d67768ac86aa954ce336.php 第 781 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+

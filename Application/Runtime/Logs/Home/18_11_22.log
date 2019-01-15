@@ -1,0 +1,728 @@
+[ 2018-11-22T18:20:20+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:20:20 Use 0.277977 s
+
+[ 2018-11-22T18:20:21+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002101s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.319878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.341468s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.2169s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.1367s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.1015s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.022466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.022616s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.244134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.096451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.096583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004134s ]
+
+[ 2018-11-22T18:20:59+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:20:59 Use 0.090001 s
+
+[ 2018-11-22T18:20:59+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.121224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122796s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0510s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.1603s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0855s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2018-11-22T18:22:12+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:22:12 Use 0.077488 s
+
+[ 2018-11-22T18:22:13+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0563s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.103551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105111s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0610s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0499s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0500s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2018-11-22T18:22:16+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012160s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.1218s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0382s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0390s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2018-11-22T18:22:21+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.012014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014965s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0431s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0402s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0449s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002818s ]
+
+[ 2018-11-22T18:22:48+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:22:48 Use 0.133964 s
+
+[ 2018-11-22T18:22:48+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006987s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1160s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.176802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.184122s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0657s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0776s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0538s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2018-11-22T18:23:27+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:23:27 Use 0.071541 s
+
+[ 2018-11-22T18:23:27+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.094560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096156s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0321s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0413s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0500s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2018-11-22T18:24:05+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:24:05 Use 0.073944 s
+
+[ 2018-11-22T18:24:05+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.100710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102322s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0361s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0418s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0511s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2018-11-22T18:24:37+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:24:37 Use 0.089950 s
+
+[ 2018-11-22T18:24:38+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0687s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.109199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110626s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0651s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.1252s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0575s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2018-11-22T18:24:55+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:24:55 Use 0.061343 s
+
+[ 2018-11-22T18:24:55+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.085685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087073s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0714s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0497s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0501s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2018-11-22T18:25:01+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017644s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0351s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0472s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0456s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003709s ]
+
+[ 2018-11-22T18:25:08+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:25:08 Use 0.120742 s
+
+[ 2018-11-22T18:25:08+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1029s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.146504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152282s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0320s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0892s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0914s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2018-11-22T18:25:31+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:25:31 Use 0.106706 s
+
+[ 2018-11-22T18:25:31+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0864s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.129562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.131052s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0479s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0387s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0393s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2018-11-22T18:26:23+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:26:23 Use 0.061836 s
+
+[ 2018-11-22T18:26:23+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.124947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.126939s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0563s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0439s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0379s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-11-22T18:26:28+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.018728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020309s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0582s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0414s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0487s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2018-11-22T18:27:11+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:27:11 Use 0.102097 s
+
+[ 2018-11-22T18:27:11+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0831s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.119494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.121114s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0205s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0214s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0486s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2018-11-22T18:27:33+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:27:33 Use 0.072760 s
+
+[ 2018-11-22T18:27:33+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.115875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117320s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0270s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0599s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0481s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2018-11-22T18:28:49+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:28:49 Use 0.086367 s
+
+[ 2018-11-22T18:28:49+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0012s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.135095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.136854s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0762s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0451s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0740s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2018-11-22T18:29:00+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:29:00 Use 0.072342 s
+
+[ 2018-11-22T18:29:00+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.096205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097631s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0327s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0613s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0456s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2018-11-22T18:29:47+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:29:47 Use 0.074763 s
+
+[ 2018-11-22T18:29:48+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103542s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0567s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0591s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0437s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002915s ]
+
+[ 2018-11-22T18:30:00+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:30:00 Use 0.077667 s
+
+[ 2018-11-22T18:30:00+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0006s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.107651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.109052s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0440s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0437s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0468s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2018-11-22T18:53:19+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+ERR: Cron:cron Runat 2018-11-22 18:53:19 Use 0.112127 s
+
+[ 2018-11-22T18:53:19+08:00 ] 127.0.0.1 /index.php/home/wechat/tishi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.154698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.156908s ]
+SQL: SHOW COLUMNS FROM `red_code` [ RunTime:0.0422s ]
+SQL: SELECT `activity_id` FROM `red_code` WHERE `code_sn` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `red_activity` [ RunTime:0.0750s ]
+SQL: SELECT `shop_id` FROM `red_activity` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `red_shop` [ RunTime:0.0465s ]
+SQL: SELECT `name`,`logo` FROM `red_shop` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 11 行.
+NOTIC: [8] Use of undefined constant share_success - assumed 'share_success' E:\wamp\www\anti\Application\Runtime\Cache\Home\c796606de644d28d3f6fd074971082ce.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+

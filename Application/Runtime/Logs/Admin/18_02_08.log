@@ -1,0 +1,869 @@
+[ 2018-02-08T23:21:38+08:00 ] 127.0.0.1 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2018-02-08T23:21:40+08:00 ] 127.0.0.1 /index.php/Admin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2018-02-08T23:21:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+SQL: SHOW COLUMNS FROM `lan_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `lan_user` WHERE ( name = "admin" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\LoginController.class.php on line 30 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-02-08T23:21:50+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: area E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1237 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1286 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2018-02-08T23:21:58+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.1264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2018-02-08T23:22:00+08:00 ] 127.0.0.1 /index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 1648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2018-02-08T23:23:03+08:00 ] 127.0.0.1 /index.php/Admin/Product/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+ERR: 非法操作:upload
+
+[ 2018-02-08T23:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 1648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008259s ]
+
+[ 2018-02-08T23:25:43+08:00 ] 127.0.0.1 /index.php/Admin/article/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\lanjing\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-02-08T23:25:46+08:00 ] 127.0.0.1 /index.php/Admin/Product/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007392s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0086s ]
+SQL: INSERT INTO `lan_product` (`name`,`picture`,`status`) VALUES ('蒸汽洗车机','/Public/Uploads/2018-02-08/5a7c6bf7226fa.jpg','0') [ RunTime:0.0625s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php on line 30 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-02-08T23:25:47+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002673s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0087s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2018-02-08T23:26:44+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003641s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0132s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2018-02-08T23:27:23+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006208s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000678s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002652s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.1472s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.205048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2018-02-08T23:27:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007991s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0118s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2018-02-08T23:27:59+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0133s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2018-02-08T23:28:26+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002213s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0107s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2018-02-08T23:39:11+08:00 ] 127.0.0.1 /index.php/Admin/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010265s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.1222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_article` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ArticleController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_article` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1607 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0143s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004083s ]
+
+[ 2018-02-08T23:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1653 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1654 行.
+NOTIC: [8] Undefined index: comments E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1682 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2018-02-08T23:40:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1653 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1654 行.
+NOTIC: [8] Undefined index: comments E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1682 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2018-02-08T23:41:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.1306s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1653 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1654 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2018-02-08T23:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005347s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1653 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1654 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002829s ]
+
+[ 2018-02-08T23:43:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1653 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1654 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2018-02-08T23:43:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005815s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1653 行.
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1654 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2018-02-08T23:44:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011496s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: menu E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1640 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2018-02-08T23:44:31+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005021s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2018-02-08T23:44:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0087s ]
+SQL: UPDATE `lan_article` SET `name`='白雪公主与猎人',`auth`='甜甜',`menu_id`='3',`comment`='&lt;p&gt;阿萨德打大声地&lt;/p&gt;',`status`='0',`picture`='/Public/Uploads/2018-02-01/5a72c663e1a60.jpg' WHERE `id` = 0 [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\ArticleController.class.php on line 69 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-02-08T23:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.1194s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2018-02-08T23:45:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0082s ]
+SQL: UPDATE `lan_article` SET `name`='白雪公主与猎人',`auth`='甜甜',`menu_id`='3',`comment`='&lt;p&gt;阿萨德打大声地&lt;/p&gt;',`status`='0',`picture`='/Public/Uploads/2018-02-01/5a72c663e1a60.jpg' WHERE `id` = 1 [ RunTime:0.0484s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\ArticleController.class.php on line 67 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-02-08T23:45:52+08:00 ] 127.0.0.1 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_article` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ArticleController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_article` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1607 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0108s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2018-02-08T23:45:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `lan_menu`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `lan_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined variable: vo E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1639 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 1691 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002181s ]
+
+[ 2018-02-08T23:46:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\lanjing\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-02-08T23:46:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005374s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0091s ]
+SQL: UPDATE `lan_article` SET `name`='白雪公主与猎人',`auth`='甜甜',`menu_id`='3',`comment`='&lt;p&gt;阿萨德打大声地&lt;/p&gt;',`status`='0',`picture`='/Public/Uploads/2018-02-08/5a7c70bbc81e0.jpg' WHERE `id` = 1 [ RunTime:0.0480s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\ArticleController.class.php on line 67 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-02-08T23:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+SQL: SHOW COLUMNS FROM `lan_article` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_article` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ArticleController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_article` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1607 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0098s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2018-02-08T23:48:21+08:00 ] 127.0.0.1 /index.php/Admin/product/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003434s ]
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1610 行.
+NOTIC: [8] Undefined variable: status E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2018-02-08T23:53:50+08:00 ] 127.0.0.1 /index.php/Admin/product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005506s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1607 行.
+NOTIC: [8] Undefined index: menu_id E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `lan_menu` [ RunTime:0.0085s ]
+SQL: SELECT `name` FROM `lan_menu` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2018-02-08T23:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Product/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1610 行.
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1624 行.
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1625 行.
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1638 行.
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1640 行.
+NOTIC: [8] Undefined variable: find E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 1648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003768s ]
+
+[ 2018-02-08T23:54:33+08:00 ] 127.0.0.1 /index.php/Admin/Product/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `lan_product` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002994s ]
+
+[ 2018-02-08T23:54:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0087s ]
+SQL: UPDATE `lan_product` SET `name`='蒸汽洗车机',`picture`='/Public/Uploads/2018-02-08/5a7c6bf7226fa.jpg',`status`='-1' WHERE `id` = 1 [ RunTime:0.0462s ]
+NOTIC: [2] Missing argument 3 for show(), called in E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php on line 56 and defined E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\lanjing\Application\Admin\Common\function.php 第 7 行.
+
+[ 2018-02-08T23:54:40+08:00 ] 127.0.0.1 /index.php/Admin/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `lan_product` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lan_product` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\lanjing\Application\Admin\Controller\ProductController.class.php 第 7 行.
+SQL: SELECT * FROM `lan_product` WHERE `status` = 0 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001814s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002004s ]
+NOTIC: [8] Undefined variable: tree E:\wamp\www\lanjing\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 1679 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+

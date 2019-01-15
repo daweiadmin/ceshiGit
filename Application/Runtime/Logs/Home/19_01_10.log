@@ -1,0 +1,135 @@
+[ 2019-01-10T18:28:48+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+ERR: Cron:cron Runat 2019-01-10 18:28:48 Use 0.591745 s
+
+[ 2019-01-10T18:28:48+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024363s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1773s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0081s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.740905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.765553s ]
+
+[ 2019-01-10T18:28:49+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024314s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1665s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0189s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.742215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.766826s ]
+
+[ 2019-01-10T18:29:51+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+ERR: Cron:cron Runat 2019-01-10 18:29:51 Use 0.089121 s
+
+[ 2019-01-10T18:29:51+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.171984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.173929s ]
+
+[ 2019-01-10T18:30:33+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+ERR: Cron:cron Runat 2019-01-10 18:30:33 Use 0.079026 s
+
+[ 2019-01-10T18:30:33+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.102182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.104926s ]
+
+[ 2019-01-10T18:30:35+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.027476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029332s ]
+
+[ 2019-01-10T18:30:35+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003350s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.007348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011005s ]
+
+[ 2019-01-10T18:30:36+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.016328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017905s ]
+
+[ 2019-01-10T18:30:36+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.010944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013694s ]
+
+[ 2019-01-10T18:30:36+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.011167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013300s ]
+
+[ 2019-01-10T18:30:36+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.009604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011536s ]
+
+[ 2019-01-10T18:31:35+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+ERR: Cron:cron Runat 2019-01-10 18:31:35 Use 0.110672 s
+
+[ 2019-01-10T18:31:36+08:00 ] 127.0.0.1 /index.php/home/wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0915s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.128568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.130592s ]
+
+[ 2019-01-10T18:39:16+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-10 18:39:16 Use 0.104714 s
+
+[ 2019-01-10T18:39:16+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.142781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145164s ]
+

@@ -1,0 +1,102 @@
+body {
+	margin: 0px; padding: 0px; text-align: center; font-family: "Î¢ÈíÑÅºÚ"; font-size: 12px;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+h5 {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+.clear::after {
+	height: 0px; clear: both; display: block; content: "";
+}
+.clear {
+	zoom: 1;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	border-collapse: collapse;
+}
+table {
+	font-size: 12px;
+}
+tr {
+	font-size: 12px;
+}
+td {
+	font-size: 12px;
+}
+th {
+	font-size: 12px;
+}
+input {
+	font-size: 12px;
+}
+select {
+	font-size: 12px;
+}
+input {
+	font-family: "Arial";
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: rgb(75, 75, 75); text-decoration: none;
+}
+a:visited {
+	color: rgb(75, 75, 75); text-decoration: none;
+}
+a:hover {
+	color: rgb(75, 75, 75); text-decoration: none;
+}
+a:active {
+	color: rgb(51, 51, 51); text-decoration: none;
+}

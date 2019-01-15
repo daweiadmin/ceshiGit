@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+/* banner */
+.banner{ width:100%; height:442px; overflow:hidden; position:relative; z-index:1; margin-top:-80px;}
+.banner .bd{ position:relative; height:100%; z-index:0;}
+.banner .bd ul{ display:block; overflow:hidden;}
+.banner .bd ul li,
+.banner .bd ul li a,
+.banner .bd ul li a img{ display:block; width:100%; height:442px;}
+.banner .hd{ width:100%; position:absolute; left:0; bottom:16px; z-index:1;}
+.banner .hd ul{ display:block; width:100%; height:16px; text-align:center;}
+.banner .hd ul li{ display:inline-block; width:16px; height:16px; background:#fff; border-radius:50%; cursor:pointer; margin:0 7px; text-indent:-999em; vertical-align:top;}
+.banner .hd ul li.on{ background:#86672d;}
+
+.suosou{ width:100%; height:70px; line-height:70px; background:#e8e4eb; margin:10px 0;}
+.suosou form.search{ width:100%; float:left; background:#e8e4eb; margin:0;}
+.suosou form.search input.txt{ width:80%; height:70px; line-height:70px; border:none; background:#e8e4eb; color:#999; text-indent:20px; font-size:20px;}
+.suosou form.search input.btn{ float:right; width:15%; height:70px; background:url(../images/common/search.png) no-repeat center #65579a; border:none;}
+
+.nav{ width:100%; padding:15px 0 40px; height:auto; overflow:hidden; background:url(../images/common/xian.png) no-repeat bottom center; }
+.nav li{ width:33%; text-align:center; font-size:24px; float:left; line-height:50px;}
+.nav li a{ color:#65579a;}
+
+.chanpin{ width:100%; height:auto;}
+.chanpin li{ width:100%; height:auto; margin-top:30px;}
+.chanpin li img{ width:640px; height:418px; float:left;}
+.chanpin li p{ width:94%; float:left; height:70px; line-height:70px; font-size:24px; color:#333; margin:0 3%;}
+.chanpin li p i{ float:right; font-style:normal; color:#f00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

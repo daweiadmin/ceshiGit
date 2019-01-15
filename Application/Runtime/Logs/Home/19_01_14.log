@@ -1,0 +1,56 @@
+[ 2019-01-14T17:16:08+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-14 17:16:08 Use 0.698168 s
+
+[ 2019-01-14T17:16:08+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.100901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024647s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.1544s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0016s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.916172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.941088s ]
+
+[ 2019-01-14T17:26:34+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-14 17:26:34 Use 0.132310 s
+
+[ 2019-01-14T17:26:34+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.178950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.180704s ]
+
+[ 2019-01-14T17:35:10+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-14 17:35:10 Use 0.100005 s
+
+[ 2019-01-14T17:35:10+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.176480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.178742s ]
+
+[ 2019-01-14T17:35:51+08:00 ] 127.0.0.1 /index.php/home/index/index
+ERR: Cron:cron Runat 2019-01-14 17:35:51 Use 0.094729 s
+
+[ 2019-01-14T17:35:51+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0705s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0005s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.128764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.131450s ]
+

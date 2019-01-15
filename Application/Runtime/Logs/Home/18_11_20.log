@@ -1,0 +1,52 @@
+[ 2018-11-20T09:34:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.008754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010578s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-11-20T14:22:40+08:00 ] 127.0.0.1 /index.php/home/wxpay/bank_pay
+ERR: Cron:cron Runat 2018-11-20 14:22:40 Use 1.025084 s
+
+[ 2018-11-20T14:22:40+08:00 ] 127.0.0.1 /index.php/home/wxpay/bank_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.2194s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0264s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:1.187992s ]
+INFO: [ app_begin ] --END-- [ RunTime:1.190170s ]
+
+[ 2018-11-20T14:23:45+08:00 ] 127.0.0.1 /index.php/home/wxpay/bank_pay
+ERR: Cron:cron Runat 2018-11-20 14:23:45 Use 0.104357 s
+
+[ 2018-11-20T14:23:45+08:00 ] 127.0.0.1 /index.php/home/wxpay/bank_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0607s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.169357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.171168s ]
+
+[ 2018-11-20T14:24:30+08:00 ] 127.0.0.1 /index.php/home/wxpay/bank_pay
+ERR: Cron:cron Runat 2018-11-20 14:24:30 Use 0.079840 s
+
+[ 2018-11-20T14:24:30+08:00 ] 127.0.0.1 /index.php/home/wxpay/bank_pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `red_indent` [ RunTime:0.0535s ]
+SQL: SELECT * FROM `red_indent` WHERE `status` = 2  [ RunTime:0.0004s ]
+INFO: Run Behavior\CronRunBehavior [ RunTime:0.111296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.112961s ]
+
